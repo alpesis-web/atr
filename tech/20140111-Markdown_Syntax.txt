@@ -28,3 +28,11 @@ h2 - -------------------
 3. Lists
 ul - *
 ol - 1. 2. 3.
+
+4. Codes
+quote - `
+
+
+5. Others
+em - *text*
+strong - **text**
