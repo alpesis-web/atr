@@ -1,0 +1,6 @@
+My notebook had a big noise when run some applications. At first, I guess there was some problem of the CPU fan. 
+But it seems not. After cleaning some dirts, noises could not stopped. The sound came from the hard disk. Then checked
+by application, it seemed fine.
+
+Reviewed what I had did before the problem came, the hard disk was too full to run my programs. I uninstalled some 
+applications I did not use often, to release some space. God bless, hope it would help.
