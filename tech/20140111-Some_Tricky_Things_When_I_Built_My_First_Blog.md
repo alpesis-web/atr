@@ -1,5 +1,5 @@
 # Some Tricky Things When I built My First Blog
-Jan 11 2014 | Web_development, Github
+<center>Kelly Chan | Jan 11 2014 | Web_development, Github</center>
 
 ### 1. url
 The folder name could not set as __(folderName), it could not get the url when release on gh-pages. 
