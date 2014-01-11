@@ -1,7 +1,5 @@
-Title: Notebook Issue
-Date: Jan 11 2014
-
-tags: notebook, hard_disk
+Jan 11 2014 | notebook, hard_disk | Kelly Chan
+# Notebook Issue
 
 My notebook had a big noise when I run some applications. At first, I guess there was some problems in the CPU fan. 
 But it seems not. After cleaning some dirts, noises could not stopped. I relized that the sound came from the hard disk. 
