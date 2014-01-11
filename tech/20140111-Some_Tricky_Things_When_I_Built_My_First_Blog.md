@@ -1,4 +1,4 @@
-Kelly Chan | Jan 11 2014 | Web_development, Github
+Jan 11 2014 | Web_development, Github | Kelly Chan
 # Some Tricky Things When I built My First Blog
 
 ### 1. url
