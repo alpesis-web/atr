@@ -1,6 +1,5 @@
 # Some Tricky Things When I built My First Blog
-Date: Jan 11 2014
-
+Date: Jan 11 2014  
 Tags: Web_development, Github
 
 ### 1. url
