@@ -7,8 +7,8 @@ The folder name could not set as __(folderName), it could not get the url when r
 ### 2. git
 How can I merge brand gh-pages with master?
 
-`
+```
     git checkout gh-pages  
     git merge master  
     git push origin gh-pages  
-`
+```
