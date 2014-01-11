@@ -1,0 +1,30 @@
+Title: Markdown Syntax
+Date: Jan 11 2014
+
+Tags: Markdown
+
+
+1. Titles
+h1 - #
+h2 - ##
+h3 - ###
+h4 - ####
+h5 - #####
+h6 - ######
+
+or
+h1 - ===================
+h2 - -------------------
+
+
+
+2. Blockquoate
+> ## Title
+> 
+> 1. list 1
+> 2. list 2
+
+
+3. Lists
+ul - *
+ol - 1. 2. 3.
