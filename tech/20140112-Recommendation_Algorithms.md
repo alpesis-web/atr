@@ -8,6 +8,7 @@ Data Table
 | Article1      | rating        | rating     | rating     | rating     | ...    |
 | Article2      | rating        | rating     | rating     | rating     | ...    |
 | Article3      | rating        | rating     | rating     | rating     | ...    |
+| ...           | ...           | ...        | ...        | ...        | ...    |
 
 ### 1. Collaborative Filtering
 * user-based
