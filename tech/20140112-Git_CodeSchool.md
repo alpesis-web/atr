@@ -1,7 +1,7 @@
 Jan 12 2014 | Git | Kelly Chan
 # Git CodeSchool
 
-### Level 1 New Init
+## Level 1 New Init
 to get help
 ```
 git help
@@ -42,7 +42,7 @@ to read the log file
 git log
 ```
 
-### Level 2 Staging and Remotes
+## Level 2 Staging and Remotes
 to compare
 
 ```
@@ -74,7 +74,7 @@ git remote -v
 git push -u origin master
 git pull
 ```
-### Level 3 Cloning and Branching
+## Level 3 Cloning and Branching
 to create and edit a branch
 ```
 git branch cat
@@ -94,11 +94,11 @@ git commit -m "xxxx"
 git push
 ```
 
-### Level 4
+## Level 4
 
 
-### Level 5
-### Level 6
-### Level 7
+## Level 5
+## Level 6
+## Level 7
 
 
