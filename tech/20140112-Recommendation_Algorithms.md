@@ -1,6 +1,9 @@
 Jan 12 2014 | Recommendation_System, Algorithms, DM | Kelly Chan
 # Recommendation Algorithms
 
+|          | Person1 | person2 | ... |
+| article1 | rating  | rating  | ... |
+
 ### 1. Collaborative Filtering
 * user-based
 
