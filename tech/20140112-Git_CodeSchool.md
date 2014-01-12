@@ -1,7 +1,7 @@
 Jan 12 2014 | Git | Kelly Chan
 # Git CodeSchool
 
-### Level 1
+### Level 1 New Init
 to get help
 ```
 git help
@@ -42,4 +42,11 @@ to read the log file
 git log
 ```
 
-### Level 2
+### Level 2 Staging and Remotes
+to compare
+
+```
+git diff
+git diff --staged
+```
+
