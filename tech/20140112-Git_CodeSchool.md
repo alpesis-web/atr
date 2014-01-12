@@ -6,7 +6,7 @@ Level 2 Staging and Remotes
 Level 3 Cloning and Branching  
 Level 4 Collaboration  
 Level 5 Branching  
-Level 6   
+Level 6 Rebase  
 Level 7   
 
 ---
@@ -162,7 +162,19 @@ git push --tags
 ```
 
 
-## Level 6
+## Level 6 Rebase
+
+```
+git commit -am "Update the readme."
+git fetch
+git rebase
+git checkout admin
+git rebase master
+git checkout master
+git merge admin
+git status
+```
+
 
 
 ## Level 7
