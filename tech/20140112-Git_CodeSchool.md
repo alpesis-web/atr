@@ -1,14 +1,14 @@
 Jan 12 2014 | Git | Kelly Chan
 # Git CodeSchool
-<b>
-Level 1 New Init
-Level 2 Staging and Remotes
-Level 3 Cloning and Branching
-Level 4 
-Level 5 
-Level 6 
-Level 7 
-</b>
+
+Level 1 New Init  
+Level 2 Staging and Remotes  
+Level 3 Cloning and Branching  
+Level 4   
+Level 5   
+Level 6   
+Level 7   
+
 ---
 ## Level 1 New Init
 to get help
