@@ -18,5 +18,7 @@ Git -> Markdown -> HTML/ CSS/ JS/ jQuery -> PHP/ Ruby/ Python -> R/ SAS -> Java
 - Git: to manage versions
 
 ---
-
-[codecademy](http://www.codecademy.com/kellychan)
+#### Some Courses I Have Taken
+1. [udacity](https://www.udacity.com/)
+2. [codecademy](http://www.codecademy.com/kellychan)
+3. [codeschool](https://www.codeschool.com)
