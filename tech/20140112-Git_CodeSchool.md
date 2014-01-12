@@ -23,10 +23,23 @@ to check the status
 ```
 git status
 ```
-to add a file
+to add and commit files
 ```
 git add index.html
 git commit -m "new file index.html created"
+
+git add readme.md LICENSE
+git add --all
+git commit -m "Add LICENSE and finish README."
+
+git add *.txt
+git add "*.css"
+git add css/*.css
+git add css/
+```
+to read the log file
+```
+git log
 ```
 
 ### Level 2
