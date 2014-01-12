@@ -13,14 +13,13 @@ Data Table
 ### 1. Collaborative Filtering
 * user-based
 
-    1. (rating) distance
+    1. (rating) distance --- data dense (almost no missing)
         * Manhanttan
         * Euclidean
         * Supremum
-    2. (rating) pearson
-    3. (rating) cosine similarity
-    4. (n users) pearson -> k nearest neighbor  
-        How well does the specific user would like the specific book?
+    2. (rating) pearson --- grade-infalation - different scales for different users
+    3. (rating) cosine similarity --- data sparse
+    4. (n users) pearson -> k nearest neighbor --- How well does the specific user would like the specific book?
     
 * item-based
 
