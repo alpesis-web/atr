@@ -2,6 +2,7 @@ Jan 12 2014 | Recommendation_System, Algorithms, DM | Kelly Chan
 # Recommendation Algorithms
 
 Data Table
+
 |               | Person1       | Person2    | Person3    | Person4    | ...    |
 | ------------- |:-------------:|:----------:|:----------:|:----------:| ------:|
 | Article1      | rating        | rating     | rating     | rating     | ...    |
