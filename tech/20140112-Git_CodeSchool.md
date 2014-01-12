@@ -49,4 +49,8 @@ to compare
 git diff
 git diff --staged
 ```
+to edit
+```
+git checkout --(filename)
+```
 
