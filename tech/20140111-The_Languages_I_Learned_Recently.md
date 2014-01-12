@@ -16,3 +16,7 @@ Git -> Markdown -> HTML/ CSS/ JS/ jQuery -> PHP/ Ruby/ Python -> R/ SAS -> Java
 ### 3. Others
 - Java: the best language to learn OOP
 - Git: to manage versions
+
+---
+
+[codecademy](http://www.codecademy.com/kellychan)
