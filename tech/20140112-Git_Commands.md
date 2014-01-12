@@ -8,7 +8,7 @@ Level 3 Cloning and Branching
 Level 4 Collaboration  
 Level 5 Branching  
 Level 6 Rebase  
-Level 7   
+Level 7 History and Configuration  
 
 ---
 ## Level 1 New Init
@@ -174,8 +174,8 @@ git rebase master
 git checkout master
 git merge admin
 git status
+git rebase --continue
 ```
-
 
 
 ## Level 7
