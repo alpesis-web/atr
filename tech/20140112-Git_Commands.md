@@ -1,5 +1,5 @@
 Jan 12 2014 | Git | Kelly Chan
-# Git CodeSchool
+# Git Commands
 
 Level 1 New Init  
 Level 2 Staging and Remotes  
