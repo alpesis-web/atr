@@ -1,9 +1,9 @@
 Jan 12 2014 | Recommendation_System, Algorithms, DM | Kelly Chan
 # Recommendation Algorithms
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
+|               | Person1       | Person2    | ...    |
+| ------------- |:-------------:|:----------:| ------:|
+| Article1      | rating        | rating     |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
