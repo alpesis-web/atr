@@ -19,12 +19,12 @@ Data Table
         * Supremum
     2. <b>(rating) pearson</b> --- grade-infalation - different scales for different users
     3. <b>(rating) cosine similarity</b> --- data sparse
-    4. <b>(n users) pearson -> k nearest neighbor</b> --- How well does the specific user would like the specific book?
+    4. <b>(users) pearson -> k nearest neighbor</b> --- How well does the specific user would like the specific book?
     
 * item-based
 
-     1. adjusted cosine similarity --- median
-     2. slope one
+     1. <b>adjusted cosine similarity</b> --- median
+     2. <b>slope one</b>
 
 ### 2. Classification
 * k nearest neighbor
