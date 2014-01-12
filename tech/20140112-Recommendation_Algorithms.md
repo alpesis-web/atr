@@ -27,5 +27,5 @@ Data Table
      2. <b>slope one</b>
 
 ### 2. Classification
-* k nearest neighbor
-* bayes
+* k nearest neighbor --- lazy
+* bayes --- eager
