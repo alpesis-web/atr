@@ -1,8 +1,11 @@
 Jan 12 2014 | Recommendation_System, Algorithms, DM | Kelly Chan
 # Recommendation Algorithms
 
-|          | Person1 | person2 | ... |
-| article1 | rating  | rating  | ... |
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
 ### 1. Collaborative Filtering
 * user-based
