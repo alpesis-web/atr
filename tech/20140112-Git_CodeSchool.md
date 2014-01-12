@@ -5,7 +5,7 @@ Level 1 New Init
 Level 2 Staging and Remotes  
 Level 3 Cloning and Branching  
 Level 4 Collaboration  
-Level 5   
+Level 5 Branching  
 Level 6   
 Level 7   
 
@@ -111,6 +111,8 @@ git push
 
 
 ## Level 4 Collaboration
+
+to edit
 ```
 git pull
 git push
@@ -120,9 +122,43 @@ git merge origin/master
 
 git commit -a
 ```
+to update branch
 
+```
+git checkout -b shopping_cart
+git push origin shopping_cart
 
-## Level 5
+git add cart.rb
+git commit -a -m "Add basic cart ability.
+git push
+
+git pull
+```
+to list all remote branches
+```
+git branch
+git branch -r
+git checkout shopping_cart
+git remote show origin
+```
+to delete branch
+```
+git push origin :shopping_cart
+git branch -d shopping_cart
+git remote prune origin
+
+```
+to deploy
+```
+git push heroku-staging staging:master
+```
+to tag
+```
+git tag
+git checkout v0.0.1
+git tag -a v0.0.3 -m "version 0.0.3"
+git push --tags
+```
 
 
 ## Level 6
