@@ -19,7 +19,7 @@ Data Table
         * Supremum
     2. (rating) pearson
     3. (rating) cosine similarity
-    4. (n users) pearson -> k nearest neighbor
+    4. (n users) pearson -> k nearest neighbor  
         How well does the specific user would like the specific book?
     
 * item-based
