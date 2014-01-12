@@ -1,5 +1,8 @@
 Jan 12 2014 | Git | Kelly Chan
 # Git Commands
+| Topics | Basic                    | Collaboration         |
+|--------|:------------------------:|----------------------:|
+| Basic  | Level 1 New Init         | Level 4 Collaboration |
 <b>Basic</b>  
 Level 1 New Init  
 Level 2 Staging and Remotes  
