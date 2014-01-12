@@ -1,18 +1,11 @@
 Jan 12 2014 | Git | Kelly Chan
 # Git Commands
-| Topics | Basic                    | Collaboration         |
-|--------|:------------------------:|----------------------:|
-| Basic  | Level 1 New Init         | Level 4 Collaboration |
-<b>Basic</b>  
-Level 1 New Init  
-Level 2 Staging and Remotes  
-Level 3 Cloning and Branching  
-<b>Collaboration</b>  
-Level 4 Collaboration  
-Level 5 Branching  
-Level 6 Rebase  
-<b>Log and Config</b>  
-Level 7 History and Configuration  
+| Basic                         | Collaboration         |
+|:-----------------------------:|----------------------:|
+| Level 1 New Init              | Level 4 Collaboration |
+| Level 2 Staging and Remotes   | Level 5 Branching     |
+| Level 3 Cloning and Branching | Level 6 Rebase        |
+| Level 7 History and Configuration                     |
 
 ---
 ## Level 1 New Init
