@@ -5,7 +5,7 @@ Jan 12 2014 | Recommendation_System, Algorithms, DM | Kelly Chan
 * user-based
 * item-based
 
-> 1. adjusted cosine similarity
-> 2. slope one
+     1. adjusted cosine similarity
+     2. slope one
 
 ### 2. Classification
