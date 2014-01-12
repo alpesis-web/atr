@@ -17,13 +17,13 @@ Data Table
         * Manhanttan
         * Euclidean
         * Supremum
-    2. (rating) pearson --- grade-infalation - different scales for different users
-    3. (rating) cosine similarity --- data sparse
-    4. (n users) pearson -> k nearest neighbor --- How well does the specific user would like the specific book?
+    2. <b>(rating) pearson</b> --- grade-infalation - different scales for different users
+    3. <b>(rating) cosine similarity</b> --- data sparse
+    4. <b>(n users) pearson -> k nearest neighbor</b> --- How well does the specific user would like the specific book?
     
 * item-based
 
-     1. adjusted cosine similarity
+     1. adjusted cosine similarity --- median
      2. slope one
 
 ### 2. Classification
