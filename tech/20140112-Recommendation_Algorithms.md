@@ -13,7 +13,7 @@ Data Table
 ### 1. Collaborative Filtering
 * user-based
 
-    1. (rating) distance --- data dense (almost no missing)
+    1. <b>(rating) distance</b> --- data dense (almost no missing)
         * Manhanttan
         * Euclidean
         * Supremum
