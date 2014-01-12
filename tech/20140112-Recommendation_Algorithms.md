@@ -14,6 +14,9 @@ Data Table
 * user-based
 
     1. (rating) distance
+        Manhanttan
+        Euclidean
+        Supremum
     2. (rating) pearson
     3. (rating) cosine similarity
     4. (n users) pearson -> k nearest neighbor
