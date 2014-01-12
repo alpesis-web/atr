@@ -72,7 +72,33 @@ to add a remote
 git remote add origin https://github.com/XXX/xx.git
 git remote -v
 git push -u origin master
+git pull
+```
+### Level 3 Cloning and Branching
+to create and edit a branch
+```
+git branch cat
+git checkout cat
+git add cat.txt
+git commit -m "xxxx"
+
+git checkout master
+ls
+
+git merge cat
+
+git checkout -b admin
+git pull
+git add readme.txt
+git commit -m "xxxx"
+git push
 ```
 
+### Level 4
+
+
+### Level 5
+### Level 6
+### Level 7
 
 
