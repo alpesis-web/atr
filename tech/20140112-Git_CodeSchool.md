@@ -4,7 +4,7 @@ Jan 12 2014 | Git | Kelly Chan
 Level 1 New Init  
 Level 2 Staging and Remotes  
 Level 3 Cloning and Branching  
-Level 4   
+Level 4 Collaboration  
 Level 5   
 Level 6   
 Level 7   
@@ -110,8 +110,16 @@ git push
 ```
 
 
-## Level 4
+## Level 4 Collaboration
+```
+git pull
+git push
 
+git fetch
+git merge origin/master
+
+git commit -a
+```
 
 
 ## Level 5
