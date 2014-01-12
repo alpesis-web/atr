@@ -1,9 +1,10 @@
 Jan 12 2014 | Git | Kelly Chan
 # Git Commands
-
+<b>Basic</b>
 Level 1 New Init  
 Level 2 Staging and Remotes  
-Level 3 Cloning and Branching  
+Level 3 Cloning and Branching 
+<b>Collaboration</b>
 Level 4 Collaboration  
 Level 5 Branching  
 Level 6 Rebase  
