@@ -86,6 +86,10 @@ git pull
 ```
 
 ## Level 3 Cloning and Branching
+to clone a repo
+```
+git clone git@example.com:example/petshop.git
+```
 to create and edit a branch
 ```
 git branch cat
