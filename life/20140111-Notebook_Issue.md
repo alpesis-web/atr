@@ -5,7 +5,7 @@ My notebook had a big noise when I run some applications. At first, I guess ther
 
 Reviewed what I had did before the problem came, too many applications? The hard disk was too full to run my programs. I uninstalled some applications I did not use often, in order to release some spaces. God bless, hope it would help.
 
-
+---
 
 
 Jan 14 2014 | notebook, hard_disk | Kelly Chan
