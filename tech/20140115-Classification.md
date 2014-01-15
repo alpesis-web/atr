@@ -8,3 +8,7 @@ Summary
 - Cons: Computationally expensive, requires a lot of memory
 - Data: Numeric values, nominal values
 
+
+Data Type
+- Label: types of a category
+- Group: feature1, freature2, ...
