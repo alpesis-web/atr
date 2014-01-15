@@ -3,3 +3,8 @@ Jan 15 2014 | Classification, ML | Kelly Chan
 
 
 ### 1. K Nearest Neighbors
+```
+- Pros: High accuracy, insensitive to outliers, no assumptions about data
+- Cons: Computationally expensive, requires a lot of memory
+- Data: Numeric values, nominal values
+```
