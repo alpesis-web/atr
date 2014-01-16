@@ -14,7 +14,25 @@ Data Type
 - Group: feature1, feature2, ...
 
 ### 2. Decision Tree
+Summary
+- Pros:
+- Cons:
+- Data:
+
 ### 3. Bayes
+Summary
+- Pros:
+- Cons:
+- Data:
+
 ### 4. Logistic Regression
+Summary
+- Pros:
+- Cons:
+- Data:
 ### 5. Support Vector Machine
-### 6. AdaBoost Meta-algorithm
+Summary
+- Pros:
+- Cons:
+- Data:
+### 6. AdaBoost Meta-Algorithm
