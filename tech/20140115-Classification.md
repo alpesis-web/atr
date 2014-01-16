@@ -17,4 +17,4 @@ Data Type
 ### 3. Bayes
 ### 4. Logistic Regression
 ### 5. Support Vector Machine
-### 6. AdaBoost meta-algorithm
+### 6. AdaBoost Meta-algorithm
