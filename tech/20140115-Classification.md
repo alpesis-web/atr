@@ -30,9 +30,11 @@ Summary
 - Pros:
 - Cons:
 - Data:
+
 ### 5. Support Vector Machine
 Summary
 - Pros:
 - Cons:
 - Data:
+
 ### 6. AdaBoost Meta-Algorithm
