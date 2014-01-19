@@ -19,20 +19,21 @@ To open _vimrc, set up the plugins and other configurations
 :e $vim/_vimrc 
 ```
 - basic settings  
+
 ```
-\" 设置编码自动识别, 中文引号显示  
-\"set fileencodings=utf-8,cp936,big5,euc-jp,euc-kr,latin1,ucs-bom  
+" fileencodings  
+"set fileencodings=utf-8,cp936,big5,euc-jp,euc-kr,latin1,ucs-bom  
 set fileencodings=utf-8,gbk  
 set ambiwidth=double 
 
-\"ColorScheme
+"ColorScheme
 colorscheme desert
 
-\"Syntax
+"Syntax
 syntax enable
 syntax on
 
-\" 允许退格键删除和tab操作  
+" tab for delete  
 set smartindent  
 set smarttab  
 set expandtab  
@@ -42,10 +43,10 @@ set shiftwidth=4
 set backspace=2
 set textwidth=79
 
-\" mouse 
+" mouse 
 set mouse=a
 
-\" row # 
+" row # 
 set nu 
 
 ```
