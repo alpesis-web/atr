@@ -51,6 +51,80 @@ set mouse=a
 set nu 
 ```
 
+- plugins settings
+
+```
+"==================================================================
+" omni-completion
+"==================================================================
+
+"自动补全  
+filetype plugin indent on
+set completeopt=longest,menu
+
+"自动补全命令时候使用菜单式匹配列表  
+set wildmenu
+autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
+autocmd FileType python set omnifunc=pythoncomplete#Complete
+autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+autocmd FileType css set omnifunc=csscomplete#CompleteCSS
+autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
+autocmd FileType java set omnifunc=javacomplete#Complet
+
+
+"==================================================================
+" Pydiction
+"==================================================================
+
+let g:pydiction_location = 'E:\development\Vim\vim74\ftplugin\complete-dict'
+
+
+"==================================================================
+" TagList
+"==================================================================
+
+let Tlist_Show_One_File=1
+let Tlist_Exit_OnlyWindow=1
+
+"==================================================================
+" WinManager
+"==================================================================
+
+let g:winManagerWindowLayout='FileExplorer|TagList'
+map wm :WMToggle<cr>
+
+"==================================================================
+" Cscope
+"==================================================================
+
+"cscope show in quickfix
+set cscopequickfix=s-,c-,d-,i-,t-,e-
+
+"==================================================================
+" MiniBufExplorer
+"==================================================================
+
+let g:miniBufExplMapWindowNavVim = 1 
+let g:miniBufExplMapWindowNavArrows = 1 
+let g:miniBufExplMapCTabSwitchBufs = 1 
+let g:miniBufExplModSelTarget = 1
+
+"==================================================================
+" Grep
+"==================================================================
+
+nnoremap <silent> <F3> :Grep<CR>
+
+"==================================================================
+" NERD_tree
+"==================================================================
+
+map <F2> :NERDTreeToggle<CR>  
+
+```
+
+- python settings
 
 ### 3. testing
 
