@@ -161,22 +161,14 @@ endif
 
 ### 3. Compiling Python Script
 
-to run program
-```
-:make
-```
+to run program: `:make`
+to open QuickFix: `:cope`
 
-to open QuickFix
-```
-:cope
-```
+to open nerdtree: `F2`
+to open taglist: `wm`
 
-to open nerdtree
-```
-F2
-```
 
-to open taglist
-```
-wm
-```
+##References
+1. [Win::gVim配置Python编译环境(轻量级)](http://blog.csdn.net/chain2012/article/details/7445061)
+2. [Vim as Python IDE on windows](http://www.cnblogs.com/renrenqq/archive/2010/09/09/1813669.html)
+3. [使用vim搭建python开发环境](http://ycool.com/post/4sk34fy)
