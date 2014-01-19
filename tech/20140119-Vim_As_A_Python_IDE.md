@@ -14,41 +14,41 @@ To download the plugins(*.vim), and then copy them to the vim folders - plugin, 
 
 ### 2. vimrc
 To open _vimrc, set up the plugins and other configurations  
-    1. open vimrc  
+- open vimrc  
 ```
-    :e $vim/_vimrc 
+:e $vim/_vimrc 
 ```
     
-    2. basic settings  
+- basic settings  
     
 ```
-    " fileencodings  
-    "set fileencodings=utf-8,cp936,big5,euc-jp,euc-kr,latin1,ucs-bom  
-    set fileencodings=utf-8,gbk  
-    set ambiwidth=double 
+" fileencodings  
+"set fileencodings=utf-8,cp936,big5,euc-jp,euc-kr,latin1,ucs-bom  
+set fileencodings=utf-8,gbk  
+set ambiwidth=double 
     
-    "ColorScheme
-    colorscheme desert
+"ColorScheme
+colorscheme desert
     
-    "Syntax
-    syntax enable
-    syntax on
+"Syntax
+syntax enable
+syntax on
     
-    " tab for delete  
-    set smartindent  
-    set smarttab  
-    set expandtab  
-    set tabstop=4  
-    set softtabstop=4  
-    set shiftwidth=4  
-    set backspace=2
-    set textwidth=79
+" tab for delete  
+set smartindent  
+set smarttab  
+set expandtab  
+set tabstop=4  
+set softtabstop=4  
+set shiftwidth=4  
+set backspace=2
+set textwidth=79
     
-    " mouse 
-    set mouse=a
+" mouse 
+set mouse=a
     
-    " row # 
-    set nu 
+" row number
+set nu 
 ```
 
 
