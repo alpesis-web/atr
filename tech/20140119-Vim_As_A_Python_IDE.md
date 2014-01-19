@@ -15,26 +15,30 @@ To download the plugins(*.vim), and then copy them to the vim folders - plugin, 
 ### 2. vimrc
 To open _vimrc, set up the plugins and other configurations  
 - open vimrc  
+
 ```
-:e $vim/_vimrc 
+:e $vim/_vimrc
 ```
+
     
 - basic settings  
     
+
 ```
-" fileencodings  
+" 设置编码自动识别, 中文引号显示  
 "set fileencodings=utf-8,cp936,big5,euc-jp,euc-kr,latin1,ucs-bom  
 set fileencodings=utf-8,gbk  
 set ambiwidth=double 
-    
+
+
 "ColorScheme
 colorscheme desert
-    
+
 "Syntax
 syntax enable
 syntax on
-    
-" tab for delete  
+
+" 允许退格键删除和tab操作  
 set smartindent  
 set smarttab  
 set expandtab  
@@ -43,13 +47,14 @@ set softtabstop=4
 set shiftwidth=4  
 set backspace=2
 set textwidth=79
-    
-" mouse 
+
+" 启用鼠标  
 set mouse=a
-    
-" row number
+
+" 启用行号  
 set nu 
 ```
+
 
 - plugins settings
 
@@ -125,6 +130,33 @@ map <F2> :NERDTreeToggle<CR>
 ```
 
 - python settings
+
+
+```
+"python_fold
+set foldmethod=indent "设置折叠方式  
+
+
+"python run
+"
+if has("autocmd")
+
+  " 自动检测文件类型并加载相应的设置
+  filetype plugin indent on
+
+  " Python 文件的一般设置，比如不要 tab 等
+  autocmd FileType python setlocal et | setlocal sta | setlocal sw=4
+
+  " Python Unittest 的一些设置
+  " 可以让我们在编写 Python 代码及 unittest 测试时不需要离开 vim
+  " 键入 :make 或者点击 gvim 工具条上的 make 按钮就自动执行测试用例
+  autocmd FileType python compiler pyunit
+  autocmd FileType python setlocal makeprg=\"E:\\development\\Python\\python.exe\"\ ./alltests.py
+  autocmd BufNewFile,BufRead test*.py setlocal makeprg=\"E:\\development\\Python\\python.exe\"\ %
+
+endif
+```
+
 
 ### 3. testing
 
