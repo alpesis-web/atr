@@ -1,5 +1,5 @@
 Jan 19 2014 | Vim, Python, IDE | Kelly Chan
-# Vim As A Python IDE
+# My First Vim Python IDE
 
 ### 1. plugins
 To download the plugins(*.vim), and then copy them to the vim folders - plugin, ftplugin, doc, syntax, autoload
