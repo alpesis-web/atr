@@ -6,3 +6,9 @@ to open vimrc
 ```
 :e $vim/_vimrc 
 ```
+### 2. 
+
+to open QuickFix
+```
+:cope
+```
