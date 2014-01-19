@@ -13,27 +13,26 @@ To download the plugins(*.vim), and then copy them to the vim folders - plugin, 
 - NERD_tree
 
 ### 2. vimrc
-To open _vimrc, set up the plugins and other configurations
-- open vimrc
+To open _vimrc, set up the plugins and other configurations  
+- open vimrc  
 ```
 :e $vim/_vimrc 
 ```
-- basic settings
+- basic settings  
 ```
-" 设置编码自动识别, 中文引号显示  
-"set fileencodings=utf-8,cp936,big5,euc-jp,euc-kr,latin1,ucs-bom  
+\" 设置编码自动识别, 中文引号显示  
+\"set fileencodings=utf-8,cp936,big5,euc-jp,euc-kr,latin1,ucs-bom  
 set fileencodings=utf-8,gbk  
 set ambiwidth=double 
 
-
-"ColorScheme
+\"ColorScheme
 colorscheme desert
 
-"Syntax
+\"Syntax
 syntax enable
 syntax on
 
-" 允许退格键删除和tab操作  
+\" 允许退格键删除和tab操作  
 set smartindent  
 set smarttab  
 set expandtab  
@@ -43,21 +42,16 @@ set shiftwidth=4
 set backspace=2
 set textwidth=79
 
-" 启用鼠标  
+\" mouse 
 set mouse=a
 
-" 启用行号  
+\" row # 
 set nu 
 
 ```
+
+
 ### 3. testing
-### 1. vimrc
-to open vimrc
-```
-:e $vim/_vimrc 
-```
-### 2. plugins
-### 3. 
 
 to open QuickFix
 ```
