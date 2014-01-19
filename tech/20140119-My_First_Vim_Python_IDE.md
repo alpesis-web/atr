@@ -3,13 +3,13 @@ Jan 19 2014 | Vim, Python, IDE | Kelly Chan
 
 ### 1. plugins
 To download the plugins(*.vim), and then copy them to the vim folders - <b>plugin, ftplugin, doc, syntax, autoload</b>
-- omni-completion
+- [omni-completion](http://www.vim.org/scripts/script.php?script_id=1542)
 - [Pydiction](http://www.vim.org/scripts/script.php?script_id=850)
 - [TagList](http://www.vim.org/scripts/script.php?script_id=273)
 - [WinManager](http://www.vim.org/scripts/script.php?script_id=95)
-- Cscope
+- [Cscope](http://cscope.sourceforge.net/cscope_maps.vim)
 - [MiniBufExplorer](http://www.vim.org/scripts/script.php?script_id=159)
-- Grep
+- [Grep](http://www.vim.org/scripts/script.php?script_id=311)
 - [NERD_tree](http://www.vim.org/scripts/script.php?script_id=1658) 
 - [Python_fold](http://www.vim.org/scripts/script.php?script_id=515)
 
