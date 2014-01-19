@@ -15,9 +15,9 @@ To download the plugins(*.vim), and then copy them to the vim folders - plugin, 
 ### 2. vimrc
 To open _vimrc, set up the plugins and other configurations  
     1. open vimrc  
-    ```
+```
     :e $vim/_vimrc 
-    ```
+```
     
     2. basic settings  
     
