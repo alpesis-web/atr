@@ -2,15 +2,16 @@ Jan 19 2014 | Vim, Python, IDE | Kelly Chan
 # My First Vim Python IDE
 
 ### 1. plugins
-To download the plugins(*.vim), and then copy them to the vim folders - plugin, ftplugin, doc, syntax, autoload
+To download the plugins(*.vim), and then copy them to the vim folders - <b>plugin, ftplugin, doc, syntax, autoload</b>
 - omni-completion
-- Pydiction
-- TagList
-- WinManager
+- [Pydiction](http://www.vim.org/scripts/script.php?script_id=850)
+- [TagList](http://www.vim.org/scripts/script.php?script_id=273)
+- [WinManager](http://www.vim.org/scripts/script.php?script_id=95)
 - Cscope
-- MiniBufExplorer
+- [MiniBufExplorer](http://www.vim.org/scripts/script.php?script_id=159)
 - Grep
-- NERD_tree
+- [NERD_tree](http://www.vim.org/scripts/script.php?script_id=1658) 
+- [Python_fold](http://www.vim.org/scripts/script.php?script_id=515)
 
 ### 2. vimrc
 To open _vimrc, set up the plugins and other configurations  
