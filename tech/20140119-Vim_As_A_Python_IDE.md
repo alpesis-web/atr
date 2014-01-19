@@ -158,9 +158,24 @@ endif
 ```
 
 
-### 3. testing
+### 3. Compiling Python Script
+
+to run program
+```
+:make
+```
 
 to open QuickFix
 ```
 :cope
+```
+
+to open nerdtree
+```
+F2
+```
+
+to open taglist
+```
+wm
 ```
