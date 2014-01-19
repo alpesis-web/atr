@@ -1,5 +1,5 @@
 Jan 18 2014 | Vim | Kelly Chan
-# Vim
+# Vim Commands
 
 1. Basic: edit, move, copy/paste/change, search/find/replace, file open/save
 2. Advance: customization, extensions
@@ -39,4 +39,4 @@ Jan 18 2014 | Vim | Kelly Chan
 - to open file: `:e file_path`
 
 ## 2. Customization and Extensions
-- top of the file: `gg`
+  
