@@ -13,7 +13,7 @@ Data Type
 - Label: types of a category
 - Group: feature1, feature2, ...
 
-Algorithms
+Algorithm
 ```
 
 # (classification) kNN
