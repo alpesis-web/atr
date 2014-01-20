@@ -38,7 +38,10 @@ Jan 18 2014 | Vim | Kelly Chan
 - to write/save: `:w file_path`  
 - to open file: `:e file_path`
 
+---
+
 ## 2. Customization and Extensions
-  
+Plugins:  
+  MiniBufExplorer
 ### MiniBufExplorer
 to open the nth buffer file: `:b<n>`
