@@ -51,5 +51,5 @@ to open the nth buffer file: `:b<n>`
 
 
 ### Python_fold
-fold: `zc`
+fold: `zc`  
 unfold: `zo`
