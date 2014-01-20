@@ -42,6 +42,8 @@ Jan 18 2014 | Vim | Kelly Chan
 
 ## 2. Customization and Extensions
 Plugins:  
-  MiniBufExplorer
+- MiniBufExplorer
+
+
 ### MiniBufExplorer
 to open the nth buffer file: `:b<n>`
