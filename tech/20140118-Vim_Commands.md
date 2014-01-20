@@ -47,7 +47,8 @@ Plugins:
 
 
 ### MiniBufExplorer
-to open the nth buffer file: `:b<n>`
+to open the nth buffer file: `:b<n>`  
+to close the buffer file: `:bd`  
 
 
 ### Python_fold
