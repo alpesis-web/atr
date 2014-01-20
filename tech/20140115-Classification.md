@@ -13,6 +13,34 @@ Data Type
 - Label: types of a category
 - Group: feature1, feature2, ...
 
+Algorithms
+```
+
+# (classification) kNN
+# return the nearest label in k neighbors by computing Euclidean Distance
+def knn(testX, trainData, labels, k):
+    
+    # (testX, trainData) computing Euclidean Distance
+    n = trainData.shape[0]
+    distanceMatrix = tile(testX, (n,1)) - trainData  # tile: [testX]_n
+    distanceMatrix = distanceMatrix**2
+    distances = distanceMatrix.sum(axis=1) # axis=0: by cols | aisx=1: by rows
+    distances = distances**0.5
+    distancesIndex = distances.argsort()  # argsort(): index by ascending values
+
+
+    # (k, labels) return the nearest label in k neighbors
+    kDistances = {}
+    for i in range(k):
+        label = labels[distancesIndex[i]]
+        # counting # of label in k values, .get(key, value), default = 0
+        kDistances[label] = kDistances.get(label,0) + 1
+    # .iteritems: loop keys, operator.itemgetter(1): sort by values, descending
+    kDistances = sorted(kDistances.iteritems(), key=operator.itemgetter(1), reverse = True)
+    return kDistances[0][0]
+    
+```
+
 ### 2. Decision Tree
 Summary
 - Pros:
