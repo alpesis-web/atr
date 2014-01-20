@@ -150,10 +150,9 @@ if has("autocmd")
 
   " Python Unittest 的一些设置
   " 可以让我们在编写 Python 代码及 unittest 测试时不需要离开 vim
-  " 键入 :make 或者点击 gvim 工具条上的 make 按钮就自动执行测试用例
+  " 键入 :make 或者点击 gvim 工具条上的 make 按钮就自动执行
   autocmd FileType python compiler pyunit
-  autocmd FileType python setlocal makeprg=\"E:\\development\\Python\\python.exe\"\ ./alltests.py
-  autocmd BufNewFile,BufRead test*.py setlocal makeprg=\"E:\\development\\Python\\python.exe\"\ %
+  autocmd FileType python setlocal makeprg=\"E:\\development\\Python\\python.exe\"\ %
 
 endif
 ```
