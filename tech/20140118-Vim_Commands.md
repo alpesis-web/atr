@@ -43,7 +43,13 @@ Jan 18 2014 | Vim | Kelly Chan
 ## 2. Customization and Extensions
 Plugins:  
 - MiniBufExplorer
+- Python_fold
 
 
 ### MiniBufExplorer
 to open the nth buffer file: `:b<n>`
+
+
+### Python_fold
+fold: `zc`
+unfold: `zo`
