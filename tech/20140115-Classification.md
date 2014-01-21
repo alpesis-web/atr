@@ -9,10 +9,6 @@ Summary
 - Data: Numeric values, nominal values
 
 
-Data Type
-- Label: types of a category
-- Group: feature1, feature2, ...
-
 Algorithm
 ```
 
@@ -43,9 +39,13 @@ def knn(testX, trainData, labels, k):
 
 ### 2. Decision Tree
 Summary
-- Pros:
-- Cons:
-- Data:
+- Pros: Computationally cheap to use, easy for humans to understand learned results, missing values OK, can deal with irrelevant features
+- Cons: Prone to overfitting
+- Data: Numeric values, nominal values
+
+
+Algorithm
+
 
 ### 3. Bayes
 Summary
