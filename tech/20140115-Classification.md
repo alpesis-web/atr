@@ -55,7 +55,18 @@ Summary
 - Data: Numeric values, nominal values
 
 
+Data Type
+
+| row # |Can survive without coming to surface? | Has flippers? | Fish? | 
+|:------|:--------------------------------------|:--------------|:------|
+| 1     | Yes                                   | Yes           | Yes   |
+| 2     | Yes                                   | Yes           | Yes   |
+| 3     | Yes                                   | No            | No    |
+| 4     | No                                    | Yes           | No    |
+| 5     | No                                    | Yes           | No    |
+
 Algorithm
+
 
 
 ### 3. Bayes
@@ -64,16 +75,37 @@ Summary
 - Cons:
 - Data:
 
+Data Type
+
+
+Algorithm
+
+
+
 ### 4. Logistic Regression
 Summary
 - Pros:
 - Cons:
 - Data:
 
+Data Type
+
+
+Algorithm
+
+
+
 ### 5. Support Vector Machine
 Summary
 - Pros:
 - Cons:
 - Data:
+
+Data Type
+
+
+Algorithm
+
+
 
 ### 6. AdaBoost Meta-Algorithm
