@@ -9,6 +9,7 @@ Summary
 - Data: Numeric values, nominal values
 
 Data Type  
+
 | Movie Title                | # of kicks | # of kisses | Type of Movie |
 |:---------------------------|:-----------|:------------|:--------------|
 | California Man             | 3          | 104         | Romance       |
