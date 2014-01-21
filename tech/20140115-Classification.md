@@ -8,6 +8,16 @@ Summary
 - Cons: Computationally expensive, requires a lot of memory
 - Data: Numeric values, nominal values
 
+Data Type
+| Movie Title                | # of kicks | # of kisses | Type of Movie |
+|:---------------------------|:-----------|:------------|:--------------|
+| California Man             | 3          | 104         | Romance       |
+| He’s Not Really into Dudes | 2          | 100         | Romance       |
+| Beautiful Woman            | 1          | 81          | Romance       |
+| Kevin Longblade            | 101        | 10          | Action        |
+| Robo Slayer 3000           | 99         | 5           | Action        |
+| Amped II                   | 98         | 2           | Action        |
+| ?                          | 18         | 90          | Unknown       |
 
 Algorithm
 ```
