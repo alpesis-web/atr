@@ -83,3 +83,14 @@ background-image: image-set(url(low.png) 1x,
                             url(medium.png) 1.5x,
                             url(high.png) 2x);
 ```
+
+
+### 7. Optimizing Performance
+
+performance: network, render, compute
+
+### 8. 
+### 9. 
+### 10.
+### 11.
+### 12. 
