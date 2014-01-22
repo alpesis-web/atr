@@ -3,7 +3,7 @@ Jan 22 2014 | Mobile_Web_Development, HTML, CSS, API | Kelly Chan
 
 ### 1. Moible Web
 
-mobile web = html/css/js + APIs
+Mobile Web = HTML/CSS/JS + APIs
 
 ### 2. Mobile UX and Viewport
 
