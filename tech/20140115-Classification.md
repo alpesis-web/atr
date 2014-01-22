@@ -2,7 +2,7 @@ Jan 15 2014 | Classification, ML | Kelly Chan
 # Classification
 Table of Contents
 - 1. K Nearest Negighbors (kNN) - distance
-- 2. Decision Tree - one feature
+- 2. Decision Tree - feature
 - 3. Naive Bayes - probability
 - 4. Logistic Regression
 - 5. Support Vector Machine
