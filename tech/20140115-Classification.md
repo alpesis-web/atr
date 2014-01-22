@@ -8,6 +8,8 @@ Table of Contents
 - 5. Support Vector Machine
 - 6. AdaBoost Meta-Algorithm
 
+Notes: knn needs a lot of computations, naive bayes has less. Decision tree does not work each time.
+
 ---
 
 ## 1. k Nearest Neighbors (kNN)
