@@ -88,6 +88,11 @@ background-image: image-set(url(low.png) 1x,
 ### 7. Optimizing Performance
 
 performance: network, render, compute
+network
+- # of bytes transferred
+- how often we send requests
+- power consumption
+- max # of TCP connections
 
 ### 8. 
 ### 9. 
