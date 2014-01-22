@@ -116,4 +116,5 @@ HTML
 ```
 
 ### 11. Offline and Storage
-### 12. 
+cache
+webSQL
