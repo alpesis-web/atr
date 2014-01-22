@@ -56,3 +56,20 @@ CSS
     }
 }
 ```
+
+column flex
+```
+.menu-items-grid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 1%
+}
+
+@media (orientation:portrait){
+    .menu-items-grid{
+        flex-direction: column;
+    }
+}
+```
