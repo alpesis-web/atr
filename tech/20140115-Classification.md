@@ -309,9 +309,9 @@ for i in range(len(dataTest)):
 
 ## 3. Naive Bayes
 Summary
-- Pros:
-- Cons:
-- Data:
+- Pros: Works with a small amount of data, handles multiple classes
+- Cons: Sensitive to how the input data is prepared
+- Data: Nominal values
 
 Data Type
 
