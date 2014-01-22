@@ -8,7 +8,7 @@ Mobile Web = HTML/CSS/JS + APIs
 ### 2. Mobile UX and Viewport
 
 ```
-<meta name="viewport" >
+<meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 
 CSS
