@@ -29,3 +29,8 @@ CSS
 ```
 
 ### 4. Fluid Design
+
+CSS: make reflow easy
+```
+{display: flex;}
+```
