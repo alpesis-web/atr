@@ -73,3 +73,13 @@ column flex
     }
 }
 ```
+
+
+### 6. Responsive Images
+
+CSS3 image-set
+```
+background-image: image-set(url(low.png) 1x,
+                            url(medium.png) 1.5x,
+                            url(high.png) 2x);
+```
