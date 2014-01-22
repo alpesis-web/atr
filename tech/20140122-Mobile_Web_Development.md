@@ -116,5 +116,5 @@ HTML
 ```
 
 ### 11. Offline and Storage
-cache
+cache  
 webSQL
