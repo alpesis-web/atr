@@ -1,8 +1,16 @@
 Jan 15 2014 | Classification, ML | Kelly Chan
 # Classification
+Table of Contents
+- 1. K Nearest Negighbors (kNN)
+- 2. Decision Tree
+- 3. Naive Bayes
+- 4. Logistic Regression
+- 5. Support Vector Machine
+- 6. AdaBoost Meta-Algorithm
 
+---
 
-### 1. k Nearest Neighbors (kNN)
+## 1. k Nearest Neighbors (kNN)
 Summary
 - Pros: High accuracy, insensitive to outliers, no assumptions about data
 - Cons: Computationally expensive, requires a lot of memory
@@ -48,7 +56,7 @@ def knn(testX, trainData, labels, k):
     
 ```
 
-### 2. Decision Tree
+## 2. Decision Tree
 Summary
 - Pros: Computationally cheap to use, easy for humans to understand learned results, missing values OK, can deal with irrelevant features
 - Cons: Prone to overfitting
@@ -299,7 +307,7 @@ for i in range(len(dataTest)):
 
 
 
-### 3. Bayes
+## 3. Naive Bayes
 Summary
 - Pros:
 - Cons:
@@ -312,7 +320,7 @@ Algorithm
 
 
 
-### 4. Logistic Regression
+## 4. Logistic Regression
 Summary
 - Pros:
 - Cons:
@@ -325,7 +333,7 @@ Algorithm
 
 
 
-### 5. Support Vector Machine
+## 5. Support Vector Machine
 Summary
 - Pros:
 - Cons:
@@ -338,4 +346,4 @@ Algorithm
 
 
 
-### 6. AdaBoost Meta-Algorithm
+## 6. AdaBoost Meta-Algorithm
