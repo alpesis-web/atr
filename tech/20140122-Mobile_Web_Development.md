@@ -106,8 +106,14 @@ render
 requestAnimationFrame
 
 ### 9. Input
+### 10. Device Access
 
+HTML
+```
+<input type="file" accept="image/*;capture=camera">
+<input type="file" accept="video/*;capture=camcorder">
+<input type="file" accept="audio/*;capture=microphone">
+```
 
-### 10.
 ### 11.
 ### 12. 
