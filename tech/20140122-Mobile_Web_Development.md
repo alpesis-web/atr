@@ -34,3 +34,25 @@ CSS: make reflow easy
 ```
 {display: flex;}
 ```
+
+### 5. Media Queries
+
+CSS
+```
+.menu-items-grid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    a {
+        flex: 0 46%;
+        position: relative;
+    }
+    
+    @media (min-width: 500){
+        a{
+            flex: 0 24%;
+        }
+    }
+}
+```
