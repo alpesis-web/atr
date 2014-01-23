@@ -479,7 +479,7 @@ Data Type
 
 Maths  
 - sigmoid: 1/(1+e^-z)
-- gradient ascent/descent
+- gradient ascent/descent: w = w +/- alpha * delta(f(w))
 
 Algorithm
 
