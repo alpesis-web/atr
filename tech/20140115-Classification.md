@@ -323,7 +323,7 @@ Summary
 - Data: Nominal values
 
 Data Type  
-text
+- text
 
 Maths  
 - bayes
@@ -478,8 +478,8 @@ Data Type
 | 0.569411    | 9.548755    | 0        |
 
 Maths  
+- sigmoid: 1/(1+e^z)
 - gradient ascent/descent
-- sig
 
 Algorithm
 
