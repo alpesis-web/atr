@@ -4,11 +4,12 @@ Table of Contents
 - 1. K Nearest Negighbors (kNN) - distance
 - 2. Decision Tree - feature/entropy
 - 3. Naive Bayes - probability/ln(a*b) = lna + lnb
-- 4. Logistic Regression - (optimization) nonlinear best-fit/gradient ascent
+- 4. Logistic Regression - (optimization/probability) nonlinear best-fit/gradient ascent
 - 5. Support Vector Machine
 - 6. AdaBoost Meta-Algorithm
 
-Notes: knn needs a lot of computations, naive bayes has less. Decision tree does not work sometimes.
+Notes:  
+knn needs a lot of computations, naive bayes has less. Decision tree does not work sometimes.
 
 ---
 
