@@ -31,6 +31,9 @@ Data Type
 | Amped II                   | 98         | 2           | Action        |
 | ?                          | 18         | 90          | Unknown       |
 
+Maths  
+- euclidean distance: sqrt(sum(xi-xj)^2)
+
 Algorithm
 ```
 
@@ -75,6 +78,9 @@ Data Type
 | 3     | Yes                                   | No            | No    |
 | 4     | No                                    | Yes           | No    |
 | 5     | No                                    | Yes           | No    |
+
+Maths  
+- shannon entropy: - p(x)*log(p(x))
 
 Algorithm
 
@@ -319,6 +325,10 @@ Summary
 Data Type  
 text
 
+Maths  
+- bayes
+- ln(a*b) = lna + lnb, lnf(x)~ f(x)
+
 Algorithm
 
 ```
@@ -466,6 +476,10 @@ Data Type
 | 0.667394    | 12.741452   | 0        |
 | -2.460150   | 6.866805    | 1        |
 | 0.569411    | 9.548755    | 0        |
+
+Maths  
+- gradient ascent/descent
+- sig
 
 Algorithm
 
