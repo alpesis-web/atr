@@ -2,9 +2,9 @@ Jan 15 2014 | Classification, ML | Kelly Chan
 # Classification
 Table of Contents
 - 1. K Nearest Negighbors (kNN) - distance
-- 2. Decision Tree - feature
-- 3. Naive Bayes - probability
-- 4. Logistic Regression
+- 2. Decision Tree - feature/entropy
+- 3. Naive Bayes - probability/ln(a*b) = lna + lnb
+- 4. Logistic Regression - (optimization) nonlinear best-fit/gradient ascent
 - 5. Support Vector Machine
 - 6. AdaBoost Meta-Algorithm
 
@@ -315,7 +315,7 @@ Summary
 - Cons: Sensitive to how the input data is prepared
 - Data: Nominal values
 
-Data Type
+Data Type  
 text
 
 Algorithm
@@ -448,9 +448,9 @@ testing()
 
 ## 4. Logistic Regression
 Summary
-- Pros:
-- Cons:
-- Data:
+- Pros: Computationally inexpensive, easy to implement, knowledge representation easy to interpret
+- Cons: Prone to underfitting, may have low accuracy
+- Data: Numeric values, nominal values
 
 Data Type
 
