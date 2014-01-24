@@ -5,7 +5,7 @@ Table of Contents
 - 2. Decision Tree - feature/entropy
 - 3. Naive Bayes - probability/ln(a*b) = lna + lnb
 - 4. Logistic Regression - (optimization/probability) nonlinear best-fit/gradient ascent
-- 5. Support Vector Machine
+- 5. Support Vector Machine - (stock) margin
 - 6. AdaBoost Meta-Algorithm
 
 Notes:  
@@ -719,9 +719,9 @@ def multiTesting():
 
 ## 5. Support Vector Machine
 Summary
-- Pros:
-- Cons:
-- Data:
+- Pros: Low generalization error, computationally inexpensive, easy to interpret results
+- Cons: Sensitive to tuning parameters and kernel choice; natively only handles binary classification
+- Data: Numeric values, nominal values
 
 Data Type
 
