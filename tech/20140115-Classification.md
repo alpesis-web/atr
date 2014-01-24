@@ -728,6 +728,8 @@ Data Type
 
 Maths  
 - hyperplane: arg max{min (label \* W^T\*x+b) * 1/|W|}
+- SMO algorithm (Sequential Minimal Optimization): finds alpha (increased/decreased) and b
+- alpha criteria: outside margin boundary, not already clamped/bounded
 
 
 Algorithm
