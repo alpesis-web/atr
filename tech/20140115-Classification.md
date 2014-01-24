@@ -749,3 +749,31 @@ Algorithm
 
 
 ## 6. AdaBoost Meta-Algorithm
+
+Summary
+- Pros: Low generalization error, easy to code, works with most classifiers, no parameters to adjust
+- Cons: Sensitive to outliers
+- Data: Numeric values, nominal values
+
+Data Type  
+
+| x1          | x2          | category | 
+|:------------|:------------|:---------|
+| 3.542485    | 1.977398    | -1       |
+| 3.018896    | 2.556416    | -1       |
+| 7.551510    | -1.580030   | 1        |
+| 2.114999    | -0.004466   | -1       |
+| 8.127113    | 1.274372    | 1        |
+| 7.108772    | -0.986906   | 1        |
+| 8.610639    | 2.046708    | 1        |
+| 2.326297    | 0.265213    | -1       |
+| 3.634009    | 1.730537    | -1       |
+
+Maths  
+- hyperplane: arg max{min (label \* W^T\*x+b) * 1/|W|}
+- SMO algorithm (Sequential Minimal Optimization): finds alpha (increased/decreased) and b
+- alpha criteria: outside margin boundary, not already clamped/bounded
+
+
+Algorithm
+
