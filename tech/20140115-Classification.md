@@ -5,11 +5,12 @@ Table of Contents
 - 2. Decision Tree - feature/entropy
 - 3. Naive Bayes - probability/ln(a*b) = lna + lnb
 - 4. Logistic Regression - (optimization/probability) nonlinear best-fit/gradient ascent
-- 5. Support Vector Machine - (stock) margin
+- 5. Support Vector Machine - (stock) margin/support vectors - hyperplane/decision boundary
 - 6. AdaBoost Meta-Algorithm
 
 Notes:  
 knn needs a lot of computations, naive bayes has less. Decision tree does not work sometimes.
+Logistic regression returns (0,1), support vector machine returns (1,-1).
 
 ---
 
@@ -723,7 +724,10 @@ Summary
 - Cons: Sensitive to tuning parameters and kernel choice; natively only handles binary classification
 - Data: Numeric values, nominal values
 
-Data Type
+Data Type  
+
+Maths  
+- hyperplane: arg max{min (label \* W^T\*x+b) * 1/|W|}
 
 
 Algorithm
