@@ -764,6 +764,9 @@ Data Type
 
 
 Maths  
+- boosting/bagging: (boosting) weighted sum of all classifiers
+- error = # of misclassified / # of examples
+- alpha = 1/2 * ln (1 - error / error)
 
 
 
