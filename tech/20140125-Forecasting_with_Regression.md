@@ -28,7 +28,7 @@ Data Type
 
 Maths  
 - regression equation: Y = X^T * W
-- w = (X^T \* X)^(-1) \* X^T * y
+- W = (X^T \* X)^(-1) \* X^T * Y
 
 Algorithm  
 
