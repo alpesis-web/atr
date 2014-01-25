@@ -7,10 +7,10 @@ Table of Contents
 
 ## 1. Linear Regression
 
-Summary
-Pros: Easy to interpret results, computationally inexpensive
-Cons: Poorly models nonlinear data
-Data: Numeric values, nominal values
+Summary  
+Pros: Easy to interpret results, computationally inexpensive  
+Cons: Poorly models nonlinear data  
+Data: Numeric values, nominal values  
 
 Data Type  
 
@@ -26,10 +26,10 @@ Algorithm
 ## 2. Tree-based Regression
 
 
-Summary
-Pros: Easy to interpret results, computationally inexpensive
-Cons: Poorly models nonlinear data
-Data: Numeric values, nominal values
+Summary  
+Pros: Easy to interpret results, computationally inexpensive  
+Cons: Poorly models nonlinear data  
+Data: Numeric values, nominal values  
 
 Data Type  
 
