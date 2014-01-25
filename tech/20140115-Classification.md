@@ -6,7 +6,7 @@ Table of Contents
 - 3. Naive Bayes - probability/ln(a*b) = lna + lnb
 - 4. Logistic Regression - (optimization/probability) nonlinear best-fit/gradient ascent
 - 5. Support Vector Machine - (stock) margin/support vectors - hyperplane/decision boundary
-- 6. AdaBoost Meta-Algorithm
+- 6. AdaBoost Meta-Algorithm - combined algorithms/misclassified
 
 Notes:  
 knn needs a lot of computations, naive bayes has less. Decision tree does not work sometimes.  
@@ -761,18 +761,10 @@ Data Type
 |:------------|:------------|:---------|
 | 3.542485    | 1.977398    | -1       |
 | 3.018896    | 2.556416    | -1       |
-| 7.551510    | -1.580030   | 1        |
-| 2.114999    | -0.004466   | -1       |
-| 8.127113    | 1.274372    | 1        |
-| 7.108772    | -0.986906   | 1        |
-| 8.610639    | 2.046708    | 1        |
-| 2.326297    | 0.265213    | -1       |
-| 3.634009    | 1.730537    | -1       |
+
 
 Maths  
-- hyperplane: arg max{min (label \* W^T\*x+b) * 1/|W|}
-- SMO algorithm (Sequential Minimal Optimization): finds alpha (increased/decreased) and b
-- alpha criteria: outside margin boundary, not already clamped/bounded
+
 
 
 Algorithm
