@@ -13,6 +13,7 @@ Cons: Poorly models nonlinear data
 Data: Numeric values, nominal values  
 
 Data Type  
+
 | feature1  | feature2  | target    |
 |:---------:|:---------:|:---------:|
 | 1.000000  | 0.067732  | 3.176513  |
@@ -22,6 +23,7 @@ Data Type
 | 1.000000  | 0.981083  | 4.560815  |
 | 1.000000  | 0.526171  | 3.929515  |
 | 1.000000  | 0.378887  | 3.526170  |
+
 
 
 Maths  
