@@ -28,9 +28,8 @@ Data Type
 
 Maths  
 - regression equation: 
-    Y = X^T * W, 
-    W = (X^T \* X)^(-1) \* X^T * Y
-- W = (X^T \* X)^(-1) \* X^T * Y
+    Y = X^T * W  
+    W = (X^T \* X)^(-1) \* X^T * Y  
 - locally weighted linear regression (LWLR): wHat = (X^T * W * X)^(-1) * X^T * W * y
 - kernel: exp (|xi - x|/(-2k^2)), constant k - how much to weight nearby points
 
