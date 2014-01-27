@@ -27,13 +27,13 @@ Data Type
 
 
 Maths  
-- regression:  
+- <b>regression</b>  
     Y = X^T * W  
     W = (X^T \* X)^(-1) \* X^T * Y  
-- locally weighted linear regression (LWLR):  
+- <b>locally weighted linear regression (LWLR)</b>  
     yHat = (X^T * W * X)^(-1) * X^T * W * y  
     (kernel) W = exp (|xi - x|/(-2k^2)), constant k - how much to weight nearby points  
-- ridge regression:  
+- <b>ridge regression</b>  
     Y = X^T * X + lambda * I  
     W = (X^T * X + lambda * I)^(-1) * X^T * y
 - 
