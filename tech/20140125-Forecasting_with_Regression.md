@@ -40,6 +40,8 @@ Algorithm
 
 Function Tree
 
+- error
+   |
 - regressionLocalWeightsTest
       |
       |--------- regressionLocalWeights
@@ -118,6 +120,11 @@ def regressionLocalWeightsTest(testFeatures, trainFeatures, trainTarget, k=1.0):
     for row in range(rows):
         yHat[row] = regressionLocalWeights(testFeatures[row],trainFeatures, trainTarget, k)
     return yHat
+
+# error
+# return the error of (y - yHat)^2
+def error(yArray,yHatArray):
+    return ((yArray-yHatArray)**2).sum()
 
 ```
 
