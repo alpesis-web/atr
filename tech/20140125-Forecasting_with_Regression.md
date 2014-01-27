@@ -258,9 +258,9 @@ def regressionStagewise(features, target, eps=0.01, loops=100):
 
 
 Summary  
-Pros: Easy to interpret results, computationally inexpensive  
-Cons: Poorly models nonlinear data  
-Data: Numeric values, nominal values  
+Pros: Fits complex, nonlinear data  
+Cons: Difficult to interpret results   
+Data: Numeric values, nominal values   
 
 Data Type  
 
