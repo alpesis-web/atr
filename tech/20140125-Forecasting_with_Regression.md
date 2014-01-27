@@ -39,7 +39,8 @@ Maths
     Y = X^T * X + lambda * I  
     W = (X^T * X + lambda * I)^(-1) * X^T * y  
 
-- 
+- <b>forward stagewise regression</b> - greedy algorithm  
+    lasso  
 
 Algorithm  
 
