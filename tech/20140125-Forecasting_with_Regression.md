@@ -27,15 +27,18 @@ Data Type
 
 
 Maths  
-- <b>regression</b>  
+- <b>regression</b> - xTx inversed  
     Y = X^T * W  
     W = (X^T \* X)^(-1) \* X^T * Y  
-- <b>locally weighted linear regression (LWLR)</b>  
+
+- <b>locally weighted linear regression (LWLR)</b> - xTx inversed  
     yHat = (X^T * W * X)^(-1) * X^T * W * y  
     (kernel) W = exp (|xi - x|/(-2k^2)), constant k - how much to weight nearby points  
-- <b>ridge regression</b>  
+
+- <b>ridge regression</b> - xTx NOT inversed  
     Y = X^T * X + lambda * I  
-    W = (X^T * X + lambda * I)^(-1) * X^T * y
+    W = (X^T * X + lambda * I)^(-1) * X^T * y  
+
 - 
 
 Algorithm  
