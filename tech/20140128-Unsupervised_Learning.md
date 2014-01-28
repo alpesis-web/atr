@@ -7,5 +7,18 @@ Table of Contents
 - frequent itemsets finding: FP-growth
 
 ## 1. Unlabeled items grouping: k-means clustering
+Summary
+Pros:
+Cons:
+Data:
+
+Data Type  
+
+Maths  
+
+Algorithm  
+
+
+
 ## 2. Association analysis: apriori
 ## 3. Frequent itemsets finding: FP-growth
