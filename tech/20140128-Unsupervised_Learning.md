@@ -7,10 +7,11 @@ Table of Contents
 - frequent itemsets finding: FP-growth
 
 ## 1. Unlabeled items grouping: k-means clustering
+
 Summary  
-Pros:  
-Cons:  
-Data:  
+Pros: Easy to implement  
+Cons: Can converge at local minima; slow on very large datasets  
+Data: Numeric values   
 
 Data Type  
 
