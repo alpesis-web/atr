@@ -21,4 +21,33 @@ Algorithm
 
 
 ## 2. Association analysis: apriori
+
+Summary  
+Pros: Easy to implement  
+Cons: Can converge at local minima; slow on very large datasets  
+Data: Numeric values  
+
+Data Type  
+
+Maths  
+
+Algorithm  
+
+
+
+
 ## 3. Frequent itemsets finding: FP-growth
+
+Summary  
+Pros:  
+Cons:  
+Data:  
+
+Data Type  
+
+Maths  
+
+Algorithm  
+
+
+
