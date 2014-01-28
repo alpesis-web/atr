@@ -7,10 +7,10 @@ Table of Contents
 - frequent itemsets finding: FP-growth
 
 ## 1. Unlabeled items grouping: k-means clustering
-Summary
-Pros:
-Cons:
-Data:
+Summary  
+Pros:  
+Cons:  
+Data:  
 
 Data Type  
 
