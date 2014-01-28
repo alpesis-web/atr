@@ -273,10 +273,10 @@ Data Type
 | 0.585413  | 125.295113  |
 | 0.334900  | 18.976650   |
 | 0.769043  | 64.041941   |
-| 0.297107  | -1.798377   |
-| 0.901421  | 100.133819  |
+
 
 Maths  
+- bestFeatureSplit: targetMean, targetVariance
 
 Algorithm  
 
