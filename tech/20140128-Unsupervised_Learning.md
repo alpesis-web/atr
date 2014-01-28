@@ -1,4 +1,4 @@
-Jan 28 2014 | ML, unsupervised_learning | Kelly Chan
+Jan 28 2014 | k-means, apriori, FP-growth | Kelly Chan
 #Unsupervised Learning
 
 Table of Contents
