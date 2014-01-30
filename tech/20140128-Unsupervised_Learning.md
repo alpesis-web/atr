@@ -14,6 +14,7 @@ Cons: Can converge at local minima; slow on very large datasets
 Data: Numeric values   
 
 Data Type  
+
 | feature1   | feature2   |
 |:----------:|:----------:|
 | 1.658985   | 4.285136   |
@@ -24,9 +25,10 @@ Data Type
 | -3.567919  | 1.531611   |
 | 0.450614   | -3.302219  |
 
+
 Maths  
-- euclidean distance: (x-y)^2
 - mean
+- euclidean distance: (x-y)^2
 - squared error: distnace^2
 
 Algorithm  
