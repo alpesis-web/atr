@@ -210,9 +210,9 @@ def bisectingKMeans(dataMatrix, k, distMeans=euclidean):
 ## 2. Association analysis: apriori
 
 Summary  
-Pros: Easy to implement  
-Cons: Can converge at local minima; slow on very large datasets  
-Data: Numeric values  
+Pros: Easy to code up  
+Cons: May be slow on large datasets  
+Data: Numeric values, nominal values  
 
 Data Type  
 
