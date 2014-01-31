@@ -397,9 +397,9 @@ def rulesGen(itemSupportedList, itemProbabilityDict, minConfidence=0.7):
 ## 3. Frequent itemsets finding: FP-growth
 
 Summary  
-Pros:  
-Cons:  
-Data:  
+Pros: Usually faster than Apriori  
+Cons: Difficult to implement; certain datasets degrade the performance  
+Data: Nominal values  
 
 Data Type  
 
