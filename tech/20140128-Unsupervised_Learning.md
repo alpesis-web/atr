@@ -402,8 +402,17 @@ Cons: Difficult to implement; certain datasets degrade the performance
 Data: Nominal values  
 
 Data Type  
+[['r', 'z', 'h', 'j', 'p'],  
+ ['z', 'y', 'x', 'w', 'v', 'u', 't', 's'],  
+ ['z'],  
+ ['r', 'x', 'n', 'o', 's'],  
+ ['y', 'r', 'x', 'z', 'q', 't', 'p'],  
+ ['y', 'z', 'x', 'e', 'q', 's', 't', 'm']]  
 
 Maths  
+- frequency count
+- tree (data structure)
+
 
 Algorithm  
 
