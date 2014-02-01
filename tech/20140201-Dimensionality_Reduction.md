@@ -7,9 +7,9 @@ Table of Contents
 
 ## 1. Principal Component Analysis (PCA)
 Summary  
-Pros:  
-Cons:  
-Data:  
+Pros: Reduces complexity of data, indentifies most important features  
+Cons: May not be needed, could throw away useful information  
+Data: Numerical values  
 
 Data Type:  
 
