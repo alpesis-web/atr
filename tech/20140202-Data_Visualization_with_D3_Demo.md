@@ -24,3 +24,10 @@ step3. \<body\> d3 script is written in the body
 ```
 
 ### 2. Binding Data
+
+bind the divs with data [25,30,35,40,45], then set the width to be the coresponding data
+```
+d3.selectAll("div")
+  .data([25,30,35,40,45])
+  .style("width",function(d){return d + "px";});
+```
