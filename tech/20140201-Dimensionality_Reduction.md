@@ -11,7 +11,8 @@ Pros: Reduces complexity of data, indentifies most important features
 Cons: May not be needed, could throw away useful information  
 Data: Numerical values  
 
-Data Type: 
+Data Type:  
+
 | feature1   | feature2   |
 |:----------:|:----------:|
 | 10.235186	 | 11.321997  |
