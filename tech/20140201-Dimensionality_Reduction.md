@@ -282,47 +282,6 @@ def recommend(dataMatrix, user, N=3, similarityMeans=similarityCosine, estMethod
 # testing
 
 def dataLoad():
-    return[[0, 0, 0, 2, 2],
-           [0, 0, 0, 3, 3],
-           [0, 0, 0, 1, 1],
-           [1, 1, 1, 0, 0],
-           [2, 2, 2, 0, 0],
-           [5, 5, 5, 0, 0],
-           [1, 1, 1, 0, 0]]
-
-dataMatrix = mat(dataLoad())
-
-#print "\nEuclidean:"
-distEuclidean = similarityEuclidean(dataMatrix[:,0],dataMatrix[:,4])
-#print distEuclidean
-distEuclidean = similarityEuclidean(dataMatrix[:,0],dataMatrix[:,0])
-#print distEuclidean
-
-#print "\nConsine:"
-distCosine = similarityCosine(dataMatrix[:,0], dataMatrix[:,4])
-#print distCosine
-distCosine = similarityCosine(dataMatrix[:,0], dataMatrix[:,0])
-#print distCosine
-
-#print "\nPearson:"
-distPearson = similarityPearson(dataMatrix[:,0], dataMatrix[:,4])
-#print distPearson
-distPearson = similarityPearson(dataMatrix[:,0], dataMatrix[:,0])
-#print distPearson
-
-
-dataMatrix[0,1] = dataMatrix[0,0] = dataMatrix[1,0] = dataMatrix[2,0] = 4
-dataMatrix[3,3] = 2
-#print dataMatrix
-#print recommend(dataMatrix, 2)
-#print recommend(dataMatrix, 2, similarityMeans=similarityEuclidean)
-#print recommend(dataMatrix, 2, similarityMeans=similarityPearson)
-
-
-
-
-
-def dataLoad():
     return[[0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 5],
            [0, 0, 0, 3, 0, 4, 0, 0, 0, 0, 3],
            [0, 0, 0, 0, 4, 0, 0, 1, 0, 4, 0],
