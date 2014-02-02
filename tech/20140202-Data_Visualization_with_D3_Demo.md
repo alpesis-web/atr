@@ -50,17 +50,16 @@ FULL Script
 <head>
 <meta charset=utf-8 />
 <title>d3 js beginning</title>
-  <script src="http://d3js.org/d3.v3.min.js" type="text/javascript" charset="utf-8"></script>
-  <style type="text/css">
-div{
-    background-color: #dd9;
-    margin: 5px;
-    font-size: 25px;
-    color: #007;
-    padding: 10px;
-    
-}
-</style>
+    <script src="http://d3js.org/d3.v3.min.js" type="text/javascript" charset="utf-8"></script>
+    <style type="text/css">
+        div{
+            background-color: #dd9;
+            margin: 5px;
+            font-size: 25px;
+            color: #007;
+            padding: 10px;
+           }
+    </style>
 </head>
 <body>
     <div>D3 is cool!</div>
@@ -70,12 +69,12 @@ div{
     <div>D3 is helpful!</div>
 
     <script type="text/javascript">
-    d3.selectAll("div")
-      .data([200,300,400,500,600])
-      .transition()
-      .duration(2000)
-      .style("width", function(d) { return  d + "px"; });
-  </script>
+        d3.selectAll("div")
+          .data([200,300,400,500,600])
+          .transition()
+          .duration(2000)
+          .style("width", function(d) { return  d + "px"; });
+    </script>
 </body>
 </html>
 ```
