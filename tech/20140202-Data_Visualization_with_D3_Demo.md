@@ -78,3 +78,12 @@ FULL Script
 </body>
 </html>
 ```
+
+
+### 4. Enter and Exit
+
+Use `d3.selectAll` to select all the circles and change their radius to 10 times of its index
+```
+d3.selectAll("circle")
+    .attr("r",function(d,i){return (i+1)*10}); 
+```
