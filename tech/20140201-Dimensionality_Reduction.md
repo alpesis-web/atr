@@ -98,7 +98,7 @@ Data: Numeric values
 Data Type:  
 
 Maths:  
-- [DATA]m\*n = [U]m\*m * [SIGMA]m\*n \* [V^T]n\*n
+- [DATA]m\*n = [U]m\*m  [SIGMA]m\*n   [V^T]n\*n
 
 Algorithm:  
 
