@@ -1,5 +1,5 @@
 Feb 2 2014 | D3, Data_Visualization, js | Kelly Chan
-# D3 Data Visualization Demo
+# Data Visualization with D3 (Demo)
 
 ### 1. Get Started
 
