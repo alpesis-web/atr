@@ -2,8 +2,8 @@ Feb 1 2014 | PCA, SVD | Kelly Chan
 # Dimensionality Reduction
 
 Table of Contents  
-- PCA
-- SVD
+- Principal Component Analysis (PCA)
+- Singular Value Decomposition (SVD)
 
 ## 1. Principal Component Analysis (PCA)
 Summary  
@@ -88,12 +88,12 @@ def pca(dataMatrix, featuresTopN=9999999):
 ```
 
 
-## 2. SVD
+## 2. Singular Value Decomposition (SVD)
 
 Summary  
-Pros:  
-Cons:  
-Data:  
+Pros: Simplifies data, removes noise, may improve algorithm results  
+Cons: Transformed data may be difficult to understand  
+Data: Numeric values  
 
 Data Type:  
 
