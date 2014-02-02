@@ -3,7 +3,7 @@ Feb 1 2014 | PCA, SVD | Kelly Chan
 
 Table of Contents  
 - Principal Component Analysis (PCA)
-- Singular Value Decomposition (SVD) - (application)recommendation system
+- Singular Value Decomposition (SVD) 
 
 ## 1. Principal Component Analysis (PCA)
 Summary  
@@ -99,6 +99,9 @@ Data Type:
 
 Maths:  
 - [DATA]m\*n = [U]m\*m  [SIGMA]m\*n   [V^T]n\*n
+
+Application:  
+- recommendation system
 
 Algorithm:  
 
