@@ -27,7 +27,18 @@ step3. \<body\> d3 script is written in the body
 
 bind the divs with data [25,30,35,40,45], then set the width to be the coresponding data
 ```
+d3.selectAll("div")  // select divs
+  .data([25,30,35,40,45]) // binding data
+  .style("width",function(d){return d + "px";}); // set width to be coresponding data
+```
+
+### 3. Add Some Animation
+use transition to add animation. Use duration to set duration as 3000ms
+```
 d3.selectAll("div")
   .data([25,30,35,40,45])
+  .transition() // animation
+  .duration(3000) // set duration
   .style("width",function(d){return d + "px";});
+  
 ```
