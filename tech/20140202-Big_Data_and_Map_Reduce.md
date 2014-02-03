@@ -9,5 +9,8 @@ Cons: Algorithms must be rewritten; requires understanding of systems engineerin
 Data: Numeric values, nominal values  
 
 Machine Learning Algorithms for MapReduce  
-- <b>Naïve Bayes</b>: (mapper) results of probability of a feature (reducer) sum up results    
-- <b>k-Nearest Neighbors</b>: 
+- Naive Bayes
+  * mapper: results of the probability of a feature
+  * reducer: sum up results
+- k-Nearest Neighbors
+
