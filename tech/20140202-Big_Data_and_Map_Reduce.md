@@ -12,12 +12,16 @@ Machine Learning Algorithms for MapReduce
 - Naive Bayes
   * mapper: results of the probability of a feature
   * reducer: sum up results
+  
 - k-Nearest Neighbors (kNN)
   * tree: to narrow search for cloest vectors
+  
 - Support Vector Machines (SVM)
   * Pegasos algorithm: stochastic gradient descent
+  
 - Singular Value Decomposition (SVD)
   * Lanczos algorithm: find the singular values in a large matrix
+  
 - k-means Clustering
   * Canopy clustering
 
