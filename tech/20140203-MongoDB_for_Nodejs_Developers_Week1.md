@@ -98,5 +98,10 @@ MongoClient.connect('mongodb://127.0.0.1:27017/test', function(err, db){
     
 }
 ```
-## Week 2: Crud
-## Week 3: Schema Design
+calling the function
+```
+vim script.js
+vim apps.js
+mongo script.js
+```
+
