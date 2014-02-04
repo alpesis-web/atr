@@ -53,6 +53,8 @@ mongo
 use jsonintro
 
 db.basic.find()
+db.values.find()
+db.values.find().pretty()
 ```
 
 ## Week 2: Crud
