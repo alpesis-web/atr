@@ -108,6 +108,9 @@ JSON revisited:
 ### Case Study: Blog
 
 relational model for blog
-- posts: post\_id, author\_id, date, title, post
-- comments: comment\_id, email, name, comment, 
-- authors: author\_id, user_name, password
+- <b>posts</b>: post\_id, author\_id, date, title, post
+- post\_tags: post\_id, tag\_id
+- <b>comments</b>: comment\_id, email, name, comment
+- post\_comments: post\_id, comment_id
+- tags: tag_id, name
+- <b>authors</b>: author\_id, user_name, password
