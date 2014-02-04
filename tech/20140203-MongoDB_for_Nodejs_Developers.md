@@ -35,6 +35,7 @@ Mongo Shell -> MongoDB (C++) <--> App (node.js) <---> clients
 - cmd: `show dbs`, or `show collections`
 - cmd: `db.mycollection.insert({"Hello": "World"})`
 - cmd: `db.mycollection.find()`
+- cmd: `exit`
 
 ## Week 2: Crud
 ## Week 3: Schema Design
