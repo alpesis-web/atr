@@ -4,7 +4,7 @@ Feb 4 2014 | MongoDB, python, development, blog | Kelly Chan
 MongoDB: [course](https://education.mongodb.com/courses/10gen/M101P/2014_February/about)  
 
 Table of Contents
-- Week 1. Introduction
+- Week 1. [Introduction](https://github.com/KellyChan/notebook/blob/master/tech/20140204-MongoDB_for_Developers_Week1.md)
 - Week 2.
 - Week 3.
 - Week 4.
