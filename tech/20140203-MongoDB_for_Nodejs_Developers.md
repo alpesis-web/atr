@@ -1,5 +1,7 @@
-Feb 3 2014 | MongoDB, database | Kelly Chan
-# MongoDB
+Feb 3 2014 | MongoDB, database, node.js | Kelly Chan
+# MongoDB for Node.js Developers
+
+MongoDB: [course](https://education.mongodb.com/courses/10gen/M101JS/2014_March/about)
 
 Table of Contents
 - Week 1: Introduction
