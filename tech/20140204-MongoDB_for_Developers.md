@@ -42,7 +42,7 @@ db.things.find().pretty()
 
 installing MongoDB, python, bottle.py (python web framework), PyMongo
 
-Mongo Shell
+(MongoDB) Mongo Shell
 ```
 show dbs
 db.mycollection.insert({hello: "world"})
@@ -52,7 +52,8 @@ exit
 dir \data\db
 mongod --help
 ```
-Python Script
+
+(Python/PyMongo) Python Script
 ```
 from pymongo import MongoClient
 
