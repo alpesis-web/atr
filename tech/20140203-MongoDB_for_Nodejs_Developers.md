@@ -55,6 +55,7 @@ use jsonintro
 db.basic.find()
 db.values.find()
 db.values.find().pretty()
+db.deepnested.find().pretty()
 ```
 
 ## Week 2: Crud
