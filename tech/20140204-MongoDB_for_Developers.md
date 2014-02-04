@@ -195,9 +195,7 @@ model --(update)----> view       <-(see)- users
 - view/template: handling users see
 - controller: handling users input
 
-View: template  
-
-view.py
+view.py (template)
 ```
 import bottle
 
