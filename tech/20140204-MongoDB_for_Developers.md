@@ -195,8 +195,9 @@ model --(update)----> view       <-(see)- users
 - view/template: handling users see
 - controller: handling users input
 
-Python Script (View: template)  
+View: template  
 
+view.py
 ```
 import bottle
 
@@ -207,4 +208,23 @@ def home_page():
 
 bottle.debug(True)
 bottle.run(host='localhost', port=8080)
+```
+
+view.html
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello World</title>
+</head>
+
+<body>
+    <p>Welcome {{username}}</p>
+    <ul>
+        %for thing in things:
+            <li>{{thing}}</li>
+        %end
+    </ul>
+</body>
+</html>
 ```
