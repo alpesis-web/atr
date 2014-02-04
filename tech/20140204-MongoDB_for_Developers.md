@@ -104,3 +104,10 @@ JSON revisited:
 ```
 {"fruit": ['apple','pear','peach']}
 ```
+
+### Case Study: Blog
+
+relational model for blog
+- posts: post\_id, author\_id, date, title, post
+- comments: comment\_id, email, name, comment, 
+- authors: author\_id, user_name, password
