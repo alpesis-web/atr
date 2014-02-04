@@ -41,6 +41,8 @@ show dbs
 use demo
 db.things.find()
 db.things.insert({"a": 1, "b": 2, "c": 3})
+
+for (var i=0; i <10; i++){db.things.insert({"x":i})}
 ```
 
 ## Week 2: Crud
