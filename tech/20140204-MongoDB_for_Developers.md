@@ -7,3 +7,4 @@ Table of Contents
 - Week 1. Introduction
 
 ### Week 1. Introduction
+MongoDB: JSON {key: value}, document-oriented, schemaless
