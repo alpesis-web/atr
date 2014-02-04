@@ -208,7 +208,7 @@ def home_page():
 
 @bottle.post('/favoriate_fruit')
 def favoriate_fruit():
-    fruit = bottle.request.forms.get("fruits")
+    fruit = bottle.request.forms.get("fruit")
     if (fruit == None or fruit == ""):
         fruit = "No fruit selected."
         
