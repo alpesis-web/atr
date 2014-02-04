@@ -95,3 +95,9 @@ def index():
 
 bottle.run(host='localhost', port = 8082)
 ```
+
+### 4. JSON
+
+JSON revisited: 
+- array []: lists of thing 
+- dictionary {key: value}: associate maps
