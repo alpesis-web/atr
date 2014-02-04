@@ -105,6 +105,9 @@ JSON revisited:
 {"fruit": ['apple','pear','peach']}
 ```
 
+### 5. Schema Design with MongoDB
+embeded? 16MB document limit   
+
 ### Case Study: Blog
 
 blog in relational tables
