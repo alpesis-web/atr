@@ -40,6 +40,8 @@ db.things.find().pretty()
 
 ### 2. Installing MongoDB
 
+installing MongoDB, python, bottle.py (python web framework), PyMongo
+
 Mongo Shell
 ```
 show dbs
