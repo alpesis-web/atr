@@ -31,4 +31,13 @@ db.things.save({a:1, b:2, c:3})
 db.things.find()
 db.things.save({a:3, b:4, c:6, d:200}) 
 db.things.find()
+db.things.find({a:1})
+
+db.things.save({a:1, b:2, fruit:['apple','orange','pear']})
+db.things.save({name: "andrew", address: {street: "elm drive", city:"Polo Alto"}})
+db.things.find().pretty()
 ```
+
+### 2. Installing MongoDB
+
+
