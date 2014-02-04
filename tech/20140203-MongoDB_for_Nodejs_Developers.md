@@ -74,5 +74,29 @@ var doc = db.coll.findOne();
 // print the result
 printjson(doc);
 ```
+
+```
+var MongoClient = require('mongodb').MongoClient;
+
+MongoClient.connect('mongodb://127.0.0.1:27017/test', function(err, db){
+
+    if (err) throw err;
+    
+    // find one docuemnt in our collection
+    db.collection('coll').findOne({}, function(err, doc){
+    
+        // print the result
+        console.dir(doc);
+        
+        // close the db
+        db.close();
+        
+    });
+    
+    // declare success
+    console.dir("Called findOne!");
+    
+}
+```
 ## Week 2: Crud
 ## Week 3: Schema Design
