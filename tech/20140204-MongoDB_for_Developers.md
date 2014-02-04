@@ -107,7 +107,7 @@ JSON revisited:
 
 ### Case Study: Blog
 
-relational model for blog
+blog in relational tables
 - <b>posts</b>: post\_id, author\_id, date, title, post
 - post\_tags: post\_id, tag\_id
 - <b>comments</b>: comment\_id, email, name, comment
