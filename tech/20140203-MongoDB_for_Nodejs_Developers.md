@@ -32,6 +32,9 @@ Mongo Shell -> MongoDB (C++) <--> App (node.js) <---> clients
 - cmd: `dir \datapath`, to see the data file
 - cmd: `mongod`, to accept the access
 - cmd: `mongo localhost/test`, to check the connection
+- cmd: `show dbs`, or `show collections`
+- cmd: `db.mycollection.insert({"Hello": "World"})`
+- cmd: `db.mycollection.find()`
 
 ## Week 2: Crud
 ## Week 3: Schema Design
