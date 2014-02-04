@@ -212,7 +212,10 @@ def favoriate_fruit():
     if (fruit == None or fruit == ""):
         fruit = "No fruit selected."
         
-    return bottle.template('fruit_selection.tpl', {'fruit': fruit})
+    #return bottle.template('fruit_selection.tpl', {'fruit': fruit})
+    # set cookies
+    bottle.response.set_cookie("fruit", fruit)
+    bottle.redirect("/show_fruit")
     
 bottle.debug(True)
 bottle.run(host='localhost', port=8080)
