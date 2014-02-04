@@ -60,7 +60,19 @@ db.deepnested.findOne()
 
 course['student']
 course['student'][0].name
+course['student'][0].name = "Sue"
 ```
 
+### 5. Node.js
+
+Asynchronous vs Synchronous / IO
+
+```
+// find one document in our collection
+var doc = db.coll.findOne();
+
+// print the result
+printjson(doc);
+```
 ## Week 2: Crud
 ## Week 3: Schema Design
