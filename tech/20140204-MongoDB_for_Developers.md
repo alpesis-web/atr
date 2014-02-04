@@ -65,3 +65,6 @@ names = db.names
 item = names.find_one()
 print item['name']
 ```
+
+### 3. Web Application
+mongod <- (BSON) -> [App] Python (pymongo/bottle) <- (http) -> web page
