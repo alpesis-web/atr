@@ -14,4 +14,8 @@ Table of Contents
 
 ## Week 1. Introduction
 MongoDB: JSON {key: value}, document-oriented, schemaless  
-(functionality) RDBMS  \-\-\-\- (functionality, scalability) MongoDB \-\-\-\- (scalability) memcached, key value store  
+(functionality) RDBMS  \-\-\-\- (functionality, scalability) MongoDB \-\-\-\- (scalability) memcached, key value store 
+
+### 1. Framework of building an app with MongoDB
+
+Mongo Shell --> Mongo D <---> (Http: python - bottle/pymongo) <--> users
