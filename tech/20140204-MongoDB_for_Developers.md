@@ -101,3 +101,6 @@ bottle.run(host='localhost', port = 8082)
 JSON revisited: 
 - array []: lists of thing 
 - dictionary {key: value}: associate maps
+```
+{"fruit": ['apple','pear','peach']}
+```
