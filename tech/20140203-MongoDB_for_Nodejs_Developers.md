@@ -19,5 +19,12 @@ Node.js: written by C++, run by javascript v8
 ### 1. Framework of app with MongoDB
 Mongo Shell -> MongoDB (C++) <--> App (node.js) <---> clients
 
+### 2. Installing MongoDB
+
+- download MongoDB
+- cmd: `mkdir path/folder`, copy (bin) all files to this folder
+- cmd: `cls`, to clean the windows, `cd` to the path created and go into MongoDB folder
+- cmd: `dir`, to see which files are in this folder
+
 ## Week 2: Crud
 ## Week 3: Schema Design
