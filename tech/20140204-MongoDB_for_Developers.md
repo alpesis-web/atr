@@ -234,12 +234,13 @@ view.html
             <li>{{thing}}</li>
         %end
     </ul>
+    
+    <form action="/favorite_fruit" method="POST">
+        What if your favorite fruit?
+        <input type="text" name="fruit" size="40" value=""><br>
+        <input type="submit" value="Sumbit">
+    </form>
 </body>
 </html>
-
-```
-
-fruit.html
-```
 
 ```
