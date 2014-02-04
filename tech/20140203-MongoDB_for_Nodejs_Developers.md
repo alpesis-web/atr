@@ -31,6 +31,7 @@ Mongo Shell -> MongoDB (C++) <--> App (node.js) <---> clients
 - cmd: `mongod --help`, to see the help files
 - cmd: `dir \datapath`, to see the data file
 - cmd: `mongod`, to accept the access
+- cmd: `mongo localhost/test`, to check the connection
 
 ## Week 2: Crud
 ## Week 3: Schema Design
