@@ -56,6 +56,10 @@ db.basic.find()
 db.values.find()
 db.values.find().pretty()
 db.deepnested.find().pretty()
+db.deepnested.findOne()
+
+course['student']
+course['student'][0].name
 ```
 
 ## Week 2: Crud
