@@ -108,9 +108,35 @@ JSON revisited:
 ### Case Study: Blog
 
 blog in relational tables
-- <b>posts</b>: post\_id, author\_id, date, title, post
-- post\_tags: post\_id, tag\_id
-- <b>comments</b>: comment\_id, email, name, comment
-- post\_comments: post\_id, comment_id
-- tags: tag_id, name
-- <b>authors</b>: author\_id, user_name, password
+```
+authors:
+	author_id,
+	name,
+	email,
+	password
+
+posts:
+	post_id,
+	author_id
+	title,
+	body,	
+	publication_date
+
+comments:
+	comment_id,
+	name, 
+	email,
+	comment_text
+
+post_comments:
+	post_id,
+	comment_id
+
+tags
+	tag_id
+	name
+
+post_tags
+	post_id
+	tag_id
+```
