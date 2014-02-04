@@ -25,6 +25,10 @@ Mongo Shell -> MongoDB (C++) <--> App (node.js) <---> clients
 - cmd: `mkdir path/folder`, copy (bin) all files to this folder
 - cmd: `cls`, to clean the windows, `cd` to the path created and go into MongoDB folder
 - cmd: `dir`, to see which files are in this folder
+- cmd: `mkdir /data/db`, to create data folder
+- cmd: `dir mongod.exe`, to view the datafile
+- cmd: `mongod --version`, to see the version
+- cmd: `mongod --help`, to see the help files
 
 ## Week 2: Crud
 ## Week 3: Schema Design
