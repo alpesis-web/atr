@@ -19,3 +19,16 @@ MongoDB: JSON {key: value}, document-oriented, schemaless
 ### 1. Framework of building an app with MongoDB
 
 Mongo Shell --> Mongo D <---> (Http: python - bottle/pymongo) <--> users
+
+Mongo Shell
+```
+mongo
+MongoDB shell version: 2.2.0
+connecting to: test
+
+use test
+db.things.save({a:1, b:2, c:3}) 
+db.things.find()
+db.things.save({a:3, b:4, c:6, d:200}) 
+db.things.find()
+```
