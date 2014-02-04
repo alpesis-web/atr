@@ -40,4 +40,14 @@ db.things.find().pretty()
 
 ### 2. Installing MongoDB
 
+Mongo Shell
+```
+show dbs
+db.mycollection.insert({hello: "world"})
+db.mycollection.find()
+exit
+
+dir \data\db
+mongod --help
+```
 
