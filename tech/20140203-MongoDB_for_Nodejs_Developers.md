@@ -74,7 +74,7 @@ var doc = db.coll.findOne();
 // print the result
 printjson(doc);
 ```
-
+connecting MongoDB
 ```
 var MongoClient = require('mongodb').MongoClient;
 
