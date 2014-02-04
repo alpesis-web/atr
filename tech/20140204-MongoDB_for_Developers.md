@@ -195,10 +195,9 @@ model --(update)----> view       <-(see)- users
 - view/template: handling users see
 - controller: handling users input
 
-Python Script  
+Python Script (View: template)  
 
 ```
-
 import bottle
 
 @bottle.route('/')
