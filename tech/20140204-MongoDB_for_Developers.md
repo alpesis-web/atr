@@ -108,11 +108,6 @@ JSON revisited:
 ### 5. Schema Design with MongoDB
 embeded? 16MB document limit   
 
-### 6. Bottle Framework
-
-web browser -> HTML -> (IP->TCL(80)->http) -> python/bottle
-
-
 ### Case Study: Blog
 
 blog in relational tables
@@ -171,4 +166,24 @@ authors
  password: "xxxx"
 }
 
+```
+
+### 6. Bottle Framework
+
+web browser -> HTML -> (IP->TCL(80)->http) -> python/bottle
+
+python script
+```
+import bottle
+
+@bottle.route('/')
+def home_page():
+    return "Hello World\n"
+
+@bottle.route('/testpage')
+def test_page():
+    return "This is a test page."
+
+bottle.debug(True)
+bottle.run(host='localhost', port=8080)
 ```
