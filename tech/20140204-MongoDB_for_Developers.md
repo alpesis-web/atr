@@ -12,6 +12,6 @@ Table of Contents
 - Week 6.
 - Week 7.
 
-### Week 1. Introduction
-MongoDB: JSON {key: value}, document-oriented, schemaless
+## Week 1. Introduction
+MongoDB: JSON {key: value}, document-oriented, schemaless  
 (functionality) RDBMS  \-\-\-\- (functionality, scalability) MongoDB \-\-\-\- (scalability) memcached, key value store  
