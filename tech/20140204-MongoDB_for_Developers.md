@@ -192,11 +192,13 @@ MVC (Model View Controller)
 model --(update)----> view       <-(see)- users
       <-(manipulate)- controller <-(see)-
 
-- view/template: handling users see
-- controller/post: handling users input
+- view/template: handling users see  
+- controller/post: handling users input  
 
-model.py
+model.py  
+
 ```
+
 import bottle
 
 @bottle.route('/')
@@ -214,6 +216,7 @@ def favoriate_fruit():
     
 bottle.debug(True)
 bottle.run(host='localhost', port=8080)
+
 ```
 
 view.html
@@ -233,4 +236,10 @@ view.html
     </ul>
 </body>
 </html>
+
+```
+
+fruit.html
+```
+
 ```
