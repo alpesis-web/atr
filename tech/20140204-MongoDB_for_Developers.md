@@ -193,9 +193,9 @@ model --(update)----> view       <-(see)- users
       <-(manipulate)- controller <-(see)-
 
 - view/template: handling users see
-- controller: handling users input
+- controller/post: handling users input
 
-view.py (template)
+model.py
 ```
 import bottle
 
@@ -204,6 +204,14 @@ def home_page():
     mythings = ['apple','orange','peach']
     return bottle.template('Hello world', username='Andrew', things=mythings)
 
+@bottle.post('/favoriate_fruit')
+def favoriate_fruit():
+    fruit = bottle.request.forms.get("fruits")
+    if (fruit == None or fruit == ""):
+        fruit = "No fruit selected."
+        
+    return bottle.template('fruit_selection.tpl', {'fruit': fruit})
+    
 bottle.debug(True)
 bottle.run(host='localhost', port=8080)
 ```
