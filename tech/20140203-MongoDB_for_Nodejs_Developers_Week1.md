@@ -17,7 +17,7 @@ MongoDB: non relational database, documentation-oriented, store JSON documents, 
 - features omitted to retain scalability: joins, transactions across multiple collections  
 
 JSON: {key: value}
-Node.js: written by C++, run by javascript v8
+Node.js: written by C++, run by V8 javascript 
 
 ### 1. Framework of app with MongoDB
 Mongo Shell -> MongoDB (C++) <--> App (node.js) <---> clients
