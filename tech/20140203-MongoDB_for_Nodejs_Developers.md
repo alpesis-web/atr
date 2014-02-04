@@ -45,5 +45,15 @@ db.things.insert({"a": 1, "b": 2, "c": 3})
 for (var i=0; i <10; i++){db.things.insert({"x":i})}
 ```
 
+### 4. JSON
+
+```
+mongo
+
+use jsonintro
+
+db.basic.find()
+```
+
 ## Week 2: Crud
 ## Week 3: Schema Design
