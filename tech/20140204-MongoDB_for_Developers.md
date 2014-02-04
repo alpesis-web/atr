@@ -108,6 +108,11 @@ JSON revisited:
 ### 5. Schema Design with MongoDB
 embeded? 16MB document limit   
 
+### 6. Bottle Framework
+
+web browser -> HTML -> (IP->TCL(80)->http) -> python/bottle
+
+
 ### Case Study: Blog
 
 blog in relational tables
