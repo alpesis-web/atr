@@ -29,6 +29,7 @@ Mongo Shell -> MongoDB (C++) <--> App (node.js) <---> clients
 - cmd: `dir mongod.exe`, to view the datafile
 - cmd: `mongod --version`, to see the version
 - cmd: `mongod --help`, to see the help files
+- cmd: `dir \datapath`, to see the data file
 
 ## Week 2: Crud
 ## Week 3: Schema Design
