@@ -21,15 +21,12 @@ Mongo Shell -> MongoDB (C++) <--> App (node.js) <---> clients
 
 ### 2. Installing MongoDB
 
-- download MongoDB
-- cmd: `mkdir path/folder`, copy (bin) all files to this folder
-- cmd: `cls`, to clean the windows, `cd` to the path created and go into MongoDB folder
-- cmd: `dir`, to see which files are in this folder
-- cmd: `mkdir /data/db`, to create data folder
-- cmd: `dir mongod.exe`, to view the datafile
-- cmd: `mongod --version`, to see the version
-- cmd: `mongod --help`, to see the help files
-- cmd: `dir \datapath`, to see the data file
+- download MongoDB, zip (bin) all files to another folder
+- create a db folder
+- open cmd, `cd` to MongoDB folder, `mongod.exe -dbpath path_of_db_folder`, link db folder to mongoDB
+- cmd: `mkdir` to create folder, `dir` to go to path, `cls` to clean the window
+- cmd: `dir mongod.exe`
+- cmd: `mongod --version`, or `mongod --help`
 - cmd: `mongod`, to accept the access
 - cmd: `mongo localhost/test`, to check the connection
 - cmd: `show dbs`, or `show collections`
