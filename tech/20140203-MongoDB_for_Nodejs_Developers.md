@@ -34,5 +34,14 @@ Mongo Shell -> MongoDB (C++) <--> App (node.js) <---> clients
 - cmd: `db.mycollection.find()`
 - cmd: `exit` or `ctrl+c` to exit
 
+### 3. Mongo Shell
+
+```
+show dbs
+use demo
+db.things.find()
+db.things.insert({"a": 1, "b": 2, "c": 3})
+```
+
 ## Week 2: Crud
 ## Week 3: Schema Design
