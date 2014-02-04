@@ -140,3 +140,27 @@ post_tags
 	post_id
 	tag_id
 ```
+
+blog in document
+```
+posts
+{
+ title: "Free online class", 
+ body: "...", 
+ author: "someone",
+ date: "...",
+ comments: [{
+             name: "xxx",
+             email: "...",
+             comment: "..."
+             }],
+ tags: ["education", "startups", "cycling"]
+}
+ 
+authors
+{
+ _id: "xxxx",
+ password: "xxxx"
+}
+
+```
