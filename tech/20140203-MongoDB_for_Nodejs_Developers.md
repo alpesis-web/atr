@@ -23,7 +23,7 @@ Mongo Shell -> MongoDB (C++) <--> App (node.js) <---> clients
 
 - download MongoDB, zip (bin) all files to another folder
 - create a db folder
-- open cmd, `cd` to MongoDB folder, `mongod.exe -dbpath path_of_db_folder`, link db folder to mongoDB
+- open cmd, `cd` to MongoDB folder, `mongod.exe -dbpath path/data/db`, link db folder to mongoDB
 - cmd: `mkdir` to create folder, `dir` to go to path, `cls` to clean the window
 - cmd: `dir mongod.exe`
 - cmd: `mongod --version`, or `mongod --help`
