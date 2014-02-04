@@ -271,8 +271,10 @@ fruit_selection.tpl
 ```
 
 
-Mongo exception processing
+Mongo exception processing  
 
+
+This one doesn't work.
 ```
 import sys
 import pymongo
@@ -292,4 +294,40 @@ except:
 
 print doc
 print "inserting again"
+```
+
+This one works well.
+```
+import sys
+import pymongo
+
+connection = pymongo.MongoClient("mongodb://localhost")
+db = connection.test
+users = db.users
+
+doc = {'firstname': 'Andrew', 'lastname': 'Erlichson'}
+print doc
+print "about to insert the document"
+
+try:
+    users.insert(doc)
+except:
+    print "insert failed:", sys.exc_info()[0]
+
+print doc
+
+
+
+doc = {'firstname': 'Andrew', 'lastname': 'Erlichson'}
+print doc
+print "about to insert the document"
+
+try:
+    users.insert(doc)
+except:
+    print "insert failed:", sys.exc_info()[0]
+
+print doc
+print "inserting again"
+
 ```
