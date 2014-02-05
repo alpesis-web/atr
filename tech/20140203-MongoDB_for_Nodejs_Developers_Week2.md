@@ -161,4 +161,13 @@ db.arrays.update({ _id: 0}, { $addToSet: { a: 5 } });
 db.arrays.update({ _id: 0}, { $addToSet: { a: 5 } });
 db.arrays.findOne()
 ```
+upsert
+```
+db.people.update( {name: "George"}, { $set: {age: 40}}, { upsert: true} );
+db.people.update( {age: { $gt: 50}}, { $set: { name: "William"}}, { upsert: true} );
+```
+multi-update
+```
+```
+
 ### 4. Remove
