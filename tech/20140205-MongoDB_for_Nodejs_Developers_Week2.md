@@ -96,5 +96,10 @@ db.accounts.find({favorite: { $all: ["pretzels","beer"]}});
 db.accounts.find({name: {$in: ["howard","john"]}});
 db.accounts.find({favorite: { $in: ["beer", "icecream"]}});
 ```
+querying: dot notation
+```
+db.users.find({email: {work: "richard@10gen.com"}});
+db.users.find({"email.word": "richard@10gen.com"});
+```
 ### 3. Update
 ### 4. Remove
