@@ -5,7 +5,7 @@ MongoDB: [course](https://education.mongodb.com/courses/10gen/M101JS/2014_March/
 
 Table of Contents
 - Week 1: [Introduction](https://github.com/KellyChan/notebook/blob/master/tech/20140203-MongoDB_for_Nodejs_Developers_Week1.md)
-- Week 2: [Crud]()
+- Week 2: [Crud](https://github.com/KellyChan/notebook/blob/master/tech/20140204-MongoDB_for_Nodejs_Developers_Week2.md)
 - Week 3: Schema Design
 - Week 4: Performance
 - Week 5: 
