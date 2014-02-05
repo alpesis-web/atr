@@ -101,5 +101,20 @@ querying: dot notation
 db.users.find({email: {work: "richard@10gen.com"}});
 db.users.find({"email.word": "richard@10gen.com"});
 ```
+cursors
+```
+cur = db.people.find(); null;
+cur.hasNext();
+cur.next();
+cur.next();
+cur.next();
+```
+a query that retrieves exam documents, sorted by score in descending order, skipping the first 50 and showing only the next 20
+```
+db.scores.find({type: "exam"}).sort({score: -1}).skip(50).limit(20);
+```
+counting
+```
+```
 ### 3. Update
 ### 4. Remove
