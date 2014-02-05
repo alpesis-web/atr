@@ -108,7 +108,7 @@ vim apps.js
 mongo script.js
 ```
 
-npm: package manager for Node.js
+npm: package manager for Node.js  
 packages: express, consolidate, mongodb
 ```
 npm install express
