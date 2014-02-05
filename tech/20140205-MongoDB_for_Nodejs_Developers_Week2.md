@@ -65,7 +65,13 @@ querying: $gt and $lt
 db.scores.find({score: {$gt: 95}})
 db.scores.find({score: {$gt: 95}, type: "essay"})
 db.scores.find({score: {$gt: 95, $lt: 98}, type: "essay"})
-```
 
+db.scores.find({score: {$gte: 50 , $lte: 60}});
+```
+inequalities: strings
+```
+db.people.find({name: {$lt: "D"}});
+db.people.find({name: {$lt: "D", $gt: "B"}});
+```
 ### 3. Update
 ### 4. Remove
