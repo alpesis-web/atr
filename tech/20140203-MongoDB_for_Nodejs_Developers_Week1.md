@@ -253,5 +253,13 @@ app.get('/:name', function(req, res, next){
 app.listen(3000);
 console.log('Express server listening on port 3000');
 ```
+view.html
+```
+<h1>Hello, {{name}}, here are your GET variables:</h1>
+<ul>
+    <li>{{getvar1}}</li>
+    <li>{{getvar2}}</li>
+</ul>
+```
 
 Express: handling POST requests
