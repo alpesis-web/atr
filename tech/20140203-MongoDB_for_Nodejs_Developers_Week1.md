@@ -126,3 +126,10 @@ calling the function
 ```
 node app.js
 ```
+
+npm: package manager for Node.js
+```
+npm install express
+package.json
+npm install
+```
