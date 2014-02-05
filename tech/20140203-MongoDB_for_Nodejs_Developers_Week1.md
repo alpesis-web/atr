@@ -116,6 +116,8 @@ package.json
 npm install
 ```
 
+App with MongoDB
+(App) Node.js/driver <--(BSON)--> Mongod
 
 ### Case Study: Hello World
 
