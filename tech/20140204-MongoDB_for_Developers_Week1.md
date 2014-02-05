@@ -1,4 +1,3 @@
-Feb 4 2014 | MongoDB, python, development, blog | Kelly Chan
 # MongoDB for Developers
 
 MongoDB: [course](https://education.mongodb.com/courses/10gen/M101P/2014_February/about)  
@@ -12,6 +11,8 @@ Table of Contents
 - Week 6.
 - Week 7.
 
+---
+Feb 4 2014 | MongoDB, python, development, blog | Kelly Chan
 ## Week 1. Introduction
 MongoDB: JSON {key: value}, document-oriented, schemaless  
 (functionality) RDBMS  \-\-\-\- (functionality, scalability) MongoDB \-\-\-\- (scalability) memcached, key value store 
