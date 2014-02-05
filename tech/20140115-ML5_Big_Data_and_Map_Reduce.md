@@ -3,7 +3,7 @@
 - [Forecasting with regression](https://github.com/KellyChan/notebook/blob/master/tech/20140115-ML2_Forecasting_with_Regression.md)
 - [Unsupervised Learning](https://github.com/KellyChan/notebook/blob/master/tech/20140115-ML3_Unsupervised_Learning.md)
 - [Dimensionality Reduction](https://github.com/KellyChan/notebook/blob/master/tech/20140115-ML4_Dimensionality_Reduction.md)
-- [Big Data and MapReduce](https://github.com/KellyChan/notebook/blob/master/tech/20140115-ML5_Big_Data_and_Map_Reduce.md)
+- [Big Data and MapReduce](https://github.com/KellyChan/notebook/blob/master/tech/2014011-ML5_Big_Data_and_Map_Reduce.md)
 
 ---
 Feb 2 2014| big_data, map_reduce | Kelly Chan
