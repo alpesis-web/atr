@@ -199,9 +199,12 @@ app.set('views', __dirname + "/views");
 
 var mongoclient = new MongoClient(new Server('localhost', 27017,
                                               {'native_parser': true}));
+var db = mongoclient.db('course');
 
 app.get('/', function(req, res){
-        res.render('hello', {'name': 'Swig'});
+        db.collection('hello_mongo_express').findOne({}, function(err, doc){
+                res.render('hello', doc);
+        });
 });
 
 app.get('*', function(req, res){
