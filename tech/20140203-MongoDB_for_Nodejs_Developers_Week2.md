@@ -169,6 +169,7 @@ db.people.update( {age: { $gt: 50}}, { $set: { name: "William"}}, { upsert: true
 multi-update
 ```
 db.people.update( {}, { $set : { title: "Dr" }, { multi: true } })
+db.scores.update({score: {$lt: 70}}, {$inc: {score: 20}}, {multi: true})
 ```
 
 ### 4. Remove
