@@ -219,6 +219,7 @@ mongoclient.open(function(err, mongoclient){
     console.log("Express server started on port 8080");
 });
 ```
+### 6. Express (web framework)
 Express: Handling GET requests
 - url: parameters
 - get: variables
@@ -300,4 +301,20 @@ app.post('/favorite_fruit', function(req, res, next){
 
 app.listen(3000);
 console.log('Express server listening on port 3000');
+```
+view.html
+```
+<html>
+    <head><title>Fruit Picker</title></head>
+    <body>
+        <form action="/favorite_fruit" method="POST">
+            <p>What is your favorite fruit?</p>
+            {% for fruit in fruits %}
+                <p>
+                    <input type="radio" name="fruit" value="{{fruit}}">{{fruit}}</input>
+                </p>
+            {% end for %}
+        </form>
+    </body>
+</html><!DOCTYPE html>
 ```
