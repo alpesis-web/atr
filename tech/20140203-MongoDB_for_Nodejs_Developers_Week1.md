@@ -7,7 +7,7 @@ Table of Contents
 - Week 1: [Introduction](https://github.com/KellyChan/notebook/blob/master/tech/20140203-MongoDB_for_Nodejs_Developers_Week1.md)
 - Week 2: Crud
 - Week 3: Schema Design
-- Week 4: 
+- Week 4: Performance
 - Week 5: 
 - Week 6:
 
