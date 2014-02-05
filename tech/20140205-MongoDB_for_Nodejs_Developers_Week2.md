@@ -39,5 +39,12 @@ db.people.find()
 ```
 
 ### 2. Find
+
+```
+db.people.findOne()
+db.people.findOne({"name": "jones"})
+db.people.findOne({"name": "jones"}, {"name": true})
+db.people.findOne({"name": "jones"}, {"name": true, "_id": false})
+```
 ### 3. Update
 ### 4. Remove
