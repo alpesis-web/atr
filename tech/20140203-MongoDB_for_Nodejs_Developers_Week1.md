@@ -183,3 +183,31 @@ view.html
 ```
 <h1>Hello, {{name}}!</h1>
 ```
+
+using express, swig and MongoDB
+```
+var express = require('express'),
+    app = express(),
+    cons = require('consolidate'),
+    MongoClient = require('mongodb').MongoClient,
+    Server = require('mongodb').Server;
+
+app.engine('html', cons.swig);
+app.set('view engine', 'html');
+app.set('views', __dirname + "/views");
+
+
+var mongoclient = new MongoClient(new Server('localhost', 27017,
+                                              {'native_parser': true}));
+
+app.get('/', function(req, res){
+        res.render('hello', {'name': 'Swig'});
+});
+
+app.get('*', function(req, res){
+        res.send("Page not found", 404);
+});
+
+app.listen(8080);
+console.log("Express server started on port 8080");
+```
