@@ -196,4 +196,7 @@ db.runCommand({ getLastError: 1 })
 
 db.people.update({name: "Thompson"}, { $set: {title: "Dr"}}, {upsert: true});
 db.runCommand({ getLastError: 1 })
+
+db.people.remove()
+db.runCommand({ getLastError: 1 })
 ```
