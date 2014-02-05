@@ -129,5 +129,6 @@ $set, $unset, $inc
 ```
 db.people.update({ name: "Alice"}, { $set: { age: 30 }});
 db.people.update({ name: "Alice"}, { $inc: { age: 1 }});
+db.people.update({ name: "Jones"}, { $unset: {profession: 1}});
 ```
 ### 4. Remove
