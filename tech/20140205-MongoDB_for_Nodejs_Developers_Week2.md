@@ -25,3 +25,16 @@ BSON supports
 - array
 - object
 - timestamp
+
+### 1. Insert
+
+```
+doc = {"name": "smith", "age": 30, "profession": "hacker"}
+db
+db.people.insert(doc)
+db.people.find()
+```
+
+### 2. Find
+### 3. Update
+### 4. Remove
