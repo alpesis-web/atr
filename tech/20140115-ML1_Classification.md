@@ -23,6 +23,7 @@ Logistic regression returns (0,1), support vector machine returns (1,-1).
 ---
 
 ## 1. k Nearest Neighbors (kNN)
+
 Summary
 - Pros: High accuracy, insensitive to outliers, no assumptions about data
 - Cons: Computationally expensive, requires a lot of memory
