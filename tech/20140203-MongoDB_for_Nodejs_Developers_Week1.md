@@ -108,6 +108,15 @@ vim apps.js
 mongo script.js
 ```
 
+npm: package manager for Node.js
+packages: express, consolidate, mongodb
+```
+npm install express
+package.json
+npm install
+```
+
+
 ### Case Study: Hello World
 
 ```
@@ -127,9 +136,3 @@ calling the function
 node app.js
 ```
 
-npm: package manager for Node.js
-```
-npm install express
-package.json
-npm install
-```
