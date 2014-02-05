@@ -84,5 +84,11 @@ db.people.find({name: {$regex: "a"}});
 db.people.find({name: {$regex: "e$"}});
 db.people.find({name: {$regex: "^A"}});
 ```
+$or, $and
+```
+db.people.find({$or: [{name: {$regex: "e$"}}, {age: {$exists: true}}]});
+db.people.find({$and: [{name: {$gt: "C"}}, {name: {$regex: "a"}}]});
+db.people.find({name: {$gt: "C", $regex: "a"}});
+```
 ### 3. Update
 ### 4. Remove
