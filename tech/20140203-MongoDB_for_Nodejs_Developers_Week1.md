@@ -219,3 +219,34 @@ mongoclient.open(function(err, mongoclient){
     console.log("Express server started on port 8080");
 });
 ```
+Express: Handling GET requests
+- url: parameters
+- get: variables
+
+```
+var express = require('express'),
+    app = express(), // web framework to handle routing requests
+    cons = require('consolidate'); // templating library adapter for Express
+    
+app.engine('html', cons.swig);
+app.set('view engine', 'html');
+app.set('views', __dirname + '/views');
+app.use(app.rounter);
+
+// handler for internal server errors
+function errorHandler(err, req, res, next){
+    console.error(err.message);
+    console.error(err.stack);
+    res.status(500);
+    res.render('error_template', {error: err});
+}
+
+app.use(errorHandler);
+
+app.get('/:name', function(req, res, next){
+    var name = req.params.name;
+    
+})
+```
+
+Express: handling POST requests
