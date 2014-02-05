@@ -12,7 +12,9 @@ Table of Contents
 - Week 6:
 
 ## Week 2: CRUD
-Create  
-Read  
-Update  
-Delete  
+| CRUD   | MongoDB | SQL    |
+|:-------|:--------|:-------|
+| Create | insert  | insert |
+| Read   | find    | select |
+| Update | update  | update |
+| Delete | remove  | delete |
