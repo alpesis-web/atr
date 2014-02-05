@@ -173,3 +173,11 @@ db.scores.update({score: {$lt: 70}}, {$inc: {score: 20}}, {multi: true})
 ```
 
 ### 4. Remove
+
+```
+db.people.remove({ name: "Alice"})
+db.people.remove({ name: { $gt: "M"} })
+
+db.people.remove()
+db.people.drop()
+```
