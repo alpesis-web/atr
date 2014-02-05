@@ -186,6 +186,14 @@ getLastError
 ```
 db.people.insert({ _id: "Smith", age: 30});
 db.people.insert({ _id: "Smith", age: 30});
+db.runCommand({ getLastError: 1 })
 
+db.people.insert({ _id: "Jones", age: 30});
+db.runCommand({ getLastError: 1 })
+
+db.people.update({}, { $set: {title: "Dr"}}, {multi: true});
+db.runCommand({ getLastError: 1 })
+
+db.people.update({name: "Thompson"}, { $set: {title: "Dr"}}, {upsert: true});
 db.runCommand({ getLastError: 1 })
 ```
