@@ -181,7 +181,5 @@ console.log("Express server started on port 8080");
 
 view.html
 ```
-<html>
-    <p>Hello {{name}}</p>
-</html>
+<h1>Hello, {{name}}!</h1>
 ```
