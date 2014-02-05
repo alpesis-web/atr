@@ -112,6 +112,8 @@ npm: package manager for Node.js
 packages: express, consolidate, mongodb
 ```
 npm install express
+npm install consolidate
+npm install Swig
 package.json
 npm install
 ```
@@ -166,7 +168,7 @@ app.set('views', __dirname + "/views");
 
 
 app.get('/', function(req, res){
-        res.send("Hello World!");
+        res.render('hello', {'name': 'Swig'});
 });
 
 app.get('*', function(req, res){
