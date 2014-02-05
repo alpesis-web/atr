@@ -181,3 +181,11 @@ db.people.remove({ name: { $gt: "M"} })
 db.people.remove()
 db.people.drop()
 ```
+
+getLastError
+```
+db.people.insert({ _id: "Smith", age: 30});
+db.people.insert({ _id: "Smith", age: 30});
+
+db.runCommand({ getLastError: 1 })
+```
