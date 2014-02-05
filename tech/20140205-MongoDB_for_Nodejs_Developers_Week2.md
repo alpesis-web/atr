@@ -18,3 +18,10 @@ Table of Contents
 | Read   | find    | select |
 | Update | update  | update |
 | Delete | remove  | delete |
+
+BSON supports
+- string
+- float
+- array
+- object
+- timestamp
