@@ -73,5 +73,16 @@ inequalities: strings
 db.people.find({name: {$lt: "D"}});
 db.people.find({name: {$lt: "D", $gt: "B"}});
 ```
+$exists, $type, $regex
+```
+db.people.find({profession: {$exists: true}});
+db.people.find({profession: {$exists: false}});
+
+db.people.find({name: {$type: 2}});
+
+db.people.find({name: {$regex: "a"}});
+db.people.find({name: {$regex: "e$"}});
+db.people.find({name: {$regex: "^A"}});
+```
 ### 3. Update
 ### 4. Remove
