@@ -212,9 +212,10 @@ app.get('*', function(req, res){
 });
 
 mongoclient.open(function(err, mongoclient){
+
+    if (err) throw err;
+    
     app.listen(8080);
     console.log("Express server started on port 8080");
 });
-
-
 ```
