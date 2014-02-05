@@ -33,6 +33,9 @@ doc = {"name": "smith", "age": 30, "profession": "hacker"}
 db
 db.people.insert(doc)
 db.people.find()
+
+db.people.insert({"name": "jones", "age": 35, "profession": "baker"})
+db.people.find()
 ```
 
 ### 2. Find
