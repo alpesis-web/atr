@@ -38,7 +38,7 @@ Data: Numeric values, nominal values
 - [Amazon AWS](http://aws.amazon.com/)
 - [Apache Mahout](http://mahout.apache.org/)
 
-### 3.Example
+### 3. Example
 
 mapper
 ```
