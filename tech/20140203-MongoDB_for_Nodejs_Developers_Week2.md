@@ -131,4 +131,34 @@ db.people.update({ name: "Alice"}, { $set: { age: 30 }});
 db.people.update({ name: "Alice"}, { $inc: { age: 1 }});
 db.people.update({ name: "Jones"}, { $unset: {profession: 1}});
 ```
+$push, $pop, $pull, $pushAll, $pullAll, $addToSet
+```
+db.arrays.insert({ _id: 0, a: [1,2,3,4] });
+db.arrays.findOne()
+
+db.arrays.update({ _id: 0}, { $set: { "a.2": 5} });
+db.arrays.findOne()
+
+db.arrays.update({ _id: 0}, { $push: { a: 6} });
+db.arrays.findOne()
+
+db.arrays.update({ _id: 0}, { $pop: { a: 1} });
+db.arrays.findOne()
+
+db.arrays.update({ _id: 0}, { $pop: { a: -1} });
+db.arrays.findOne()
+
+db.arrays.update({ _id: 0}, { $pushAll: { a: [7,8,9] } });
+db.arrays.findOne()
+
+db.arrays.update({ _id: 0}, { $pull: { a: 5 } });
+db.arrays.findOne()
+
+db.arrays.update({ _id: 0}, { $pullAll: { a: [2,4,8] } });
+db.arrays.findOne()
+
+db.arrays.update({ _id: 0}, { $addToSet: { a: 5 } });
+db.arrays.update({ _id: 0}, { $addToSet: { a: 5 } });
+db.arrays.findOne()
+```
 ### 4. Remove
