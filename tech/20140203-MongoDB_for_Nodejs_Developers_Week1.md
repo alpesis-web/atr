@@ -109,7 +109,7 @@ mongo script.js
 ```
 
 npm: package manager for Node.js  
-packages: express, consolidate, mongodb
+packages: express(web framework), consolidate, mongodb
 ```
 npm install express
 npm install consolidate
