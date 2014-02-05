@@ -60,6 +60,12 @@ db.scores.find({student: 19, type: "essay"});
 db.scores.find({student: 19, type: "essay"}, {"score": true});
 db.scores.find({student: 19, type: "essay"}, {"score": true, "_id": false});
 ```
+querying: $gt and $lt
+```
+db.scores.find({score: {$gt: 95}})
+db.scores.find({score: {$gt: 95}, type: "essay"})
+db.scores.find({score: {$gt: 95, $lt: 98}, type: "essay"})
+```
 
 ### 3. Update
 ### 4. Remove
