@@ -115,6 +115,7 @@ db.scores.find({type: "exam"}).sort({score: -1}).skip(50).limit(20);
 ```
 counting
 ```
+db.scores.count({type: "exam"})
 ```
 ### 3. Update
 ### 4. Remove
