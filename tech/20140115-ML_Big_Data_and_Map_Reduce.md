@@ -1,3 +1,11 @@
+# Machine Learning
+- [Classification](https://github.com/KellyChan/notebook/blob/master/tech/20140115-ML_Classification.md)
+- [Forecasting with regression](https://github.com/KellyChan/notebook/blob/master/tech/20140115-ML_Forecasting_with_Regression.md)
+- [Unsupervised Learning](https://github.com/KellyChan/notebook/blob/master/tech/20140115-ML_Unsupervised_Learning.md)
+- [Dimensionality Reduction](https://github.com/KellyChan/notebook/blob/master/tech/20140115-ML_Dimensionality_Reduction.md)
+- [Big Data and MapReduce](https://github.com/KellyChan/notebook/blob/master/tech/20140115-ML_Big_Data_and_Map_Reduce.md)
+
+---
 Feb 2 2014| big_data, map_reduce | Kelly Chan
 # Big Data and Map Reduce
 
