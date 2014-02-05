@@ -50,8 +50,15 @@ db.people.findOne({"name": "jones"}, {"name": true, "_id": false})
 find()
 ```
 db.stores.find()
-db.stroes.find().pretty()
+db.stores.find().pretty()
 it
+```
+querying: selection
+```
+db.scores.find({student: 19});
+db.scores.find({student: 19, type: "essay"});
+db.scores.find({student: 19, type: "essay"}, {"score": true});
+db.scores.find({student: 19, type: "essay"}, {"score": true, "_id": false});
 ```
 
 ### 3. Update
