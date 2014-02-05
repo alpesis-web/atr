@@ -1,4 +1,4 @@
-# Machine Learning In Action
+# Machine Learning
 - [Classification](https://github.com/KellyChan/notebook/blob/master/tech/20140115-ML_Classification.md)
 - [Forecasting with regression](https://github.com/KellyChan/notebook/blob/master/tech/20140115-ML_Forecasting_with_Regression.md)
 - [Unsupervised Learning](https://github.com/KellyChan/notebook/blob/master/tech/20140115-ML_Unsupervised_Learning.md)
