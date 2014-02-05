@@ -116,7 +116,18 @@ db.scores.find({type: "exam"}).sort({score: -1}).skip(50).limit(20);
 ```
 counting
 ```
-db.scores.count({type: "exam"})
+db.scores.count({type: "exam"});
+db.scores.count({type: "essay", score:{$gt: 90}});
 ```
+
 ### 3. Update
+
+```
+db.people.update({ name: "Smith"}, {name: "Thompson", salary: 50000});
+```
+$set, $unset, $inc
+```
+db.people.update({ name: "Alice"}, { $set: { age: 30 }});
+db.people.update({ name: "Alice"}, { $inc: { age: 1 }});
+```
 ### 4. Remove
