@@ -1,3 +1,11 @@
+# Machine Learning
+- [Classification]()
+- [Forecasting with regression]()
+- [Unsupervised Learning]()
+- [Dimensionality Reduction]()
+- [Big Data and MapReduce]()
+
+
 Jan 15 2014 | Classification, ML | Kelly Chan
 # Classification
 Table of Contents
