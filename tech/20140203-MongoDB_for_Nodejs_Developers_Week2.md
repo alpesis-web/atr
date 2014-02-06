@@ -455,6 +455,8 @@ MongoClient.connect('mongodb://localhost:27017/course', function(err, db){
 #### 3. Update
 
 replacement, in place, multi
+
+replace update
 ```
 var MongoClient = require('mongodb').MongoClient;
 
@@ -477,12 +479,55 @@ MongoClient.connect('mongodb://localhost:27017/course', function(err, db){
         db.collection('grades').update(query, doc, function(err, updated){
             if (err) throw err;
             
-            console.dir("Successfully updated " + update + " document!");
+            console.dir("Successfully updated " + updated + " document!");
             
             return db.close();
         });
     });
 });
+```
+in place update
+```
+var MongoClient = require('mongodb').MongoClient;
+
+MongoClient.connect('mongodb://localhost:27017/course', function(err, db){
+    if (err) throw err;
+    
+    var query = { 'assignment' : 'hw1' };
+    var operator = {$set: {'date_retruned': new Date()}};
+    
+    db.connection('grades').update(query, operator, function(err, updated){
+        if (err) throw err;
+        
+        console.dir("Successfully updated " + updated + " document!");
+        
+        retrun db.close();
+    });
+});
+```
+multi update
+```
+var MongoClient = require('mongodb').MongoClient;
+
+MongoClient.connect('mongodb://localhost:27017/course', function(err, db){
+    if (err) throw err;
+    
+    var query = { };
+    var operator = {$set: {'date_retruned': new Date()}};
+    var options = { $multi: true};
+    
+    db.connection('grades').update(query, operator, options, function(err, updated){
+        if (err) throw err;
+        
+        console.dir("Successfully updated " + updated + " document!");
+        
+        retrun db.close();
+    });
+});
+```
+
+upsert
+```
 ```
 
 #### 4. Remove
