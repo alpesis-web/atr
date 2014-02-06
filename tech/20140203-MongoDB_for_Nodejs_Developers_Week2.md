@@ -620,9 +620,10 @@ MongoClient.connect('mongodb://localhost:27017/course', function(err, db){
 ### Part 3. Case Study - Blog
 
 blog application architecture
-
+```
 app.js  
   |---- routes  
           |------ sessions.js  
           |------ posts.js  
           |------ users.js  
+```
