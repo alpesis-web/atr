@@ -658,3 +658,29 @@ MongoClient.connect('mongodb://localhost:27017/blog', function(err, db){
     console.log('Express server listening on port 3000');
 });
 ```
+
+index.js
+```
+var SessionHandler = require('./session'),
+    ContentHandler = require('./content'),
+    ErrorHandler = require('./error').errorHandler;
+
+module.exists = exports = function (app, db){
+    
+    var sessionHandler = new Sessionhandler(db);
+    var contenthandler = new Contenthandler(db);
+    
+    // middleware to see if a user is logged in
+    app.use(sessionHandler.isLoggedInMiddleware);
+    
+    // the main page of the blog
+    app.get('/', contentHandler.displayMainPage);
+    
+    // the main page of the blog, filtered by tags
+    app.get('/tag/:tag', contentHandler.displayMainPageByTag);
+    
+    // a single post, which can be commented on
+    app.get("/post/:permalink", contentHandler.displayPostByParamlink);
+    app.post('/newcomment', contentHandler.handleNewComment);
+}
+```
