@@ -306,5 +306,26 @@ MongoClient.connect('mongodb://localhost:27017/course', function(err, db){
 });
 ```
 
+$gt, $lt
+```
+var MongoClient = require('mongodb').MongoClient;
+
+MongoClient.connect('mongodb://localhost:27017/course', function(err, db){
+    if (err) throw err;
+    
+    var query = { 'student':'Jones', 'grade': {$gt: 80, $lt: 95} };
+    
+    db.collection('grades').find(query).each(function(err, docs){
+        if (err) throw err;
+        
+        if (doc == null){
+            db.close();
+        }
+        
+        console.dir(doc);
+    });
+});
+```
+
 #### 3. Update
 #### 4. Remove
