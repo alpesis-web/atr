@@ -27,7 +27,7 @@ BSON supports
 - object
 - timestamp
 
-### 1. MongoDB CRUD
+### Part 1. MongoDB: CRUD
 
 #### 1. Insert
 
@@ -203,7 +203,7 @@ db.people.remove()
 db.runCommand({ getLastError: 1 })
 ```
 
-### 2. Node.js Driver
+### Part 2. Node.js Driver: CRUD
 
 mongo -(BSON)-> mongod <-(BSON)- driver/node.js/code  
 
