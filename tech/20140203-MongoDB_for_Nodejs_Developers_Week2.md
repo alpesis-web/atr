@@ -27,7 +27,9 @@ BSON supports
 - object
 - timestamp
 
-### 1. Insert
+### 1. MongoDB CRUD
+
+#### 1. Insert
 
 ```
 doc = {"name": "smith", "age": 30, "profession": "hacker"}
@@ -39,7 +41,7 @@ db.people.insert({"name": "jones", "age": 35, "profession": "baker"})
 db.people.find()
 ```
 
-### 2. Find
+#### 2. Find
 
 findOne()
 ```
@@ -120,7 +122,7 @@ db.scores.count({type: "exam"});
 db.scores.count({type: "essay", score:{$gt: 90}});
 ```
 
-### 3. Update
+#### 3. Update
 
 ```
 db.people.update({ name: "Smith"}, {name: "Thompson", salary: 50000});
@@ -172,7 +174,7 @@ db.people.update( {}, { $set : { title: "Dr" }, { multi: true } })
 db.scores.update({score: {$lt: 70}}, {$inc: {score: 20}}, {multi: true})
 ```
 
-### 4. Remove
+#### 4. Remove
 
 ```
 db.people.remove({ name: "Alice"})
@@ -201,12 +203,14 @@ db.people.remove()
 db.runCommand({ getLastError: 1 })
 ```
 
-### 5. Node.js
+### 2. Node.js Driver
 
 mongo -(BSON)-> mongod <-(BSON)- driver/node.js/code  
 
 Node.js driver & CRUD  
 
+#### 1. Insert
+#### 2. Find
 import data
 ```
 mongoimport -d course -c grades grades.json
@@ -231,3 +235,5 @@ MongoClient.connect('mongodb://localhost:27017/course', function(err, db){
     });
 });
 ```
+#### 3. Update
+#### 4. Remove
