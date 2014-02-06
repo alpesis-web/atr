@@ -212,13 +212,16 @@ Node.js driver & CRUD
 #### 1. Insert
 #### 2. Find
 import data
+
 ```
 mongoimport -d course -c grades grades.json
 mongo
 use course
 db.grades.find()
 ```
-connect database
+
+findOne
+
 ```
 var MongoClient = require('mongodb').MongoClient;
 
@@ -234,6 +237,27 @@ MongoClient.connect('mongodb://localhost:27017/course', function(err, db){
         db.close();
     });
 });
+
+```
+
+find
+
+```
+var MongoClient = require('mongodb').MongoClient;
+
+MongoClient.connect('mongodb://localhost:27017/course', function(err, db){
+    if (err) throw err;
+    
+    var query = { 'grade' : 100 };
+    
+    db.collection('grades').find(query).toArray(function(err,docs){
+        if (err) throw err;
+        
+        console.dir(docs);
+        db.close();
+    });
+});
+
 ```
 #### 3. Update
 #### 4. Remove
