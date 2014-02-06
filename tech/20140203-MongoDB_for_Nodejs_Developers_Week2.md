@@ -528,6 +528,23 @@ MongoClient.connect('mongodb://localhost:27017/course', function(err, db){
 
 upsert
 ```
+var MongoClient = require('mongodb').MongoClient;
+
+MongoClient.connect('mongodb://localhost:27017/course', function(err, db){
+    if (err) throw err;
+    
+    var query = { 'student' : 'Frank', 'assignment': 'hw1' };
+    var operator = {'student' : 'Frank', 'assignment': 'hw1', 'grade': 100};
+    var options = { 'upsert': true};
+    
+    db.connection('grades').update(query, operator, options, function(err, updated){
+        if (err) throw err;
+        
+        console.dir("Successfully updated " + updated + " document!");
+        
+        retrun db.close();
+    });
+});
 ```
 
 #### 4. Remove
