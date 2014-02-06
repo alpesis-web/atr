@@ -621,8 +621,8 @@ MongoClient.connect('mongodb://localhost:27017/course', function(err, db){
 
 blog application architecture
 
-app.js
-  |---- routes
-          |------ sessions.js
-          |------ posts.js
-          |------ users.js
+app.js  
+  |---- routes  
+          |------ sessions.js  
+          |------ posts.js  
+          |------ users.js  
