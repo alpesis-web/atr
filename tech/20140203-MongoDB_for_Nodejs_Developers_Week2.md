@@ -682,5 +682,27 @@ module.exists = exports = function (app, db){
     // a single post, which can be commented on
     app.get("/post/:permalink", contentHandler.displayPostByParamlink);
     app.post('/newcomment', contentHandler.handleNewComment);
+    app.get("/post_not_found", contentHandler.displayPageNotFound);
+    
+    // displays the form allowing a user to add a new post, only works for logged users
+    app.get('/newpost', contentHandler.displayNewPostPage);
+    app.post('/newpost', contentHandler.handleNewPost);
+    
+    // login form
+    app.get('/login', sessionHandler.displayLoginPage);
+    app.post('/login', sessionHandler.handleLoginRequest);
+    
+    // logout page
+    app.get('/logout', sessionHandler.displayLogoutPage);
+    
+    // welcome page
+    app.get('/welcome', sessionHandler.displayWelcomePage);
+    
+    // signup form
+    app.get('/signup', sessionHandler.displaySignupPage);
+    app.post('/signup', sessionHandler.handleSignup);
+    
+    // error handling middleware
+    app.use(ErrorHandler);
 }
 ```
