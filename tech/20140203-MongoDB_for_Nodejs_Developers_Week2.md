@@ -210,6 +210,36 @@ mongo -(BSON)-> mongod <-(BSON)- driver/node.js/code
 Node.js driver & CRUD  
 
 #### 1. Insert
+
+import reddit
+
+```
+var MongoClient = require('mondodb').MongoClient,
+    request = require('request');
+
+MongoClient.connect('mongodb://localhost:27017/course', function(err, db){
+    if (err) throw err;
+    
+    request('http://www.reddit.com/r/techonology/.json', function(error, response, body){
+        if (!error && response.statusCode == 200){
+            var obj = JSON.parse(body);
+            
+            var stories = obj.data.children.map(function (story){return story.data;});
+            
+            db.connection('reddit').insert(stories, function(err, data){
+                if (err) throw err;
+                
+                console.dir(data);
+                
+                db.close();
+            });
+        }
+        
+    });
+});
+
+```
+
 #### 2. Find
 import data
 
