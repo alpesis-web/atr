@@ -11,5 +11,5 @@ Table of Contents
 - Week 6: [t](https://github.com/KellyChan/notebook/blob/master/tech/20140203-MongoDB_for_Nodejs_Developers_Week6.md)
 
 ---
-Feb 3 2014 | MongoDB, database, node.js | Kelly Chan
+Feb 6 2014 | MongoDB, database, node.js | Kelly Chan
 ## Week 3: Schema Design
