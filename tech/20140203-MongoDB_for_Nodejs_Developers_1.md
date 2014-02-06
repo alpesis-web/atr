@@ -1,3 +1,4 @@
+Feb 3 2014 | MongoDB, database, node.js | Kelly Chan
 # MongoDB for Node.js Developers
 
 MongoDB: [course](https://education.mongodb.com/courses/10gen/M101JS/2014_March/about)
@@ -6,9 +7,8 @@ Table of Contents
 - Part I: [Get Started](https://github.com/KellyChan/notebook/blob/master/tech/20140203-MongoDB_for_Nodejs_Developers_1.md)
 - Part II: [CRUD](https://github.com/KellyChan/notebook/blob/master/tech/20140203-MongoDB_for_Nodejs_Developers_2.md)
 
----
-Feb 3 2014 | MongoDB, database, node.js | Kelly Chan
-## Week 1: Get Started
+
+## Part I: Get Started
 
 MongoDB: non relational database, documentation-oriented, store JSON documents, schemaless  
 - features omitted to retain scalability: joins, transactions across multiple collections  
