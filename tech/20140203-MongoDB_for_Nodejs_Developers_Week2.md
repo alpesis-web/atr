@@ -200,3 +200,34 @@ db.runCommand({ getLastError: 1 })
 db.people.remove()
 db.runCommand({ getLastError: 1 })
 ```
+
+### 5. Node.js
+
+mongo -(BSON)-> mongod <-(BSON)- driver/node.js/code  
+
+Node.js driver & CRUD  
+
+import data
+```
+mongoimport -d course -c grades grades.json
+mongo
+use course
+db.grades.find()
+```
+connect database
+```
+var MongoClient = require('mongodb').MongoClient;
+
+MongoClient.connect('mongodb://localhost:27017/course', function(err, db){
+    if (err) throw err;
+    
+    var query = { 'grade' : 100 };
+    
+    db.collection('grades').findOne(query, function(err, doc){
+        if (err) throw err;
+        
+        console.dir(doc);
+        db.close();
+    });
+});
+```
