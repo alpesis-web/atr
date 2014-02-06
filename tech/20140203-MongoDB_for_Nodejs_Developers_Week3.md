@@ -13,3 +13,5 @@ Table of Contents
 ---
 Feb 6 2014 | MongoDB, database, node.js | Kelly Chan
 ## Week 3: Schema Design
+
+application-driven schema
