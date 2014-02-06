@@ -572,7 +572,7 @@ MongoClient.connect('mongodb://localhost:27017/course', function(err, db){
 });
 ```
 
-findAndModify
+findAndModify: only modify the first document it finds, often works with sort()
 ```
 var MongoClient = require('mongodb').MongoClient;
 
@@ -599,5 +599,22 @@ MongoClient.connect('mongodb://localhost:27017/course', function(err, db){
 ```
 
 #### 4. Remove
+```
+var MongoClient = require('mongodb').MongoClient;
+
+MongoClient.connect('mongodb://localhost:27017/course', function(err, db){
+    if (err) throw err;
+    
+    var query = { 'assignment' : 'hw3' };
+ 
+    db.connection('grades').remove(query, function(err, removed){
+        if (err) throw err;
+        
+        console.dir("Successfully removed " + removed + " documents!");
+        
+        return db.close();
+    });
+});
+```
 
 ### Part 3. Case Study - Blog
