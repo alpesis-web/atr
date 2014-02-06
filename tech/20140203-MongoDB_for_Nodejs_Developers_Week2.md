@@ -627,3 +627,34 @@ app.js
           |------ posts.js  
           |------ users.js  
 ```
+
+app.js
+```
+var express = require('express'),
+    app = express(), // web framework to handle routing requests
+    cons = require('consolidate'), // templating library for Express
+    MongoClient = require('mongodb').MongoClient, // driver for connecting to MongoDB
+    routes = require('/.routes'); // routes for application
+
+MongoClient.connect('mongodb://localhost:27017/blog', function(err, db){
+    "use strict";
+    if (err) throw err;
+    
+    //register templating engine
+    app.engine('html', cons.Swig);
+    app.set('view engine', 'html');
+    app.set('views', __dirname + '/views');
+    
+    // express middleware to populate 'req.cookies' so we can access cookies
+    app.use(express.cookieParser());
+    
+    // express middleware to populate 'req.body' so we can access POST variables
+    app.use(express.bodyParser());
+    
+    // application routes
+    routes(app, db);
+    
+    app.listen(3000);
+    console.log('Express server listening on port 3000');
+});
+```
