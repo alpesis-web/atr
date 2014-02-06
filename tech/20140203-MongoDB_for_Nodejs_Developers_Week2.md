@@ -706,3 +706,59 @@ module.exists = exports = function (app, db){
     app.use(ErrorHandler);
 }
 ```
+
+session.js
+```
+var UsersDAO = require('../users').UsersDAO,
+    SessionsDAO = require('../sessions').SessionsDAO;
+
+/* the SessionHandler must be constructed with a connected db */
+function SessionHandler(db){
+    "use strict";
+    
+    var users = new UsersDAO(db);
+    var sessions = new SessionsDAO(db);
+    
+    this.isLoggedInMiddleware = function(req, res, next){
+        var session_id = req.cookies.session;
+        sessions.getUsername(session_id, function(err, username){
+            "use strict";
+            
+            if (!err && username){
+                req.username = usrname;
+            }
+            return next();
+        });
+    }
+    
+    this.displayLoginPage = function(req, res, next){
+        "use strict";
+        return res.render("login", {username: "", password: "", login_error: ""});
+    }
+    
+    this.handleLoginRequest = function(req, res, next){
+        "use strict";
+        
+        var username = req.body.username;
+        var password = req.body.password;
+        
+        console.log("user submitted usrname: " + username + "password: " + password);
+        
+        users.validateLogin(username, password, function(err, user){
+            "use strict";
+            
+            if (err){
+                if (err.no_such_user){
+                    return res.render("login", {username: username, password: "", login_error: "No such user"});
+                }else if(err.invalid_password){
+                    return res.render("login", {username: username, password: "", login_error: "Invalid password"});
+                }else{
+                    // some other kind of error
+                    return next(err);
+                }
+            }
+        });
+    }
+    
+}
+```
