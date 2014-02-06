@@ -454,7 +454,7 @@ MongoClient.connect('mongodb://localhost:27017/course', function(err, db){
 
 #### 3. Update
 
-replacement, in place, multi
+replacement, in place, multi  
 
 replace update
 ```
@@ -526,7 +526,7 @@ MongoClient.connect('mongodb://localhost:27017/course', function(err, db){
 });
 ```
 
-upsert and save
+upsert and save  
 upsert
 ```
 var MongoClient = require('mongodb').MongoClient;
@@ -543,11 +543,11 @@ MongoClient.connect('mongodb://localhost:27017/course', function(err, db){
         
         console.dir("Successfully updated " + updated + " document!");
         
-        retrun db.close();
+        return db.close();
     });
 });
 ```
-save
+save: upsert to insert or replace the document
 ```
 var MongoClient = require('mongodb').MongoClient;
 
@@ -566,10 +566,38 @@ MongoClient.connect('mongodb://localhost:27017/course', function(err, db){
             
             console.dir("Successfully saved " + saved + " document!");
             
-            retrun db.close();
+            return db.close();
         });
     });
 });
 ```
 
+findAndModify
+```
+var MongoClient = require('mongodb').MongoClient;
+
+MongoClient.connect('mongodb://localhost:27017/course', function(err, db){
+    if (err) throw err;
+    
+    var query = { 'name' : 'comments' };
+    var sort = [];
+    var operator = { '$inc' : {'counter': 1} };
+    var options = { 'new': true};
+    
+    db.connection('counters').findAndModify(query, sort, operator, options, function(err, doc){
+        if (err) throw err;
+        
+        if (!doc){
+            console.log("No counter found in the comments.");
+        }else{
+            console.log("Number of comments: " + doc.counter);
+        }
+        
+        return db.close();
+    });
+});
+```
+
 #### 4. Remove
+
+### Part 3. Case Study - Blog
