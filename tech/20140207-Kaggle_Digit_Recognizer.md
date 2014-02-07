@@ -1,4 +1,4 @@
-Feb 8 2014 | ML, kaggle, knn, random_forest | Kelly Chan
+Feb 8 2014 | ML, kaggle, classification | Kelly Chan
 # (Kaggle) Digit Recognizer
 
 
