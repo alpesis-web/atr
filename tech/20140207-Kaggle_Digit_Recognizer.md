@@ -1,5 +1,5 @@
-Feb 8 2014 | ML, knn, random_forest | Kelly Chan
-# Digit Recognizer
+Feb 8 2014 | ML, kaggle, knn, random_forest | Kelly Chan
+# (Kaggle) Digit Recognizer
 
 
 The geometrical featues:
