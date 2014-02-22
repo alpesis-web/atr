@@ -1,4 +1,4 @@
-Feb 22 2014 | MapReduce, big_data | Kelly Chan  
+Feb 22 2014 | MapReduce, big_data | Kelly Chan
 #MapReduce Design Patterns
 
 Patterns  
@@ -9,3 +9,4 @@ Patterns
 | top-N              | min/max                |                     |
 |                    | statistics             |                     |
 |                    | index                  |                     |
+
