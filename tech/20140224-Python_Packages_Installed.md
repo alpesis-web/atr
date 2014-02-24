@@ -1,5 +1,5 @@
 Feb 24 2014 | Python, Packages, Installation | Kelly Chan
-# Python Package Installed
+# Python Packages Installed
 
 installing [distribute_setup](http://python-distribute.org/distribute_setup.py)
 ```
