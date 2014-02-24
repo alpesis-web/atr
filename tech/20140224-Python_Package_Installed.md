@@ -16,3 +16,8 @@ set up path in windows
 ```
 my computer -> advance -> environment -> path (local and system)
 ```
+
+installing pygments
+```
+pip install Pygments
+```
