@@ -21,4 +21,5 @@ installing pygments
 ```
 pip install Pygments
 pip install jinja2
+pip install feedgenerator
 ```
