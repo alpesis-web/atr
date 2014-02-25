@@ -11,3 +11,8 @@ generating content/md to output/html
 ```
 pelican content/ -s settings.py
 ```
+
+checking on server
+```
+develop_server.sh start
+```
