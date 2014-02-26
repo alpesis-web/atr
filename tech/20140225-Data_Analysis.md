@@ -31,8 +31,8 @@ scipy.stats.ttest_ind(list_1, list_2, equal_var=False)
 
 ### 4. Machine Learning
 
-- <b>Statistics</b>: focused on analyzing existing data, and drawing valid conclusions
-- <b>Machine Learning</b>: focused on making predictions
+- Statistics: focused on analyzing existing data, and drawing valid conclusions
+- Machine Learning: focused on making predictions
 
 data -> model -> predictions
 - supervised learning
@@ -41,3 +41,5 @@ data -> model -> predictions
     - classification
     - regression
 - unsupervised learning
+    - trying to understand the structure of data
+    - clustering
