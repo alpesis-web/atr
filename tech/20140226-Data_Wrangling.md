@@ -17,6 +17,7 @@ baseball_data.to_csv('baseball_data_height_plus_weight.csv')
 
 ### 2. relational databases
 
+sql query
 ```sql
-SELECT district, subdistrict FROM aad_data LIMIT 20;
+SELECT district, subdistrict FROM aadhaar_data LIMIT 20;
 ```
