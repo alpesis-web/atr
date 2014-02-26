@@ -18,6 +18,7 @@ v = N-1 (degree of freedom)
 
 t & r -> p  
 
+python
 ```python
 import scipy.stats
 scipy.stats.ttest_ind(list_1, list_2, equal_var=False)
