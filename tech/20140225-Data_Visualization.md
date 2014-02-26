@@ -14,5 +14,5 @@ grammar of graphics
 
 ggplot
 ```
-ggplot(data, aes(xvar, yar))
+ggplot(data, aes(xvar, yar)) + geom_point() + geom_line()
 ```
