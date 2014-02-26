@@ -1,4 +1,4 @@
-Feb 25 2014 | data_analysis, statistics | Kelly Chan
+Feb 26 2014 | data_analysis, statistics | Kelly Chan
 # Data Analysis
 
 ### 1. Normal Distribution
