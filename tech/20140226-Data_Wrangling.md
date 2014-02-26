@@ -1,6 +1,10 @@
 Feb 26 2014 | data_wrangling | Kelly Chan
 # Data Wrangling
 
+- Files
+- Databases
+- APIs
+
 ### 1. csv data
 
 loading and writing csv data by pandas
