@@ -20,4 +20,9 @@ baseball_data.to_csv('baseball_data_height_plus_weight.csv')
 sql query
 ```sql
 SELECT district, subdistrict FROM aadhaar_data LIMIT 20;
+SELECT * from aadhaar_data WHERE state == 'xxx';
+SELECT district, SUM(aadhaar_generated) FROM aadhaar_data GROUP BY district;
 ```
+
+### 3. API
+
