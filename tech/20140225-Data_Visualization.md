@@ -13,6 +13,12 @@ grammar of graphics
 - shapes: points, lines, bars, sizes, colors
 
 ggplot
+- step1. creating plot
+- step2. representing data with geometric objects
+- step3. adding labels
+
 ```
-ggplot(data, aes(xvar, yar)) + geom_point() + geom_line()
+print ggplot(data, aes(xvar, yar)) 
++ geom_point(color='coral') + geom_line(color='coral') 
++ ggtitle('title') + xlab('x-label') + ylab('y-label')
 ```
