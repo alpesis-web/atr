@@ -1,4 +1,4 @@
-Feb 25 2014 | Data_Visualization | Kelly Chan
+Feb 26 2014 | Data_Visualization | Kelly Chan
 # Data Visualization
 
 ### 1. perception of visual cues (1985 AT&T Labs on graphical perception)
