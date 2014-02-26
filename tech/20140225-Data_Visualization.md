@@ -22,3 +22,9 @@ print ggplot(data, aes(xvar, yar))
 + geom_point(color='coral') + geom_line(color='coral') 
 + ggtitle('title') + xlab('x-label') + ylab('y-label')
 ```
+
+### 3. Data Types
+
+- numeric
+- factors/categories
+- time series
