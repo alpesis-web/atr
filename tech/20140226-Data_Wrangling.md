@@ -30,3 +30,14 @@ SELECT district, SUM(aadhaar_generated) FROM aadhaar_data GROUP BY district;
 
 ### 3. API
 
+extracting data from JSON
+```python
+import json
+import requests
+
+if __name == "__main__":
+    url = 'xxx'
+    data = requests.get(url).text
+    print type(data)
+    print data
+```
