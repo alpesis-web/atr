@@ -11,3 +11,8 @@ Feb 25 2014 | Data_Visualization | Kelly Chan
 grammar of graphics
 - plot: x-position, y-position
 - shapes: points, lines, bars, sizes, colors
+
+ggplot
+```
+ggplot(data, aes(xvar, yar))
+```
