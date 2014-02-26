@@ -28,3 +28,10 @@ scipy.stats.ttest_ind(list_1, list_2, equal_var=False)
 
 - U Test (non parametric test): `U, P = scipy.stats.mannwhitneyu(x,y)`
 - Shapiro-Wilk Test (non normal data): `W, P = scipy.stats.shapiro(data)`
+
+
+---
+
+Statistics and Machine Learning
+- Statistics: focused on analyzing existing data, and drawing valid conclusions
+- Machine Learning: focused on making predictions
