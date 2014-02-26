@@ -3,6 +3,7 @@ Feb 26 2014 | data_wrangling | Kelly Chan
 
 ### 1. csv data
 
+loading and writing csv data by pandas
 ```python
 import pandas
 
