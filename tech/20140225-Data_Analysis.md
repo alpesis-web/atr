@@ -23,3 +23,8 @@ python
 import scipy.stats
 scipy.stats.ttest_ind(list_1, list_2, equal_var=False)
 ```
+
+### 3. U-test
+
+- U Test (non parametric test)
+- Shapiro-Wilk Test (non normal data): `W, P = scipy.stats.shapiro(data)`
