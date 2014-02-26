@@ -40,4 +40,8 @@ if __name == "__main__":
     data = requests.get(url).text
     print type(data)
     print data
+    data['artist']
 ```
+
+### 4. imputation for missing values
+
