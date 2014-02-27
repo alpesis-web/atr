@@ -10,7 +10,7 @@ table of contents
 
 ## 1. Data Extraction
 
-csv file
+parsing csv file with pyhon
 ```python
 def parse_file(datafile):
     data = []
