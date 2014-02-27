@@ -1,4 +1,4 @@
-Feb 27 2014 | python, word_count, map_reduce | Kelly Chan
+Feb 27 2014 | python, word_count | Kelly Chan
 # Word Count
 
 word_count in python
