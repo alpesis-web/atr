@@ -145,8 +145,11 @@ parsing data from websites
 
 ## 2. Data Cleaning
 ## 3. Working with MongoDB
+
 MongoDB: NoSQL database
 - Python: dictionary
 - PHP: arrays
 - Ruby: hashes
+
+
 ## 4. Data Analysis
