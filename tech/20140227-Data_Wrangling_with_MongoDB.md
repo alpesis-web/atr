@@ -134,6 +134,15 @@ if __name__ == '__main__':
 
 ```
 
+parsing xml file with python 
+```python
+```
+
+downloading data from websites
+- step1. make data lists
+- step2. download data by HttpReuqest
+- step3: parse data
+
 ## 2. Data Quality
 ## 3. Working with MongoDB
 ## 4. Data Analysis
