@@ -138,7 +138,7 @@ parsing xml file with python
 ```python
 ```
 
-downloading data from websites
+parsing data from websites
 - step1. make data lists
 - step2. download data by HttpReuqest
 - step3: parse data
