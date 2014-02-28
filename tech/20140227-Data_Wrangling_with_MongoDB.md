@@ -3,7 +3,7 @@ Feb 27 2014 | MongoDB, data_wrangling | Kelly Chan
 
 table of contents ([source codes](https://github.com/KellyChan/Python/tree/master/examples/Data%20Wrangling%20with%20MongoDB))
 - 1. Data Extraction
-- 2. Data Quality
+- 2. Data Cleaning
 - 3. Working with MongoDB
 - 4. Data Analysis
 
@@ -143,6 +143,6 @@ parsing data from websites
 - step2. download data by HttpReuqest
 - step3: parse data
 
-## 2. Data Quality
+## 2. Data Cleaning
 ## 3. Working with MongoDB
 ## 4. Data Analysis
