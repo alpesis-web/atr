@@ -3,12 +3,15 @@ Feb 27 2014 | MongoDB, data_wrangling | Kelly Chan
 
 table of contents ([source codes](https://github.com/KellyChan/Python/tree/master/examples/Data%20Wrangling%20with%20MongoDB))
 - 1. Data Extraction
-- 2. Data in Complex Format
-- 3. Data Quality
-- 4. Working with MongoDB
-- 5. Data Analysis
+- 2. Data Quality
+- 3. Working with MongoDB
+- 4. Data Analysis
 
 ## 1. Data Extraction
+
+- csv/xls: tabular
+- json: dictionary
+- xml: tree
 
 parsing csv file with pyhon
 ```python
@@ -131,7 +134,6 @@ if __name__ == '__main__':
 
 ```
 
-## 2. Data in Complex Format
-## 3. Data Quality
-## 4. Working with MongoDB
-## 5. Data Analysis
+## 2. Data Quality
+## 3. Working with MongoDB
+## 4. Data Analysis
