@@ -53,4 +53,4 @@ to close the buffer file: `:bd`
 
 ### Python_fold
 fold: `zc`  
-unfold: `zo`
+unfold: single - `zo`, all - `zr`
