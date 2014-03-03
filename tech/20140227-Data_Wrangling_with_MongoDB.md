@@ -12,7 +12,7 @@ table of contents ([source codes](https://github.com/KellyChan/Python/tree/maste
 - json: dictionary
 - xml: tree
 
-parsing csv file with pyhon
+#### parsing csv file with pyhon
 ```python
 def parse_file(datafile):
     data = []
@@ -49,7 +49,7 @@ def parse_file(datafile):
     return (name, data)
 ```
 
-parsing excel file with python
+#### parsing excel file with python
 ```python
 def parse_file(datafile):
     workbook = xlrd.open_workbook(datafile)
@@ -112,7 +112,7 @@ def save_file(data, filename):
             w.writerow([s, year, month, day, hour, data[s]["maxval"]])
 ```
 
-parsing json file with python
+#### parsing json file with python
 ```python
 # To experiment with this code freely you will have to run this code locally.
 # We have provided an example json output here for you to look at,
