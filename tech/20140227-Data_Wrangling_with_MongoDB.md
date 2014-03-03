@@ -237,6 +237,12 @@ def extract_data(page):
     return data
 ```
 
+BeautifulSoup  
+extracting values from option
+```python
+contents = [str(x.text) for x in soup.find(id="start_dateid").find_all('option')]
+```
+
 ## 2. Data Cleaning
 ## 3. Data Analysis with MongoDB
 
