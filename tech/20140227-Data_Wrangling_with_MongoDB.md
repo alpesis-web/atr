@@ -217,10 +217,25 @@ def get_author(root):
     return authors
 ```
 
-parsing data from websites
+parsing data from html
 - step1. make data lists
 - step2. download data by HttpReuqest
 - step3: parse data
+
+```python
+def extract_data(page):
+    data = {"eventvalidation": "",
+            "viewstate": ""}
+    with open(page, "r") as html:
+        soup = BeautifulSoup(html)
+        ev = soup.find(id="__EVENTVALIDATION")
+        data["eventvalidation"] = ev["value"]
+
+        vs = soup.find(id="__VIEWSTATE")
+        data["viewstate"] = vs["value"]
+
+    return data
+```
 
 ## 2. Data Cleaning
 ## 3. Data Analysis with MongoDB
