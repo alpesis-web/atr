@@ -35,6 +35,20 @@ def parse_file(datafile):
     return data
 ```
 
+cssv.reader() and next() for looping
+```python
+def parse_file(datafile):
+    name = ""
+    data = []
+    with open(datafile,'rb') as f:
+        r = csv.reader(f)
+        name = r.next()[1]
+        header = r.next()
+        data = [row for row in r]
+
+    return (name, data)
+```
+
 parsing excel file with python
 ```python
 def parse_file(datafile):
