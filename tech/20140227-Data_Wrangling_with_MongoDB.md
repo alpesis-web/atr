@@ -242,6 +242,17 @@ extracting values from option
 ```python
 contents = [str(x.text) for x in soup.find(id="start_dateid").find_all('option')]
 ```
+extracting values from table <tr> and <td>
+```python
+soup = BeautifulSoup(html)
+dataTDRight = soup.find("table", {"class" : "dataTDRight"})
+for row in dataTDRight.findAll('tr'):
+    cols = row.findAll('td')
+    year = cols[0].string.strip()
+    month = cols[1].string.strip()
+    domestic = cols[2].string.strip()
+    international = cols[3].string.strip()
+```
 
 ## 2. Data Cleaning
 ## 3. Data Analysis with MongoDB
