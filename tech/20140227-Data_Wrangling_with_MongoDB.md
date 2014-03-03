@@ -244,14 +244,44 @@ contents = [str(x.text) for x in soup.find(id="start_dateid").find_all('option')
 ```
 extracting values from table \<tr> and \<td>
 ```python
-soup = BeautifulSoup(html)
-dataTDRight = soup.find("table", {"class" : "dataTDRight"})
-for row in dataTDRight.findAll('tr'):
-    cols = row.findAll('td')
-    year = cols[0].string.strip()
-    month = cols[1].string.strip()
-    domestic = cols[2].string.strip()
-    international = cols[3].string.strip()
+def process_file(f):
+
+    data = []
+    info = {}
+    info["courier"], info["airport"] = f[:6].split("-")
+    
+    with open("{}/{}".format(datadir, f), "r") as html:
+       
+        soup = BeautifulSoup(html)
+        dataTDRight = soup.find("table", {"class" : "dataTDRight"})
+        
+        records = []
+        for row in dataTDRight.findAll('tr'):
+            cols = row.findAll('td')
+            
+            if cols[1].string.strip() == "Month" or cols[1].string.strip() == "TOTAL":
+                continue
+            else:
+                year = int(cols[0].string.strip())
+                month = int(cols[1].string.strip())
+                domestic = int(cols[2].string.strip().replace(',', ''))
+                international = int(cols[3].string.strip().replace(',',''))
+            
+ 
+            record = {
+                  "courier": info["courier"],
+                  "airport": info["airport"],
+                  "year": year,
+                  "month": month,
+                  "flights": {
+                               "domestic": domestic,
+                               "international": international
+                            }
+            }
+            records.append(record)
+    data.append(records)    
+    return data
+
 ```
 
 ## 2. Data Cleaning
