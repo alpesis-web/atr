@@ -198,6 +198,19 @@ def article_overview(kind, period):
 
 parsing xml file with python 
 ```python
+def get_author(root):
+    authors = []
+    for author in root.findall('./fm/bibl/aug/au'):
+        data = {
+                "fnm": None,
+                "snm": None,
+                "email": None
+        }
+        data["fnm"] = author.find('./fnm').text
+        data["snm"] = author.find('./snm').text
+        data["email"] = author.find('./email').text
+
+        authors.append(data)
 ```
 
 parsing data from websites
