@@ -196,7 +196,7 @@ def article_overview(kind, period):
     return (titles, urls)
 ```
 
-parsing xml file with python 
+#### parsing xml file with python 
 ```python
 def get_author(root):
     authors = []
@@ -217,7 +217,7 @@ def get_author(root):
     return authors
 ```
 
-parsing data from html
+#### parsing data from html
 - step1. make data lists
 - step2. download data by HttpReuqest
 - step3: parse data
