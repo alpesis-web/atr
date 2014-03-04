@@ -350,7 +350,7 @@ db.tweets.aggregate([{"$group": {"_id": "$user.screen_name",
                       {"$sort": {"count": -1}}])
 ```
 
-match and project
+$match and $project
 ```mongodb
 db.tweets.aggregate([
 {"$match":   {"user.friends_count":   {"$gt": 0},
@@ -361,4 +361,8 @@ db.tweets.aggregate([
 {"$sort":    {"ratio": -1}},
 {"$limit":   1}
 ])
+```
+
+$unwind
+```mongodb
 ```
