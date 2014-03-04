@@ -365,4 +365,11 @@ db.tweets.aggregate([
 
 $unwind
 ```mongodb
+db.tweets.aggregate([
+                     {"$unwind": "$entities.user_mentions"},
+                     {"$group":  {"_id": "$user.screen_name",
+                                  "count": {"$sum": 1}}},
+                     {"$sort":   {"count": -1}},
+                     {"$limit":  1}
+])
 ```
