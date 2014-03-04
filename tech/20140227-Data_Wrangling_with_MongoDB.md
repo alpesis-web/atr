@@ -343,4 +343,9 @@ MongoDB: NoSQL database
 - PHP: arrays
 - Ruby: hashes
 
-
+aggregation
+```mongodb
+db.tweets.aggregate([{"$group": {"_id": "$user.screen_name", 
+                                 "count": {"$sum": 1}}},
+                      {"$sort": {"count": -1}}])
+```
