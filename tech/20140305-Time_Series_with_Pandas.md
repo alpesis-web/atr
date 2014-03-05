@@ -185,3 +185,27 @@ ts_eastern.tz_convert('UTC')
 ts_eastern.tz_convert('Europe/Berlin')
 ts.index.tz_localize('Asia/Shanghai')
 ```
+
+operations with timezone
+```python
+stamp = pandas.Timestamp('2011-03-12 04:00')
+stamp_utc = stamp.tz_localize('utc')
+stamp_utc.tz_convert('US/Eastern')
+stamp_moscow = pandas.Timestamp('2011-03-12 04:00', tz='Europe/Moscow')
+
+stamp_utc.value
+stamp_utc.tz_convert('US/Eastern').value
+
+from pandas.tseries.offsets import Hour
+stamp = pandas.Timestamp('2012-03-12 01:30', tz='US/Eastern')
+stamp + Hour()
+stamp = pandas.Timestamp('2012-11-04 00:30', tz='US/Eastern')
+stamp + 2 * Hour()
+
+rng = pandas.date_range('3/7/2012 9:30', periods=10, freq='B')
+ts = pandas.Series(np.random.randn(len(rng)), index=rng)
+ts1 = ts[:7].tz_localize('Europe/London')
+ts2 = ts1[2:].tz_convert('Europe/Moscow')
+result = ts1 + ts2
+result.index
+```
