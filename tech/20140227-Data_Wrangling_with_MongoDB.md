@@ -379,7 +379,7 @@ arrays: $push and $addToSet
 db.tweets.aggregate([
 {"$unwind": "$entities.hashtags"},
 {"$group":  {"_id": "$user.screen_name",
-             "unique_hashtags": {"$addToSet": {}}}},
+             "unique_hashtags": {"$addToSet": "$entities.hashtags.text"}}},
 {"$sort":   {"_id": -1}}
 ])
 ```
