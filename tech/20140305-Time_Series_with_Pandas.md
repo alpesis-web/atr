@@ -319,4 +319,12 @@ frame.resample('W-THU', fill_method='ffill')
 
 resampling with periods
 ```python
+frame = pandas.DataFrame(np.random.randn(24, 4),
+                         index=pandas.period_range('1-2000', '12-2001', freq='M'),
+                         columns=['Colorado', 'Texas', 'New York', 'Ohio'])
+frame[:5]
+annual_frame = frame.resample('A-DEC', how='mean')
+annual_frame.resample('Q-DEC', fill_method='ffill')
+annual_frame.resample('Q-DEC', fill_method='ffill', convention='start')
+annual_frame.resample('Q-MAR', fill_method='ffill')
 ```
