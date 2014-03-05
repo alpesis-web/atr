@@ -3,7 +3,7 @@ Mar 5 2014 | python, data_analysis, time_series | Kelly Chan
 
 ## 1. Date and Time
 
-datetime
+getting datetime from system
 ```python
 from datetime import datetime
 now = datetime.now()
@@ -20,4 +20,29 @@ from datetime import timedelta
 start = datetime(2011, 1, 7)
 start + timedelta(12)
 start - 2 * timedelta(12)
+```
+
+converting between datetime and string
+```python
+stamp = datetime(2011, 1, 3)
+str(stamp)
+stamp.strftime('%Y-%m-%d')
+
+value = '2011-01-03'
+datetime.strptime(value, '%Y-%m-%d')
+
+datestrs = ['7/6/2011', '8/6/2011']
+[datetime.strptime(x, '%m/%d/%Y') for x in datestrs]
+
+from dateutil.parser import parse
+parse('2011-01-03')
+parse('Jan 31, 1997 10:45 PM')
+parse('6/12/2011', dayfirst=True)
+
+datestrs
+pandas.to_datetime(datestrs)
+idx = pd.to_datetime(datestrs + [None])
+idx
+idx[2]
+pandas.isnull(idx)
 ```
