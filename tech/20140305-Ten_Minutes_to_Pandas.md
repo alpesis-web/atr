@@ -37,4 +37,22 @@ top/bottom rows of data
 dataframe.head()
 dataframe.tail(3)
 ```
-
+index/row, columns and values
+```python
+dataframe.index
+dataframe.columns
+dataframe.values
+```
+(R) summary of numeric data
+```python
+dataframe.describe()
+```
+data transpose
+```python
+dataframe.T
+```
+sorting by header/names and values
+```python
+dataframe.sort_index(axis=1, ascending=False)
+dataframe.sort(columns='columnName')
+```
