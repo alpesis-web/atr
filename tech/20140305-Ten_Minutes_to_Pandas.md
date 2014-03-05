@@ -1,3 +1,27 @@
 Mar 5 2014 | pandas, data_analysis | Kelly Chan
 # Ten Minutes to Pandas
 
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+```
+
+### 1. Object Creation
+
+creating array
+```python
+s = pd.Series([1,3,5,np.nan,6,8])
+```
+creating dates with dataframe
+```python
+dates = pd.date_range('20130101',periods=6)
+```
+creating dataframe
+```python
+df2 = pd.DataFrame({ 'header1' : 1.,
+                     'header2' : pd.Timestamp('20130102'),
+                     'header3' : pd.Series(1,index=list(range(4)),dtype='float32'),
+                     'header4' : np.array([3] * 4,dtype='int32'),
+                     'header5' : 'foo' })
+```
