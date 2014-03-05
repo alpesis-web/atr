@@ -1,5 +1,5 @@
 Mar 5 2014 | time_series | Kelly Chan
-# Mmonths Calculation for Time Series
+# Months Calculation for Time Series
 
 ```asp.net
 DateTime time1 = DateTime.Parse("2012-7-30"); // start date
