@@ -209,3 +209,42 @@ ts2 = ts1[2:].tz_convert('Europe/Moscow')
 result = ts1 + ts2
 result.index
 ```
+
+## 4. Periods
+
+periods of year, month, quarter
+```python
+
+# period of years
+p = pandas.Period(2007, freq='A-DEC')
+p + 5
+p - 2
+pandas.Period('2014', freq='A-DEC') - p
+
+# period of months
+rng = pandas.period_range('1/1/2000', '6/30/2000', freq='M')
+pandas.Series(np.random.randn(6), index=rng)
+
+# period of quarter
+values = ['2001Q3', '2002Q2', '2003Q1']
+index = pandas.PeriodIndex(values, freq='Q-DEC')
+```
+
+period frequencies conversion
+```python
+p = pandas.Period('2007', freq='A-DEC')
+p.asfreq('M', how='start')
+p.asfreq('M', how='end')
+
+p = pandas.Period('2007', freq='A-JUN')
+p.asfreq('M', 'start')
+p.asfreq('M', 'end')
+
+p = pandas.Period('2007-08', 'M')
+p.asfreq('A-JUN')
+
+rng = pandas.period_range('2006', '2009', freq='A-DEC')
+ts = pandas.Series(np.random.randn(len(rng)), index=rng)
+ts.asfreq('M', how='start')
+ts.asfreq('B', how='end')
+```
