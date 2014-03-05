@@ -85,7 +85,26 @@ getting the boolean mask where values are nan: `pd.isnull(df1)`
 
 ## 7. Operations
 
-stats
+stats: `df.mean()`
+string: `s.str.lower()`
+
+## 8. Merge
+
+merging data by rows: `pieces = [df[:3], df[3:7], df[7:]]`  
+join
 ```python
-df.mean()
+left = pd.DataFrame({'key': ['foo', 'foo'], 'lval': [1, 2]})
+right = pd.DataFrame({'key': ['foo', 'foo'], 'rval': [4, 5]})
+pd.merge(left, right, on='key')
 ```
+append
+```python
+df = pd.DataFrame(np.random.randn(8, 4), columns=['A','B','C','D'])
+s = df.iloc[3]
+df.append(s, ignore_index=True)
+```
+
+## 9. Grouping
+
+(histogram)/grouping all columns by one column: `df.groupby('A').sum()`
+(cross tabs)/grouping all columns by multi-columns: `df.groupby(['A','B']).sum()`
