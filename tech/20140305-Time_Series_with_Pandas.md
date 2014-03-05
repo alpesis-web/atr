@@ -132,4 +132,32 @@ pandas.date_range('1/1/2000', '1/3/2000 23:59', freq='4h')
 
 Hour(2) + Minute(30)
 pandas.date_range('1/1/2000', periods=10, freq='1h30min')
+
+# 4. week of month
+rng = pandas.date_range('1/1/2012', '9/1/2012', freq='WOM-3FRI')
+list(rng)
+
+# 5. shifting (leading/lagging)
+ts = pandas.Series(np.random.randn(4),index=pandas.date_range('1/1/2000', periods=4, freq='M'))
+ts.shift(2)
+ts.shift(-2)
+ts.shift(2, freq='M')
+ts.shift(3, freq='D')
+ts.shift(1, freq='3D')
+ts.shift(1, freq='90T')
+
+# shifting dates with offsets
+from pandas.tseries.offsets import Day, MonthEnd
+now = datetime(2011, 11, 17)
+now + 3 * Day()
+now + MonthEnd()
+now + MonthEnd(2)
+
+offset = MonthEnd()
+offset.rollforward(now)
+offset.rollback(now)
+
+ts = pandas.Series(np.random.randn(20),index=pandas.date_range('1/15/2000', periods=20, freq='4d'))
+ts.groupby(offset.rollforward).mean()
+ts.resample('M', how='mean')
 ```
