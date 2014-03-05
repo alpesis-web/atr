@@ -63,7 +63,7 @@ getting specific value/cell: `dataframe.iloc[1,1]` or `dataframe.iat[1,1]`
 
 ## 4. Boolean Indexing
 
-filtering data by a single column: `df[df.A > 0]`
+filtering data by a single column: `df[df.A > 0]`  
 filtering data by all columns: `df[df > 0]`, if value <= 0, it will return NaN
 
 ## 5. Setting
@@ -106,5 +106,32 @@ df.append(s, ignore_index=True)
 
 ## 9. Grouping
 
-(histogram)/grouping all columns by one column: `df.groupby('A').sum()`
+(histogram)/grouping all columns by one column: `df.groupby('A').sum()`  
 (cross tabs)/grouping all columns by multi-columns: `df.groupby(['A','B']).sum()`
+
+## 10. Reshape
+
+stack
+```python
+tuples = list(zip(*[['bar', 'bar', 'baz', 'baz', 'foo', 'foo', 'qux', 'qux'],
+                    ['one', 'two', 'one', 'two', 'one', 'two', 'one', 'two']]))
+
+index = pd.MultiIndex.from_tuples(tuples, names=['first', 'second'])
+df = pd.DataFrame(np.random.randn(8, 2), index=index, columns=['A', 'B'])
+df2 = df[:4]
+stacked = df2.stack()
+stacked.unstack()
+stacked.unstack(1)
+stacked.unstack(0)
+```
+
+pivot table
+```python
+df = pd.DataFrame({'A' : ['one', 'one', 'two', 'three'] * 3,
+                   'B' : ['A', 'B', 'C'] * 4,
+                   'C' : ['foo', 'foo', 'foo', 'bar', 'bar', 'bar'] * 2,
+                   'D' : np.random.randn(12),
+                   'E' : np.random.randn(12)})
+                   
+pd.pivot_table(df, values='D', rows=['A', 'B'], cols=['C'])                   
+```
