@@ -60,3 +60,32 @@ dataframe.iloc[1:3,:]
 dataframe.iloc[:,1:3]
 ```
 getting specific value/cell: `dataframe.iloc[1,1]` or `dataframe.iat[1,1]`
+
+## 4. Boolean Indexing
+
+filtering data by a single column: `df[df.A > 0]`
+filtering data by all columns: `df[df > 0]`, if value <= 0, it will return NaN
+
+## 5. Setting
+
+setting values by label, position, array
+```python
+df.at[dates[0],'A'] = 0
+df.iat[0,1] = 0
+df.loc[:,'D'] = np.array([5] * len(df))
+
+df2 = df.copy()
+df2[df2 > 0] = -df2
+```
+## 6. Missing Values
+
+dropping any rows that have missing values: `df1.dropna(how='any')`  
+filling missing values: `df1.fillna(value=5)`  
+getting the boolean mask where values are nan: `pd.isnull(df1)`
+
+## 7. Operations
+
+stats
+```python
+df.mean()
+```
