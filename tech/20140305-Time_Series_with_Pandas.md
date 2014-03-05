@@ -248,3 +248,23 @@ ts = pandas.Series(np.random.randn(len(rng)), index=rng)
 ts.asfreq('M', how='start')
 ts.asfreq('B', how='end')
 ```
+
+quarterly period frequencies
+```python
+p = pandas.Period('2012Q4', freq='Q-JAN')
+p.asfreq('D', 'start')
+p.asfreq('D', 'end')
+
+# to get the timestamp at 4PM on the 2nd to last business day of the quarter
+p4pm = (p.asfreq('B', 'e') - 1).asfreq('T', 's') + 16 * 60
+p4pm.to_timestamp()
+
+rng = pandas.period_range('2011Q3', '2012Q4', freq='Q-JAN')
+ts = pandas.Series(np.arange(len(rng)), index=rng)
+new_rng = (rng.asfreq('B', 'e') - 1).asfreq('T', 's') + 16 * 60
+ts.index = new_rng.to_timestamp()
+```
+
+converting timestamps to periods
+```python
+```
