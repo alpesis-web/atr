@@ -52,3 +52,23 @@ idx
 idx[2]
 pandas.isnull(idx)
 ```
+
+## 2. Time Series Basic
+
+creating dates with pandas
+```python
+from datetime import datetime
+
+dates = [datetime(2011, 1, 2), datetime(2011, 1, 5), datetime(2011, 1, 7), 
+         datetime(2011, 1, 8), datetime(2011, 1, 10), datetime(2011, 1, 12)]
+
+ts = pandas.Series(np.random.randn(6), index=dates)
+ts
+
+type(ts)
+ts.index
+ts.index.dtype
+
+stamp = ts.index[0]
+stamp
+```
