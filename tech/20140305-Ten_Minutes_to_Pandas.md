@@ -135,3 +135,22 @@ df = pd.DataFrame({'A' : ['one', 'one', 'two', 'three'] * 3,
                    
 pd.pivot_table(df, values='D', rows=['A', 'B'], cols=['C'])                   
 ```
+
+## 11. Getting Data In/Out
+
+csv in/out
+```python
+pd.read_csv('foo.csv')
+df.to_csv('foo.csv')
+```
+excel in/out
+```python
+pd.read_excel('foo.xlsx', 'Sheet1', index_col=None, na_values=['NA'])
+df.to_excel('foo.xlsx', sheet_name='Sheet1')
+```
+HDF5 in/out
+```python
+d.read_hdf('foo.h5','df')
+df.to_hdf('foo.h5','df')
+```
+
