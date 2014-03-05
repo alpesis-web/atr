@@ -92,3 +92,44 @@ ts.truncate(after='1/9/2011')
 dates = pandas.date_range('1/1/2000', periods=100, freq='W-WED')
 long_df = pandas.DataFrame(np.random.randn(100, 4), index=dates, columns=['Colorado', 'Texas', 'New York', 'Ohio'])
 ```
+
+time series with duplicate indices
+```python
+dates = pandas.DatetimeIndex(['1/1/2000', '1/2/2000', '1/2/2000', '1/2/2000', '1/3/2000'])
+dup_ts = pandas.Series(np.arange(5), index=dates)
+dup_ts.index.is_unique
+dup_ts['1/3/2000']
+dup_ts['1/2/2000']
+
+grouped = dup_ts.groupby(level=0)
+grouped.mean()
+grouped.count()
+```
+
+date ranges, frequencies, shifting
+```python
+
+# 1. resample
+ts
+ts.resample('D')
+
+# 2. date_range
+index = pandas.date_range('4/1/2012', '6/1/2012')
+
+pandas.date_range(start='4/1/2012', periods=20)
+pandas.date_range(end='6/1/2012', periods=20)
+pandas.date_range('1/1/2000', '12/1/2000', freq='BM')
+
+pandas.date_range('5/2/2012 12:56:31', periods=5)
+pandas.date_range('5/2/2012 12:56:31', periods=5, normalize=True)
+
+# 3. frequencies
+
+from pandas.tseries.offsets import Hour, Minute
+hour = Hour()
+four_hours = Hour(4)
+pandas.date_range('1/1/2000', '1/3/2000 23:59', freq='4h')
+
+Hour(2) + Minute(30)
+pandas.date_range('1/1/2000', periods=10, freq='1h30min')
+```
