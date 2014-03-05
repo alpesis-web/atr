@@ -25,3 +25,16 @@ df2 = pd.DataFrame({ 'header1' : 1.,
                      'header4' : np.array([3] * 4,dtype='int32'),
                      'header5' : 'foo' })
 ```
+checking datatypes of dataframe
+```
+dataframe.dtypes
+```
+
+### 2. Viewing Data
+
+top/bottom rows of data
+```python
+dataframe.head()
+dataframe.tail(3)
+```
+
