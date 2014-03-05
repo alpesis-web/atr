@@ -267,4 +267,56 @@ ts.index = new_rng.to_timestamp()
 
 converting timestamps to periods
 ```python
+rng = pandas.date_range('1/1/2000', periods=3, freq='M')
+ts = pandas.Series(np.random.randn(3), index=rng)
+pts = ts.to_period()
+
+rng = pandas.date_range('1/29/2000', periods=6, freq='D')
+ts2 = pandas.Series(np.random.randn(6), index=rng)
+ts2.to_period('M')
+pts = ts.to_period()
+pts.to_timestamp(how='end')
+```
+
+## 5. Resampling
+```python
+rng = pandas.date_range('1/1/2000', periods=100, freq='D')
+ts = pandas.Series(np.random.randn(len(rng)), index=rng)
+ts.resample('M', how='mean')
+ts.resample('M', how='mean', kind='period')
+```
+
+downsampling
+```python
+rng = pandas.date_range('1/1/2000', periods=12, freq='T')
+ts = pandas.Series(np.arange(12), index=rng)
+ts.resample('5min', how='sum')
+ts.resample('5min', how='sum', closed='left')
+ts.resample('5min', how='sum', closed='left', label='left')
+
+# ohlc: open high low close
+ts.resample('5min', how='ohlc')
+ts.resample('5min', how='sum', loffset='-1s')
+
+rng = pandas.date_range('1/1/2000', periods=100, freq='D')
+ts = pandas.Series(np.arange(100), index=rng)
+ts.groupby(lambda x: x.month).mean()
+ts.groupby(lambda x: x.weekday).mean()
+```
+
+upsampling and interpolation
+```python
+frame = pandas.DataFrame(np.random.randn(2, 4),
+                         index=pandas.date_range('1/1/2000', periods=2, freq='W-WED'),
+                         columns=['Colorado', 'Texas', 'New York', 'Ohio'])
+frame[:5]
+df_daily = frame.resample('D')
+df_daily
+frame.resample('D', fill_method='ffill')
+frame.resample('D', fill_method='ffill', limit=2)
+frame.resample('W-THU', fill_method='ffill')
+```
+
+resampling with periods
+```python
 ```
