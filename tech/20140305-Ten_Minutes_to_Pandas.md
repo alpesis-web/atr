@@ -7,7 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 ```
 
-### 1. Object Creation
+## 1. Object Creation
 
 creating array: `s = pd.Series([1,3,5,np.nan,6,8])`  
 creating dates with dataframe: `dates = pd.date_range('20130101',periods=6)`
@@ -21,7 +21,7 @@ df2 = pd.DataFrame({ 'header1' : 1.,
 ```
 checking datatypes of dataframe: `dataframe.dtypes`
 
-### 2. Viewing Data
+## 2. Viewing Data
 
 top/bottom rows of data
 ```python
@@ -42,7 +42,7 @@ dataframe.sort_index(axis=1, ascending=False)
 dataframe.sort(columns='columnName')
 ```
 
-### 3. Selection
+## 3. Selection
 
 getting data by column: `dataframe['A']`  
 getting data by rows
@@ -50,3 +50,13 @@ getting data by rows
 dataframe[0:3]
 dataframe['20130102':'20130104']
 ```
+reshaping dataframe: `dataframe.loc[:,['A','B']]`
+getting one record with T: `dataframe.iloc[3]`  
+getting rows and columns as defined: 
+```python
+dataframe.iloc[3:5,0:2]
+dataframe.iloc[[1,2,4],[0,2]]
+dataframe.iloc[1:3,:]
+dataframe.iloc[:,1:3]
+```
+getting specific value/cell: `dataframe.iloc[1,1]` or `dataframe.iat[1,1]`
