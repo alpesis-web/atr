@@ -1,5 +1,5 @@
-Mar 5 2014 | python, data_analysis, time_series | Kelly Chan
-# Time Series with Python
+Mar 5 2014 | pandas, data_analysis, time_series | Kelly Chan
+# Time Series with Pandas
 
 ## 1. Date and Time
 
@@ -72,3 +72,5 @@ ts.index.dtype
 stamp = ts.index[0]
 stamp
 ```
+
+indexing, selection, subsetting
