@@ -9,14 +9,8 @@ import matplotlib.pyplot as plt
 
 ### 1. Object Creation
 
-creating array
-```python
-s = pd.Series([1,3,5,np.nan,6,8])
-```
-creating dates with dataframe
-```python
-dates = pd.date_range('20130101',periods=6)
-```
+creating array: `s = pd.Series([1,3,5,np.nan,6,8])`  
+creating dates with dataframe: `dates = pd.date_range('20130101',periods=6)`
 creating dataframe
 ```python
 df2 = pd.DataFrame({ 'header1' : 1.,
@@ -25,10 +19,7 @@ df2 = pd.DataFrame({ 'header1' : 1.,
                      'header4' : np.array([3] * 4,dtype='int32'),
                      'header5' : 'foo' })
 ```
-checking datatypes of dataframe
-```
-dataframe.dtypes
-```
+checking datatypes of dataframe: `dataframe.dtypes`
 
 ### 2. Viewing Data
 
@@ -43,14 +34,8 @@ dataframe.index
 dataframe.columns
 dataframe.values
 ```
-(R) summary of numeric data
-```python
-dataframe.describe()
-```
-data transpose
-```python
-dataframe.T
-```
+(R) summary of numeric data: `dataframe.describe()`  
+data transpose: `dataframe.T`  
 sorting by header/names and values
 ```python
 dataframe.sort_index(axis=1, ascending=False)
