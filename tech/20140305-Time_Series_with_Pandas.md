@@ -74,3 +74,21 @@ stamp
 ```
 
 indexing, selection, subsetting
+```python
+stamp = ts.index[2]
+ts[stamp]
+ts['1/10/2011']
+ts['20110110']
+
+longer_ts = pandas.Series(np.random.randn(1000), index=pd.date_range('1/1/2000', periods=1000))
+longer_ts['2001']
+longer_ts['2001-05']
+
+ts[datetime(2011, 1, 7):]
+ts['1/6/2011':'1/11/2011']
+
+ts.truncate(after='1/9/2011')
+
+dates = pandas.date_range('1/1/2000', periods=100, freq='W-WED')
+long_df = pandas.DataFrame(np.random.randn(100, 4), index=dates, columns=['Colorado', 'Texas', 'New York', 'Ohio'])
+```
