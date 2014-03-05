@@ -161,3 +161,27 @@ ts = pandas.Series(np.random.randn(20),index=pandas.date_range('1/15/2000', peri
 ts.groupby(offset.rollforward).mean()
 ts.resample('M', how='mean')
 ```
+
+## 3. TimeZone Handling
+
+```python
+import pytz
+pytz.common_timezones[-5:]
+tz = pytz.timezone('US/Eastern')
+```
+localization and conversion
+```python
+rng = pandas.date_range('3/9/2012 9:30', periods=6, freq='D')
+ts = pandas.Series(np.random.randn(len(rng)), index=rng)
+print(ts.index.tz)
+
+pandas.date_range('3/9/2012 9:30', periods=10, freq='D', tz='UTC')
+ts_utc = ts.tz_localize('UTC')
+ts_utc.index
+ts_utc.tz_convert('US/Eastern')
+
+ts_eastern = ts.tz_localize('US/Eastern')
+ts_eastern.tz_convert('UTC')
+ts_eastern.tz_convert('Europe/Berlin')
+ts.index.tz_localize('Asia/Shanghai')
+```
