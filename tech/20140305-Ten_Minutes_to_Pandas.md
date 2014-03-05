@@ -56,3 +56,12 @@ sorting by header/names and values
 dataframe.sort_index(axis=1, ascending=False)
 dataframe.sort(columns='columnName')
 ```
+
+### 3. Selection
+
+getting data by column: `dataframe['A']`  
+getting data by rows
+```python
+dataframe[0:3]
+dataframe['20130102':'20130104']
+```
