@@ -373,3 +373,7 @@ db.tweets.aggregate([
                      {"$limit":  1}
 ])
 ```
+
+arrays: $push and $addToSet
+```mongodb
+```
