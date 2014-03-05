@@ -24,6 +24,9 @@ start - 2 * timedelta(12)
 
 converting between datetime and string
 ```python
+
+# 1. converting with strftime
+
 stamp = datetime(2011, 1, 3)
 str(stamp)
 stamp.strftime('%Y-%m-%d')
@@ -34,12 +37,15 @@ datetime.strptime(value, '%Y-%m-%d')
 datestrs = ['7/6/2011', '8/6/2011']
 [datetime.strptime(x, '%m/%d/%Y') for x in datestrs]
 
+
+# 2. converting with parse
 from dateutil.parser import parse
 parse('2011-01-03')
 parse('Jan 31, 1997 10:45 PM')
 parse('6/12/2011', dayfirst=True)
 
-datestrs
+
+# 3. coverting with pandas
 pandas.to_datetime(datestrs)
 idx = pd.to_datetime(datestrs + [None])
 idx
