@@ -5,3 +5,9 @@ Mar 7 2014 | emacs, IDE | Kelly Chan
 
 - 1. download [Emacs](http://ftp.gnu.org/gnu/emacs/windows/)
 - 2. `pip install elpy` and `pip install elpy rope jedi`
+
+## 2. Plugins and Settings
+
+## 3. Programming
+
+`C-c C-c`: run script
