@@ -3,8 +3,8 @@ Mar 7 2014 | Emacs, IDE | Kelly Chan
 
 ## 1. Basic Commands
 
-C-x: `ctrl-x`, to control buffers/windows/files  
-M-x: `Alt-x`, to run commands
+- `C-x`: `ctrl-x`, to control buffers/windows/files  
+- `M-x`: `Alt-x`, to run commands
 
 ### (1) basic
 
