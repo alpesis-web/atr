@@ -39,16 +39,12 @@ control windows
 
 ### (4) search
 
-- `C-s`: search forward
+- `C-s`: search forwards
+- `C-r`: search backwards
 
-document
-
-- up: `u`
-- back to the last page: `l`
-- search: `ctrl-s`
 
 ## 2. Customization and Themes
 
-- find documents: `C-x, C-f`
+
 
 ## 3. Packages and Extensions
