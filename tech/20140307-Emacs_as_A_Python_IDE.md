@@ -1,4 +1,4 @@
-Mar 6 2014 | emacs, IDE | Kelly Chan
+Mar 7 2014 | emacs, IDE | Kelly Chan
 # Emacs as A Python IDE
 
 ## 1. Installation
