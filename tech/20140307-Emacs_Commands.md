@@ -3,11 +3,16 @@ Mar 7 2014 | Emacs, IDE | Kelly Chan
 
 ## 1. Basic Commands
 
-C-x: `ctrl-x`
-M-x: `Alt-x`
+C-x: `ctrl-x`  
+M-x: `Alt-x`  
 
-- `C-h C-h`: help
+basic
+- `C-x C-c`: close emacs
 - `C-g`: quit
+
+help
+- `C-h C-h`: help
+- `C-h i`: the info directory
 
 control buffers
 - `C-x b`: switch buffers
@@ -23,11 +28,8 @@ control windows
 - `C-x 3`: split the active window horizontally into two vertical windows
 
 
-close emacs: `ctrl-x, ctrl-c`  
-help: `ctrl-h`  
-- the info directory: `ctrl-h i`
-- menu: `m`  
-- quit: `ctrl-g`
+document
+
 - up: `u`
 - back to the last page: `l`
 - search: `ctrl-s`
