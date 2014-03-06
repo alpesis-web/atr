@@ -33,9 +33,14 @@ control windows
 
 ### (3) files
 
+file open/save
 - `C-x C-f`: open file
 - `C-x C-s`: save file
 - `C-x C-w`: save file as
+
+file edit
+- `C-k`: kill current line
+- `C-y`: yank current line
 
 ### (4) search
 
