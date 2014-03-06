@@ -6,6 +6,23 @@ Mar 7 2014 | Emacs, IDE | Kelly Chan
 C-x: `ctrl-x`
 M-x: `Alt-x`
 
+- `C-h C-h`: help
+- `C-g`: quit
+
+control buffers
+- `C-x b`: switch buffers
+- `C-x k`: kill buffer
+- `C-x right`: right-cycle through buffers
+- `C-x left`: left-cycle through buffers
+
+control windows
+- `C-x o`: change active window to next window
+- `C-x 0`: close the active window
+- `C-x 1`: colose all windows except the active window
+- `C-x 2`: split the active window vertically into two horizontal windows
+- `C-x 3`: split the active window horizontally into two vertical windows
+
+
 close emacs: `ctrl-x, ctrl-c`  
 help: `ctrl-h`  
 - the info directory: `ctrl-h i`
