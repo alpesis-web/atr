@@ -6,13 +6,17 @@ Mar 7 2014 | Emacs, IDE | Kelly Chan
 C-x: `ctrl-x`  
 M-x: `Alt-x`  
 
-basic
+### (1) basic
+
+close and quit
 - `C-x C-c`: close emacs
 - `C-g`: quit
 
 help
 - `C-h C-h`: help
 - `C-h i`: the info directory
+
+### (2) buffers and windows
 
 control buffers
 - `C-x b`: switch buffers
@@ -27,6 +31,15 @@ control windows
 - `C-x 2`: split the active window vertically into two horizontal windows
 - `C-x 3`: split the active window horizontally into two vertical windows
 
+### (3) files
+
+- `C-x C-f`: open file
+- `C-x C-s`: save file
+- `C-x C-w`: save file as
+
+### (4) search
+
+- `C-s`: search forward
 
 document
 
