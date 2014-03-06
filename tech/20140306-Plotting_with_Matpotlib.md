@@ -98,13 +98,12 @@ plt.show()
 
 ## 2. Line Basic: 2D plot
 
-### 1. Figure size, Aspect Ratio and DPI
-
-figure size: 800 * 400 pixels  
-dpi: dots-per-inch / pixel per inch
-```python
-fig = plt.figure(figsize=(8,4), dpi=100)
-```
+plotting structure
+- fig = plt.figure()
+- axes.plot()
+- axes.set()
+- plt.show()
+- fig.savefig()
 
 example
 ```python
@@ -123,75 +122,24 @@ fig.savefig("filename.png", dpi=200)
 fig.savefig("filename.svg")
 ```
 
-### 2. Legends, Labels and Titles
+### 1. fig = plt.figure()
 
-figure titles: `ax.set_title("title")`  
-axis labels: 
+#### (1) figure size, aspect ratio, DPI
+figure size: 800 * 400 pixels  
+dpi: dots-per-inch / pixel per inch
 ```python
-ax.set_xlabel("x")
-ax.set_ylabel("y")
-```
-legends
-```python
-ax.legend(["curve1", "curve2", "curve3"]);
-
-# another way
-ax.plot(x, x**2, label="curve1")
-ax.plot(x, x**3, label="curve2")
-ax.legend()
-ax.legend(loc=0) # let matplotlib decide the optimal location
-ax.legend(loc=1) # upper right corner
-ax.legend(loc=2) # upper left corner
-ax.legend(loc=3) # lower left corner
-ax.legend(loc=4) # lower right corner
-# .. many more options are available
-```
-example
-```python
-fig, ax = plt.subplots()
-
-ax.plot(x, x**2, label="y = x**2")
-ax.plot(x, x**3, label="y = x**3")
-ax.set_xlabel('x')
-ax.set_ylabel('y')
-ax.set_title('title')
-ax.legend(loc=2); # upper left corner
+fig = plt.figure(figsize=(8,4), dpi=100)
 ```
 
-### 3. Formatting Text: LaTeX, fontsize, font family
-
-global font size and font family
+figures: (m,n) - m rows with n figures
 ```python
-# Update the matplotlib configuration parameters:
-matplotlib.rcParams.update({'font.size': 18, 'font.family': 'serif'})
-
-# restore
-matplotlib.rcParams.update({'font.size': 12, 'font.family': 'sans'})
-```
-```python
-fig, ax = plt.subplots()
-
-ax.plot(x, x**2, label=r"$y = \alpha^2$")
-ax.plot(x, x**3, label=r"$y = \alpha^3$")
-ax.set_xlabel(r'$\alpha$')
-ax.set_ylabel(r'$y$')
-ax.set_title('title')
-ax.legend(loc=2); # upper left corner
+fig, ax = plt.subplots(2, 3)
+fig.tight_layout()
 ```
 
-font size
-```python
-fig, ax = plt.subplots()
+### 2. axes.plot()
 
-ax.plot(x, x**2, label=r"$y = \alpha^2$")
-ax.plot(x, x**3, label=r"$y = \alpha^3$")
-ax.set_xlabel(r'$\alpha$', fontsize=18)
-ax.set_ylabel(r'$y$', fontsize=18)
-ax.set_title('title')
-ax.legend(loc=2); # upper left corner
-```
-
-### 4. Setting Colors, Linewidths, Linetypes
+#### (1) line colors, linewidths, linetypes
 
 colors
 ```python
@@ -239,6 +187,77 @@ ax.plot(x, x+15, color="purple", lw=1, ls='-', marker='o', markersize=8, markerf
 ax.plot(x, x+16, color="purple", lw=1, ls='-', marker='s', markersize=8, 
         markerfacecolor="yellow", markeredgewidth=2, markeredgecolor="blue");
 ```
+
+### 3. axes.set()
+
+#### (1) legends, labels, titles
+
+figure titles: `ax.set_title("title")`  
+axis labels: 
+```python
+ax.set_xlabel("x")
+ax.set_ylabel("y")
+```
+legends
+```python
+ax.legend(["curve1", "curve2", "curve3"]);
+
+# another way
+ax.plot(x, x**2, label="curve1")
+ax.plot(x, x**3, label="curve2")
+ax.legend()
+ax.legend(loc=0) # let matplotlib decide the optimal location
+ax.legend(loc=1) # upper right corner
+ax.legend(loc=2) # upper left corner
+ax.legend(loc=3) # lower left corner
+ax.legend(loc=4) # lower right corner
+# .. many more options are available
+```
+example
+```python
+fig, ax = plt.subplots()
+
+ax.plot(x, x**2, label="y = x**2")
+ax.plot(x, x**3, label="y = x**3")
+ax.set_xlabel('x')
+ax.set_ylabel('y')
+ax.set_title('title')
+ax.legend(loc=2); # upper left corner
+```
+
+#### (2) formatting text: fontsize, font family
+
+global font size and font family
+```python
+# Update the matplotlib configuration parameters:
+matplotlib.rcParams.update({'font.size': 18, 'font.family': 'serif'})
+
+# restore
+matplotlib.rcParams.update({'font.size': 12, 'font.family': 'sans'})
+```
+```python
+fig, ax = plt.subplots()
+
+ax.plot(x, x**2, label=r"$y = \alpha^2$")
+ax.plot(x, x**3, label=r"$y = \alpha^3$")
+ax.set_xlabel(r'$\alpha$')
+ax.set_ylabel(r'$y$')
+ax.set_title('title')
+ax.legend(loc=2); # upper left corner
+```
+
+font size
+```python
+fig, ax = plt.subplots()
+
+ax.plot(x, x**2, label=r"$y = \alpha^2$")
+ax.plot(x, x**3, label=r"$y = \alpha^3$")
+ax.set_xlabel(r'$\alpha$', fontsize=18)
+ax.set_ylabel(r'$y$', fontsize=18)
+ax.set_title('title')
+ax.legend(loc=2); # upper left corner
+```
+
 
 ### 5. Control over axis appearance
 
