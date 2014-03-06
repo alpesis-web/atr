@@ -1,4 +1,4 @@
-Mar 6 2014 | Emacs, IDE | Kelly Chan
+Mar 7 2014 | Emacs, IDE | Kelly Chan
 # Emacs Commands
 
 ## 1. Basic Commands
