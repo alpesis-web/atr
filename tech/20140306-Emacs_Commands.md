@@ -18,3 +18,5 @@ help: `ctrl-h`
 ## 2. Customization and Themes
 
 - find documents: `C-x, C-f`
+
+## 3. Packages and Extensions
