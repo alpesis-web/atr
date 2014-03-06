@@ -105,6 +105,15 @@ plotting structure
 - plt.show()
 - fig.savefig()
 
+global font size and font family
+```python
+# Update the matplotlib configuration parameters:
+matplotlib.rcParams.update({'font.size': 18, 'font.family': 'serif'})
+
+# restore
+matplotlib.rcParams.update({'font.size': 12, 'font.family': 'sans'})
+```
+
 example
 ```python
 fig, axes = plt.subplots(figsize=(12,3))
@@ -113,6 +122,16 @@ axes.plot(x, y, 'r')
 axes.set_xlabel('x')
 axes.set_ylabel('y')
 axes.set_title('title')
+
+
+fig, ax = plt.subplots()
+
+ax.plot(x, x**2, label=r"$y = \alpha^2$")
+ax.plot(x, x**3, label=r"$y = \alpha^3$")
+ax.set_xlabel(r'$\alpha$')
+ax.set_ylabel(r'$y$')
+ax.set_title('title')
+ax.legend(loc=2); # upper left corner
 ```
 
 saving figures
@@ -124,7 +143,8 @@ fig.savefig("filename.svg")
 
 ### 1. fig = plt.figure()
 
-#### (1) figure size, aspect ratio, DPI
+figure size, aspect ratio, DPI  
+
 figure size: 800 * 400 pixels  
 dpi: dots-per-inch / pixel per inch
 ```python
@@ -139,7 +159,7 @@ fig.tight_layout()
 
 ### 2. axes.plot()
 
-#### (1) line colors, linewidths, linetypes
+line colors, linewidths, linetypes  
 
 colors
 ```python
@@ -227,25 +247,6 @@ ax.legend(loc=2); # upper left corner
 
 #### (2) formatting text: fontsize, font family
 
-global font size and font family
-```python
-# Update the matplotlib configuration parameters:
-matplotlib.rcParams.update({'font.size': 18, 'font.family': 'serif'})
-
-# restore
-matplotlib.rcParams.update({'font.size': 12, 'font.family': 'sans'})
-```
-```python
-fig, ax = plt.subplots()
-
-ax.plot(x, x**2, label=r"$y = \alpha^2$")
-ax.plot(x, x**3, label=r"$y = \alpha^3$")
-ax.set_xlabel(r'$\alpha$')
-ax.set_ylabel(r'$y$')
-ax.set_title('title')
-ax.legend(loc=2); # upper left corner
-```
-
 font size
 ```python
 fig, ax = plt.subplots()
@@ -258,8 +259,7 @@ ax.set_title('title')
 ax.legend(loc=2); # upper left corner
 ```
 
-
-### 5. Control over axis appearance
+#### (3) axis setting
 
 axis('tight') and set\_xlim(), set_ylim()
 ```python
@@ -366,7 +366,7 @@ xx = np.linspace(-0.75, 1., 100)
 ax.plot(xx, xx**3);
 ```
 
-### 6. Text Annotation
+#### (4) text annotation
 
 ```python
 fig, ax = plt.subplots()
