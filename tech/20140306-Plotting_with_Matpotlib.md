@@ -157,6 +157,33 @@ fig, ax = plt.subplots(2, 3)
 fig.tight_layout()
 ```
 
+subplot2grid
+```python
+fig = plt.figure()
+ax1 = plt.subplot2grid((3,3), (0,0), colspan=3)
+ax2 = plt.subplot2grid((3,3), (1,0), colspan=2)
+ax3 = plt.subplot2grid((3,3), (1,2), rowspan=2)
+ax4 = plt.subplot2grid((3,3), (2,0))
+ax5 = plt.subplot2grid((3,3), (2,1))
+fig.tight_layout()
+```
+
+gridspec
+```python
+import matplotlib.gridspec as gridspec
+```
+```python
+fig = plt.figure()
+
+gs = gridspec.GridSpec(2, 3, height_ratios=[2,1], width_ratios=[1,2,1])
+for g in gs:
+    ax = fig.add_subplot(g)
+    
+fig.tight_layout()
+```
+
+add\_axes(): `inset_ax = fig.add_axes([0.2, 0.55, 0.35, 0.35]) # X, Y, width, height`
+
 ### 2. axes.plot()
 
 line colors, linewidths, linetypes  
