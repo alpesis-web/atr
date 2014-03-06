@@ -3,6 +3,9 @@ Mar 6 2014 | Emacs, IDE | Kelly Chan
 
 ## 1. Basic Commands
 
+C-x: `ctrl-x`
+M-x: `Alt-x`
+
 close emacs: `ctrl-x, ctrl-c`  
 help: `ctrl-h`  
 - the info directory: `ctrl-h i`
@@ -11,3 +14,7 @@ help: `ctrl-h`
 - up: `u`
 - back to the last page: `l`
 - search: `ctrl-s`
+
+## 2. Customization and Themes
+
+- find documents: `C-x, C-f`
