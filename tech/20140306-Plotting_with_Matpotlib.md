@@ -260,6 +260,17 @@ ax.legend(loc=3) # lower left corner
 ax.legend(loc=4) # lower right corner
 # .. many more options are available
 ```
+text annotation
+
+```python
+fig, ax = plt.subplots()
+
+ax.plot(xx, xx**2, xx, xx**3)
+
+ax.text(0.15, 0.2, r"$y=x^2$", fontsize=20, color="blue")
+ax.text(0.65, 0.1, r"$y=x^3$", fontsize=20, color="green");
+```
+
 example
 ```python
 fig, ax = plt.subplots()
@@ -391,15 +402,4 @@ ax.spines['left'].set_position(('data',0))   # set position of y spine to y=0
 
 xx = np.linspace(-0.75, 1., 100)
 ax.plot(xx, xx**3);
-```
-
-#### (4) text annotation
-
-```python
-fig, ax = plt.subplots()
-
-ax.plot(xx, xx**2, xx, xx**3)
-
-ax.text(0.15, 0.2, r"$y=x^2$", fontsize=20, color="blue")
-ax.text(0.65, 0.1, r"$y=x^3$", fontsize=20, color="green");
 ```
