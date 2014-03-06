@@ -21,8 +21,8 @@ help
 control buffers
 - `C-x b`: switch buffers
 - `C-x k`: kill buffer
-- `C-x right`: right-cycle through buffers
-- `C-x left`: left-cycle through buffers
+- `C-x ->`: right-cycle through buffers
+- `C-x <-`: left-cycle through buffers
 
 control windows
 - `C-x o`: change active window to next window
