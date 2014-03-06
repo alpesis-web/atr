@@ -31,6 +31,7 @@ show()
 
 ## 2. Matplotlib Object-Oriented API
 
+plotting a line
 ```python
 fig = plt.figure()
 
@@ -43,5 +44,102 @@ axes.set_ylabel('y')
 axes.set_title('title');
 
 plt.show()
+```
+plotting a line with an insert figure
+
+```python
+fig = plt.figure()
+
+axes1 = fig.add_axes([0.1, 0.1, 0.8, 0.8]) # main axes
+axes2 = fig.add_axes([0.2, 0.5, 0.4, 0.3]) # inset axes
+
+# main figure
+axes1.plot(x, y, 'r')
+axes1.set_xlabel('x')
+axes1.set_ylabel('y')
+axes1.set_title('title')
+
+# insert
+axes2.plot(y, x, 'g')
+axes2.set_xlabel('y')
+axes2.set_ylabel('x')
+axes2.set_title('insert title');
+
+plt.show()
+```
+
+subplots
+```python
+fig, axes = plt.subplots()
+
+axes.plot(x, y, 'r')
+axes.set_xlabel('x')
+axes.set_ylabel('y')
+axes.set_title('title');
+
+plt.show()
+```
+1 row with 2 pictures
+```python
+fig, axes = plt.subplots(nrows=1, ncols=2)
+
+for ax in axes:
+    ax.plot(x, y, 'r')
+    ax.set_xlabel('x')
+    ax.set_ylabel('y')
+    ax.set_title('title')
+
+#fig.tight_layout() # automatically adjust the positions of axes
+
+plt.show()
+```
+
+## 3. Figure size, Aspect Ratio and DPI
+
+figure size: 800 * 400 pixels  
+dpi: dots-per-inch / pixel per inch
+```python
+fig = plt.figure(figsize=(8,4), dpi=100)
+```
+
+example
+```python
+fig, axes = plt.subplots(figsize=(12,3))
+
+axes.plot(x, y, 'r')
+axes.set_xlabel('x')
+axes.set_ylabel('y')
+axes.set_title('title')
+```
+
+saving figures
+```python
+fig.savefig("filename.png")
+fig.savefig("filename.png", dpi=200)
+fig.savefig("filename.svg")
+```
+
+## 4. Legends, Labels and Titles
+
+figure titles: `ax.set_title("title")`  
+axis labels: 
+```python
+ax.set_xlabel("x")
+ax.set_ylabel("y")
+```
+legends
+```python
+ax.legend(["curve1", "curve2", "curve3"]);
+
+# another way
+ax.plot(x, x**2, label="curve1")
+ax.plot(x, x**3, label="curve2")
+ax.legend()
+ax.legend(loc=0) # let matplotlib decide the optimal location
+ax.legend(loc=1) # upper right corner
+ax.legend(loc=2) # upper left corner
+ax.legend(loc=3) # lower left corner
+ax.legend(loc=4) # lower right corner
+# .. many more options are available
 ```
 
