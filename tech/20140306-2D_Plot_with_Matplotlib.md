@@ -1,7 +1,7 @@
 Mar 6 2014 | matplotlib, visualization | Kelly Chan
 # 2D Plot with Matplotlib
 
-## 1. General 2D Plot
+## 1. General 2D plot
 
 plotting with array
 ```python
@@ -47,4 +47,41 @@ fig = plt.figure()
 ax = fig.add_axes([0.0, 0.0, .6, .6], polar=True)
 t = linspace(0, 2 * pi, 100)
 ax.plot(t, t, color='blue', lw=3);
+```
+
+## 3. Colormap and contour figures
+
+```python
+alpha = 0.7
+phi_ext = 2 * pi * 0.5
+
+def flux_qubit_potential(phi_m, phi_p):
+    return 2 + alpha - 2 * cos(phi_p)*cos(phi_m) - alpha * cos(phi_ext - 2*phi_p)
+```
+```python
+phi_m = linspace(0, 2*pi, 100)
+phi_p = linspace(0, 2*pi, 100)
+X,Y = meshgrid(phi_p, phi_m)
+Z = flux_qubit_potential(X, Y).T
+```
+pcolor
+```python
+fig, ax = plt.subplots()
+
+p = ax.pcolor(X/(2*pi), Y/(2*pi), Z, cmap=cm.RdBu, vmin=abs(Z).min(), vmax=abs(Z).max())
+cb = fig.colorbar(p, ax=ax)
+```
+imshow
+```python
+fig, ax = plt.subplots()
+
+im = imshow(Z, cmap=cm.RdBu, vmin=abs(Z).min(), vmax=abs(Z).max(), extent=[0, 1, 0, 1])
+im.set_interpolation('bilinear')
+
+cb = fig.colorbar(im, ax=ax)
+```
+contour
+```python
+fig, ax = plt.subplots()
+cnt = contour(Z, cmap=cm.RdBu, vmin=abs(Z).min(), vmax=abs(Z).max(), extent=[0, 1, 0, 1])
 ```
