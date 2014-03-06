@@ -5,5 +5,9 @@ Mar 6 2014 | Emacs, IDE | Kelly Chan
 
 close emacs: `ctrl-x, ctrl-c`  
 help: `ctrl-h`  
-- the info directory: `ctrl-h i`  
-menu: `m`  
+- the info directory: `ctrl-h i`
+- menu: `m`  
+- quit: `ctrl-g`
+- up: `u`
+- back to the last page: `l`
+- search: `ctrl-s`
