@@ -46,6 +46,7 @@ file edit
 
 - `C-s`: search forwards
 - `C-r`: search backwards
+- `M-%`: find and replace
 
 
 ## 2. Customization and Themes
