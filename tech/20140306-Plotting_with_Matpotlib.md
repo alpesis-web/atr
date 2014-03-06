@@ -142,4 +142,56 @@ ax.legend(loc=3) # lower left corner
 ax.legend(loc=4) # lower right corner
 # .. many more options are available
 ```
+example
+```python
+fig, ax = plt.subplots()
 
+ax.plot(x, x**2, label="y = x**2")
+ax.plot(x, x**3, label="y = x**3")
+ax.set_xlabel('x')
+ax.set_ylabel('y')
+ax.set_title('title')
+ax.legend(loc=2); # upper left corner
+```
+
+## 5. Formatting Text: LaTeX, fontsize, font family
+
+global font size and font family
+```python
+# Update the matplotlib configuration parameters:
+matplotlib.rcParams.update({'font.size': 18, 'font.family': 'serif'})
+
+# restore
+matplotlib.rcParams.update({'font.size': 12, 'font.family': 'sans'})
+```
+```python
+fig, ax = plt.subplots()
+
+ax.plot(x, x**2, label=r"$y = \alpha^2$")
+ax.plot(x, x**3, label=r"$y = \alpha^3$")
+ax.set_xlabel(r'$\alpha$')
+ax.set_ylabel(r'$y$')
+ax.set_title('title')
+ax.legend(loc=2); # upper left corner
+```
+
+font size
+```python
+fig, ax = plt.subplots()
+
+ax.plot(x, x**2, label=r"$y = \alpha^2$")
+ax.plot(x, x**3, label=r"$y = \alpha^3$")
+ax.set_xlabel(r'$\alpha$', fontsize=18)
+ax.set_ylabel(r'$y$', fontsize=18)
+ax.set_title('title')
+ax.legend(loc=2); # upper left corner
+```
+
+## 6. Setting Colors, Linewidths, Linetypes
+
+colors
+```python
+# MATLAB style line color and style 
+ax.plot(x, x**2, 'b.-') # blue line with dots
+ax.plot(x, x**3, 'g--') # green dashed line
+```
