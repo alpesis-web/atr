@@ -5,7 +5,9 @@ Mar 6 2014 | visualization, matplotlib, python | Kelly Chan
 import matplotlib.pyplot as plt
 ```
 
-## 1. Matlab like API
+## 1. Matlab like and Matplotlib object-oriented API
+
+### 1. Matlab like API
 
 ```python
 from pylab import *
@@ -29,7 +31,7 @@ plot(y, x, 'g*-');
 show()
 ```
 
-## 2. Matplotlib Object-Oriented API
+### 2. Matplotlib Object-Oriented API
 
 plotting a line
 ```python
@@ -94,7 +96,9 @@ for ax in axes:
 plt.show()
 ```
 
-## 3. Figure size, Aspect Ratio and DPI
+## 2. Line Basic: 2D plot
+
+### 1. Figure size, Aspect Ratio and DPI
 
 figure size: 800 * 400 pixels  
 dpi: dots-per-inch / pixel per inch
@@ -119,7 +123,7 @@ fig.savefig("filename.png", dpi=200)
 fig.savefig("filename.svg")
 ```
 
-## 4. Legends, Labels and Titles
+### 2. Legends, Labels and Titles
 
 figure titles: `ax.set_title("title")`  
 axis labels: 
@@ -154,7 +158,7 @@ ax.set_title('title')
 ax.legend(loc=2); # upper left corner
 ```
 
-## 5. Formatting Text: LaTeX, fontsize, font family
+### 3. Formatting Text: LaTeX, fontsize, font family
 
 global font size and font family
 ```python
@@ -187,7 +191,7 @@ ax.set_title('title')
 ax.legend(loc=2); # upper left corner
 ```
 
-## 6. Setting Colors, Linewidths, Linetypes
+### 4. Setting Colors, Linewidths, Linetypes
 
 colors
 ```python
@@ -236,7 +240,7 @@ ax.plot(x, x+16, color="purple", lw=1, ls='-', marker='s', markersize=8,
         markerfacecolor="yellow", markeredgewidth=2, markeredgecolor="blue");
 ```
 
-## 7. Control over axis appearance
+### 5. Control over axis appearance
 
 axis('tight') and set\_xlim(), set_ylim()
 ```python
