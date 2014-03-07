@@ -7,7 +7,8 @@ Mar 7 2014 | Emacs, IDE | Kelly Chan
 - `M-x`: `Alt-x`, to run commands
 - `RET`: `Enter`
 
-`M-x make-command-summary`: show all commands
+- `M-x make-command-summary`: show all commands
+- `M-x load-file path/.emacs`: refresh file
 
 ### (1) basic
 
