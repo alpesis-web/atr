@@ -25,7 +25,7 @@ commands:
 
 ### 2. auto-complete
 
-install: cd to the folder, cmd:`emacs -batch -l etc/install.el`
+install: cd to the folder, cmd:`emacs -batch -l etc/install.el`  
 `.emacs` settings
 ```lisp
 (add-to-list 'load-path "~/.emacs.d/auto-complete-1.3.1")
