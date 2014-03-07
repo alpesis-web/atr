@@ -5,6 +5,7 @@ Mar 7 2014 | Emacs, IDE | Kelly Chan
 
 - `C-x`: `ctrl-x`, to control buffers/windows/files  
 - `M-x`: `Alt-x`, to run commands
+- `RET`: `Enter`
 
 ### (1) basic
 
