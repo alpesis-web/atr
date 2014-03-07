@@ -11,9 +11,9 @@ folder structure:
 ```
 -- home
     |---- .emacs
-    |---- .emacs.d
-            |------ plugins
-            |------ settings (settings in .emacs)
+    |---- [.emacs.d]
+            |------ [plugins]
+            |------ [settings] (settings in .emacs)
 ```
 
 ## 2. Plugins and Settings
