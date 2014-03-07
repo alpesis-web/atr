@@ -12,7 +12,7 @@ Mar 7 2014 | emacs, IDE | Kelly Chan
 
 #### (1) ido-mode
 
-enable ido-mode: `M-x ido-mode`
+enable ido-mode: `M-x ido-mode`  
 `.emacs` settings
 ```lisp
 (require 'ido)
