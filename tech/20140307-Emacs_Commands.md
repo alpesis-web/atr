@@ -56,6 +56,11 @@ file edit
 
 ## 3. Packages and Extensions
 
+packages installation
+- step1. `M-x list-packages`: open package-list
+- step2. search a package, select and install
+- step3. settings in .emacs
+
 
 ---
 ### References
