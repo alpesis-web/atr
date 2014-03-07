@@ -4,11 +4,11 @@ Mar 7 2014 | Emacs, IDE | Kelly Chan
 ## 1. Basic Commands
 
 - `C-x`: `ctrl-x`, to control buffers/windows/files  
-- `M-x`: `Alt-x`, to run commands
-- `RET`: `Enter`
+- `M-x`: `Alt-x`, to run commands  
+- `RET`: `Enter`  
 
-- `M-x make-command-summary`: show all commands
-- `M-x load-file path/.emacs`: refresh file
+- `M-x make-command-summary`: show all commands  
+- `M-x load-file path/.emacs`: refresh file  
 
 ### (1) basic
 
