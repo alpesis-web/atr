@@ -15,13 +15,13 @@ plugins
 
 #### (1) ido-mode
 
-enable ido-mode: `M-x ido-mode`  
 `.emacs` settings
 ```lisp
 (require 'ido)
 (ido-mode t)
 ```
 commands:  
+- `M-x ido-mode`: enable ido-mode
 - `C-x b`: switch between buffers
 
 ## 3. Programming
