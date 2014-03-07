@@ -57,7 +57,9 @@ commands:
 
 ## 3. Programming
 
-`C-c C-c`: run script
+- `C-c C-p`: open python interpreter
+- `C-c C-c`: run script
+- `tab`: 4 spaces
 
 ---
 ### References
