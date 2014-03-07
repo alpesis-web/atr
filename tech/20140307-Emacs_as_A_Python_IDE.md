@@ -11,3 +11,7 @@ Mar 7 2014 | emacs, IDE | Kelly Chan
 ## 3. Programming
 
 `C-c C-c`: run script
+
+---
+### References
+1. [Emacs as A Python IDE](http://www.jesshamrick.com/2012/09/18/emacs-as-a-python-ide/)
