@@ -57,9 +57,21 @@ commands:
 
 ## 3. Programming
 
+manage files
+- `C-x C-f`: open file
+- `C-x C-s`: save file
+- `C-x C-w`: save file as
+- `C-x b`: switch buffers
+
+edit files
+- `M-w`: copy
+- `C-y`: paste
+- `tab`: 4 spaces
+
+run python scripts
 - `C-c C-p`: open python interpreter
 - `C-c C-c`: run script
-- `tab`: 4 spaces
+
 
 ---
 ### References
