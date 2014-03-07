@@ -4,7 +4,17 @@ Mar 7 2014 | emacs, IDE | Kelly Chan
 ## 1. Installation
 
 - 1. download [Emacs](http://ftp.gnu.org/gnu/emacs/windows/)
-- 2. `pip install elpy` and `pip install elpy rope jedi`
+- 2. unzip Emacs to a folder
+- 3. plugins and settings: folders `home/.emacs.d`, settings `.emacs`
+
+folder structure:
+```
+-- home
+    |---- .emacs
+    |---- .emacs.d
+            |------ plugins
+            |------ settings (settings in .emacs)
+```
 
 ## 2. Plugins and Settings
 
