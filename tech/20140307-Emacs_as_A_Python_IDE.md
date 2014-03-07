@@ -8,6 +8,17 @@ Mar 7 2014 | emacs, IDE | Kelly Chan
 
 ## 2. Plugins and Settings
 
+### 1. modes
+
+#### (1) ido-mode
+
+enable ido-mode: `M-x ido-mode`
+`.emacs` settings
+```lisp
+(require 'ido)
+(ido-mode t)
+```
+
 ## 3. Programming
 
 `C-c C-c`: run script
