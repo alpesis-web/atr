@@ -81,6 +81,7 @@ edit files
 run python scripts
 - `C-c C-p`: open python interpreter
 - `C-c C-c`: run script
+- `M-x shell RET`: go to python shell, `python xx.py`, to run script
 
 
 ---
