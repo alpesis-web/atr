@@ -11,6 +11,7 @@ Mar 7 2014 | emacs, IDE | Kelly Chan
 plugins
 - [ido](http://www.emacswiki.org/emacs/InteractivelyDoThings)
 - [auto-complete](http://www.emacswiki.org/emacs/AutoComplete)
+- [python-mode](https://launchpad.net/python-mode)
 
 ### 1. ido-mode
 
@@ -41,6 +42,18 @@ install: cd to the folder, cmd:`emacs -batch -l etc/install.el`
 
 ### 3. python-mode
 
+installation:
+- download and copy the folder to `~/emacs.d/plugins/python-mode`
+
+commands:
+- `M-x locate-library RET` and `python-mode RET`: check if install
+
+.emacs settings
+```lisp
+(setq py-install-directory "~/.emacs.d/plugins/python-mode")
+(add-to-list 'load-path py-install-directory)
+(require 'python-mode)
+```
 
 ## 3. Programming
 
