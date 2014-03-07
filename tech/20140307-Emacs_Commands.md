@@ -60,4 +60,3 @@ file edit
 ---
 ### References
 1. [Absolute Beginner's Guide to Emacs](http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs/)
-2. 
