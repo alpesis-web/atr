@@ -58,7 +58,8 @@ file edit
 
 ### (1) customization
 
-.emacs
+custom-settings written in .emacs
+`.emacs` script:
 ```lisp
 ;--------------------;
 ;;; User Interface ;;;
