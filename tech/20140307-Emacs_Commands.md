@@ -58,6 +58,32 @@ file edit
 
 ### (1) customization
 
+.emacs
+```lisp
+;--------------------;
+;;; User Interface ;;;
+;--------------------;
+
+; ignore case when searching
+(setq case-fold-search t)
+
+;----------------------;
+;;; Windows & Frames ;;;
+;----------------------;
+
+; language
+(setq current-language-environment "English")
+
+; don't show the tool bar
+(tool-bar-mode -1)
+
+; display line numbers of the window
+(global-linum-mode t)
+; show the current line and column numbers in the stats bar as well
+(line-number-mode t)
+(column-number-mode t)
+```
+
 ### (2) theme
 
 commands: 
