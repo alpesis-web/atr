@@ -56,7 +56,26 @@ file edit
 
 ## 2. Customization and Themes
 
+### (1) customization
 
+### (2) theme
+
+color theme  
+commands: `M-x color-theme-select`, to select theme, and write the theme name to .emacs  
+installation:
+- step1. download [color-theme](http://download.savannah.gnu.org/releases/color-theme/)
+- step2. unzip folder (`themes` folder and `color-theme.el`) to `~/.emacs.d/plugins/color-theme-6.6.0`
+- step3. open `~/.emacs`, and write scripts
+
+.emacs script
+```lisp
+; color theme
+(add-to-list 'load-path "~/.emacs.d/plugins/color-theme-6.6.0")
+(require 'color-theme)
+(color-theme-initialize)  
+(setq color-theme-is-global t)
+(color-theme-billw)
+```
 
 ## 3. Packages and Extensions
 
