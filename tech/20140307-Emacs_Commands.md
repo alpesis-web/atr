@@ -60,8 +60,8 @@ file edit
 
 ### (2) theme
 
-color theme  
 commands: `M-x color-theme-select`, to select theme, and write the theme name to .emacs  
+
 installation:
 - step1. download [color-theme](http://download.savannah.gnu.org/releases/color-theme/)
 - step2. unzip folder (`themes` folder and `color-theme.el`) to `~/.emacs.d/plugins/color-theme-6.6.0`
