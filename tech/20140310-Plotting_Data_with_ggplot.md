@@ -4,6 +4,7 @@ Mar 10 2014 | ggplot, visualization | Kelly Chan
 ### 1. Types
 
 
-|: numeric   |: factor |
-|: histogram |: bar    |
+| numeric  | factor    |
+|:---------|:---------:|
+| hist     | bar       | 
 
