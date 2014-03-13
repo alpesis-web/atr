@@ -5,7 +5,7 @@ Table of Contents
 - Exploratory
     - one variable: histogram/ frequency polygons/ boxplot | summary/ transformation/ logical
     - two variables: scatterplot | correlation
-    - more variables:
+    - more variables: reshape
 
 ## 1. Toolkit: R
 
@@ -36,6 +36,11 @@ filter()
 group_by()
 mutate()
 arrange()
+```
+library: reshape2
+```
+install.packages('reshape2')
+library(reshape2)
 ```
 
 ## 2. Exploratory
@@ -228,3 +233,22 @@ ggplot(aes(x=(Month%%12),y=Temp),data=Mitchell)+
 ```
 
 ### 3. More Variables
+
+reshaping data: long -> wide
+```
+library(reshape2)
+pf.fc_by_age_gender.wide <- dcast(pf.fc_by_age_gender,
+                                  age ~ gender,
+                                  value.var = 'median_friend_count')
+head(pf.fc_by_age_gender.wide)
+
+
+pf.fc_by_age_gender.wide <- pf.fc_by_age_gender %.% 
+  group_by(age) %.% 
+  summarise(male = friend_count.median[gender = 'male'], 
+                      female = friend_count.median[gender = 'female'], 
+                      ratio = female / male) %.% 
+  arrange(age)
+  
+head(pf.fc_by_age_gender.wide)
+```
