@@ -68,6 +68,10 @@ ggplot(aes(x = friend_count, y = ..count../sum(..count..)), data = subset(pf, !i
   scale_x_continuous(limits = c(0, 1000), breaks = seq(0, 1000, 50)) + 
   xlab('Friend Count') + 
   ylab('Percentage of users with that friend count')
+
+ggplot(aes(x = www_likes), data = subset(pf, !is.na(gender))) + 
+  geom_freqpoly(aes(color = gender)) + 
+  scale_x_log10()
 ```
 
 facet\_wrap() and facet_grid()
