@@ -31,7 +31,8 @@ qplot( x = dob_day, data = pf, binwidth=25) +
 
 ggplot(aes(x = friend_count), data = pf) +
      geom_histogram() + 
-     scale_x_continuous(limits = c(0, 1000), breaks = seq(0,1000,50))
+     scale_x_continuous(limits = c(0, 1000), breaks = seq(0,1000,50)) +
+     facet_wrap(~gender)
 ```
 facet\_wrap() and facet_grid()
 ```
