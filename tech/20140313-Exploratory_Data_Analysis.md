@@ -17,6 +17,11 @@ Rmd/RMarkdown: library knitr
 install.packages('knitr', dependencies = T) 
 library(knitr)
 ```
+library gridExtra
+```{r}
+install.packages('gridExtra')
+library(gridExtra)
+```
 
 ## 2. Exploratory
 
