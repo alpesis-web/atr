@@ -28,6 +28,9 @@ names(pf)
 qplot( x = dob_day, data = pf) + 
      scale_x_discrete(breaks = 1:31) +
      facet_wrap(~dob_month, ncol = 3)
+
+ggplot(aes(x = friend_count), data = pf) +
+     geom_histogram()
 ```
 facet\_wrap() and facet_grid()
 ```
