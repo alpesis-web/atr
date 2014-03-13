@@ -21,5 +21,12 @@ library(knitr)
 ## 2. Exploratory
 
 ### 1. One Variable
+
+Histogram
+```{r}
+names(pf)
+qplot( x = dob_day, data = pf)
+```
+
 ### 2. Two Variables
 ### 3. More Variables
