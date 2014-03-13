@@ -57,6 +57,19 @@ ggplot(aes(x = tenure / 365), data = pf) +
   xlab('Number of years using Facebook') + 
   ylab('Number of users in sample')
 ```
+
+Frequency Polygons
+```
+qplot(x=friend_count, data=subset(pf, !is.na(gender)), binwidth=10, geom='freqpoly', color=gender) +
+    scale_x_continuous(lim=c(0, 1000), breaks = seq(0, 1000, 50)) 
+
+ggplot(aes(x = friend_count, y = ..count../sum(..count..)), data = subset(pf, !is.na(gender))) + 
+  geom_freqpoly(aes(color = gender)) + 
+  scale_x_continuous(limits = c(0, 1000), breaks = seq(0, 1000, 50)) + 
+  xlab('Friend Count') + 
+  ylab('Percentage of users with that friend count')
+```
+
 facet\_wrap() and facet_grid()
 ```
 facet_wrap(~variable)
