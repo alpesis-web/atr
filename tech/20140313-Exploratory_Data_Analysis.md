@@ -148,7 +148,8 @@ scatterplot
 qplot (x=age, y=friend_count, data=pf)
 
 ggplot(aes(x = age, y = friend_count), data = pf) + 
-  geom_point()
+  geom_point(alpha = 1/20) +
+  xlim(13,90)
 ```
 
 ### 3. More Variables
