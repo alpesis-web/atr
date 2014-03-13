@@ -1,9 +1,9 @@
 Mar 13 2014 | EDA, data_analysis | Kelly Chan
 # Exploratory Data Anlaysis
-table of contents
+Table of Contents
 - Toolkit: R
 - Exploratory
-    - one variable: histogram/frequency polygons/boxplot | summary/transformation/logical
+    - one variable: histogram/ frequency polygons/ boxplot | summary/ transformation/ logical
     - two variables: scatterplot
     - more variables:
 
