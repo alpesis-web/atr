@@ -190,6 +190,20 @@ pf.fc_by_age <- pf %.%
               n = n()) %.%
     arrange(age)
     
-head(pf.fc_by_age)
+head(pf.fc_by_age, 20)
+
+ggplot(aes(age, friend_count_mean), data=pf.fc_by_age) + geom_point()
 ```
+summary plot with scatter
+```
+ggplot(aes(x = age, y = friend_count), data = pf) + 
+  xlim(13,90) +
+  geom_point(alpha = 0.05, 
+             position = position_jitter(h = 0),
+             color = 'orange') +
+  coord_trans(y = 'sqrt') +
+  geom_line(stat = 'summary', fun.y=mean)
+
+```
+
 ### 3. More Variables
