@@ -47,6 +47,12 @@ ggplot(aes(x = friend_count), data = subset(pf, is.na(gender))) +
      
 ggplot(aes(x = tenure/365), data = pf) + 
      geom_histogram(binwidth = .25, color = 'black', fill = '#F79420')
+
+ggplot(aes(x = tenure / 365), data = pf) + 
+  geom_histogram(color = 'black', fill = '#F79420') + 
+  scale_x_continuous(breaks = seq(1, 7, 1), limits = c(0, 7)) + 
+  xlab('Number of years using Facebook') + 
+  ylab('Number of users in sample')
 ```
 facet\_wrap() and facet_grid()
 ```
