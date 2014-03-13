@@ -260,3 +260,46 @@ ggplot(aes(x=age, y=female/male),
        geom_line() +
        geom_hline(yintercept=1, alpha=0.3, linetype=2)
 ```
+
+---
+### Case Study: Diamonds and Price Prediction
+
+Price
+```
+library(gridExtra)
+
+plot1 <- qplot() + 
+  ggtitle('Price')
+
+plot2 <- qplot() +
+  ggtitle('Price (log10)')
+
+grid.arrange()
+```
+
+overplotted visited
+```
+ggplot(aes(carat, price), data = diamonds) + 
+  geom_point() + 
+  scale_x_continuous(trans = cuberoot_trans(), limits = c(0.2, 3),
+                     breaks = c(0.2, 0.5, 1, 2, 3)) + 
+  scale_y_continuous(trans = log10_trans(), limits = c(350, 15000),
+                     breaks = c(350, 1000, 5000, 10000, 15000)) +
+  ggtitle('Price (log10) by Cube-Root of Carat')
+```
+
+Price vs. Carat and Clarity
+```
+library(RColorBrewer)
+
+ggplot(aes(x = carat, y = price), data = diamonds) + 
+  geom_point(alpha = 0.5, size = 1, position = 'jitter') +
+  scale_color_brewer(type = 'div',
+    guide = guide_legend(title = 'Clarity', reverse = T,
+    override.aes = list(alpha = 1, size = 2))) +  
+  scale_x_continuous(trans = cuberoot_trans(), limits = c(0.2, 3),
+    breaks = c(0.2, 0.5, 1, 2, 3)) + 
+  scale_y_continuous(trans = log10_trans(), limits = c(350, 15000),
+    breaks = c(350, 1000, 5000, 10000, 15000)) +
+  ggtitle('Price (log10) by Cube-Root of Carat and Clarity')
+```
