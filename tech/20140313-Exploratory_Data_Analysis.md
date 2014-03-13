@@ -25,13 +25,13 @@ library(knitr)
 Histogram: 
 ```
 names(pf)
-qplot( x = dob_day, data = pf) + 
+qplot( x = dob_day, data = pf, binwidth=25) + 
      scale_x_discrete(breaks = 1:31) +
      facet_wrap(~dob_month, ncol = 3)
 
 ggplot(aes(x = friend_count), data = pf) +
      geom_histogram() + 
-     scale_x_continuous(limits = c(0, 1000))
+     scale_x_continuous(limits = c(0, 1000), breaks = seq(0,1000,50))
 ```
 facet\_wrap() and facet_grid()
 ```
