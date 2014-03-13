@@ -136,4 +136,13 @@ sum(pf$mobile_check_in == 1) / length(pf$mobile_check_in)
 
 
 ### 2. Two Variables
+
+scatterplot
+```
+qplot (x=age, y=friend_count, data=pf)
+
+ggplot(aes(x = age, y = friend_count), data = pf) + 
+  geom_point()
+```
+
 ### 3. More Variables
