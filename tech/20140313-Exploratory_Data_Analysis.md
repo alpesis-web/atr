@@ -84,6 +84,8 @@ qplot(x=gender, y=friend_count,
       data=subset(pf, !is.na(gender)), 
       geom='boxplot') +
      coord_cartesion(ylim=c(0,1000))
+
+by(pf$friend_count, pf$gender, summary)
 ```
 
 facet\_wrap() and facet_grid()
