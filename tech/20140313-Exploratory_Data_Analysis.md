@@ -331,3 +331,13 @@ ggplot(aes(x = carat, y = price, color = cut), data = diamonds) +
                      breaks = c(350, 1000, 5000, 10000, 15000)) +
   ggtitle('Price (log10) by Cube-Root of Carat and Cut’)
 ```
+
+Building the Linear Model
+```
+m1 <- lm(I(log(price)) ~ I(carat^1/3), data=diamonds)
+m2 <- update(m1, ~ . + carat)
+m3 <- update(m2, ~ . + cut)
+m4 <- update(m3, ~ . + color)
+m5 <- update(m4, ~ . + clarity)
+mtable(m1, m2, m3, m4, m5)
+```
