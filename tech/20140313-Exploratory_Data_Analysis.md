@@ -74,6 +74,13 @@ ggplot(aes(x = www_likes), data = subset(pf, !is.na(gender))) +
   scale_x_log10()
 ```
 
+Box Plot
+```
+qplot(x=gender, y=friend_count, 
+      data=subset(pf, !is.na(gender)), 
+      geom='boxplot')
+```
+
 facet\_wrap() and facet_grid()
 ```
 facet_wrap(~variable)
