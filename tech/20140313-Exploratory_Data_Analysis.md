@@ -122,6 +122,15 @@ p3 <- p1 + scale_x_sqrt()
 grid.arrange(p1, p2, p3, ncol=1)
 ```
 
+getting logical
+```
+summary(pf$mobile_likes)
+summary(pf$mobile_likes > 0)
+
+mobile_check_in <- NA
+pf$mobile_check_in <- ifelse(pf$mobile_likes > 0, 1, 0)
+```
+
 
 ### 2. Two Variables
 ### 3. More Variables
