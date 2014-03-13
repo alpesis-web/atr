@@ -4,7 +4,7 @@ Table of Contents
 - Toolkit: R
 - Exploratory
     - one variable: histogram/ frequency polygons/ boxplot | summary/ transformation/ logical
-    - two variables: scatterplot
+    - two variables: scatterplot | correlation
     - more variables:
 
 ## 1. Toolkit: R
@@ -211,6 +211,7 @@ ggplot(aes(x = age, y = friend_count), data = pf) +
 correlation
 ```
 cor.test(pf$age, pf$friend_count, method='Pearson')
+with(pf, cor.test(age, friend_count, method='Pearson'))
 ```
 
 ### 3. More Variables
