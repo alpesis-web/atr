@@ -84,6 +84,7 @@ summary table
 ```
 table(pf$gender)
 by(pf$friend_count, pf$gender, summary)
+by(pf$www_likes, pf$gender, sum)
 ```
 
 transforming data
