@@ -21,10 +21,21 @@ Rmd/RMarkdown: library knitr
 install.packages('knitr', dependencies = T) 
 library(knitr)
 ```
-library gridExtra
+plotted pics arranged: library gridExtra
 ```{r}
 install.packages('gridExtra')
 library(gridExtra)
+```
+
+library: dplyr
+```{r}
+install.packages('dplyr')
+library(dplyr)
+
+filter()
+group_by()
+mutate()
+arrange()
 ```
 
 ## 2. Exploratory
@@ -158,4 +169,16 @@ ggplot(aes(x = age, y = friend_count), data = pf) +
 
 ```
 
+conditional means
+```
+library(dplyr)
+
+age_groups <- group_by(pf, age)
+pf.fc_by_age <- summarise(age_groups,
+          friend_count_mean <- mean(friend_count),
+          friend_count_median <- median(friend_count),
+          n = n())
+pf.fc_by_age <- arrange(pf.fc_by_age, age)
+head(pf.fc_by_age)
+```
 ### 3. More Variables
