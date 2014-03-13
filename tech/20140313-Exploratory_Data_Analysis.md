@@ -44,6 +44,9 @@ ggplot(aes(x = friend_count), data = subset(pf, is.na(gender))) +
      geom_histogram() + 
      scale_x_continuous(limits = c(0, 1000), breaks = seq(0,1000,50)) +
      facet_wrap(~gender)
+     
+ggplot(aes(x = tenure/365), data = pf) + 
+     geom_histogram(binwidth = .25, color = 'black', fill = '#F79420')
 ```
 facet\_wrap() and facet_grid()
 ```
