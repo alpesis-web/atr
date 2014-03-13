@@ -5,3 +5,4 @@ Feb 27 2014 | career, jobs | Kelly Chan
 - [LinkedIn](http://www.linkedin.com/)
 - [Kaggle](http://www.kaggle.com/forums/f/145/data-science-jobs)
 - [ResearchGate](https://www.researchgate.net/jobs/?ev=nav_jobs)
+- [FlowingData](https://jobs.flowingdata.com/)
