@@ -6,6 +6,7 @@ Table of Contents
     - one variable: histogram/ frequency polygons/ boxplot | summary/ transformation/ logical
     - two variables: scatterplot | correlation
     - more variables: ratio plot | reshape
+- Case Study: Diamonds and Price Prediction
 
 ## 1. Toolkit: R
 
