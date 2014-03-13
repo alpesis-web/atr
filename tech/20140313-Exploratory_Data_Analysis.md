@@ -221,4 +221,10 @@ ggplot(aes(x=www_likes_received, y=likes_received), data=pf) +
     geom_smooth(method = 'lm', color='red')
 ```
 
+time series
+```
+ggplot(aes(x=(Month%%12),y=Temp),data=Mitchell)+ 
+  geom_point()
+```
+
 ### 3. More Variables
