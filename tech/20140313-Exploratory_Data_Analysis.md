@@ -210,8 +210,14 @@ ggplot(aes(x = age, y = friend_count), data = pf) +
 
 correlation
 ```
-cor.test(pf$age, pf$friend_count, method='Pearson')
-with(pf, cor.test(age, friend_count, method='Pearson'))
+cor.test(pf$age, pf$friend_count, method='pearson')
+with(pf, cor.test(age, friend_count, method='pearson'))
+with(subset(pf, age <= 70), cor.test(age, friend_count, method='pearson'))
+
+ggplot(aes(x=www_likes_received, y=likes_received), data=pf) + 
+    geom_point() +
+    xlim(0, quantitle(pf$www_likes_received, 0.95)) +
+    ylim(0, quantitle(pf$likes_recieved, 0.95))
 ```
 
 ### 3. More Variables
