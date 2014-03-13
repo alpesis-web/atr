@@ -1,9 +1,7 @@
 Mar 13 2014 | EDA, data_analysis | Kelly Chan
 # Exploratory Data Anlaysis
 
-## 1. Toolkit
-
-### R
+## 1. R
 
 plotting: libraries ggplot2 and RColorBrewer
 ```{r}
