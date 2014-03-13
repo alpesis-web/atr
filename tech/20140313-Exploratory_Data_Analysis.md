@@ -202,7 +202,10 @@ ggplot(aes(x = age, y = friend_count), data = pf) +
              position = position_jitter(h = 0),
              color = 'orange') +
   coord_trans(y = 'sqrt') +
-  geom_line(stat = 'summary', fun.y=mean)
+  geom_line(stat = 'summary', fun.y = mean) +
+  geom_line(stat = 'summary', fun.y = quantitle, prob = .1, linetype = 2, color = 'blue') +
+  geom_line(stat = 'summary', fun.y = quantitle, prob = .5, color = 'blue') +
+  geom_line(stat = 'summary', fun.y = quantitle, prob = .9, linetype = 2, color = 'blue')
 
 ```
 
