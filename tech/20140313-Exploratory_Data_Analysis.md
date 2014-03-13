@@ -51,5 +51,11 @@ facet_wrap(~variable)
 facet_grid(vertical ~ horizontal)
 ```
 
+summary table
+```
+table(pf$gender)
+by(pf$friend_count, pf$gender, summary)
+```
+
 ### 2. Two Variables
 ### 3. More Variables
