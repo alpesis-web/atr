@@ -84,6 +84,10 @@ p2 <- qplot(x = log10(friend_count + 1), data =df)
 p3 <- qplot(x = sqrt(friend_count), data =df)
 grid.arrange(p1, p2, p3, ncol=1)
 
+p1 <- ggplot(aes(x=friend_count), data=df) + geom_histogram()
+p2 <- p1 + scale_x_log()
+p3 <- p1 + scale_x_sqrt()
+grid.arrange(p1, p2, p3, ncol=1)
 ```
 
 
