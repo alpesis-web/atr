@@ -129,6 +129,9 @@ summary(pf$mobile_likes > 0)
 
 mobile_check_in <- NA
 pf$mobile_check_in <- ifelse(pf$mobile_likes > 0, 1, 0)
+
+summary(pf$mobile_check_in)
+sum(pf$mobile_check_in == 1) / length(pf$mobile_check_in)
 ```
 
 
