@@ -82,7 +82,6 @@ library(gridExtra)
 p1 <- qplot(x = friend_count, data =df)
 p2 <- qplot(x = log10(friend_count + 1), data =df)
 p3 <- qplot(x = sqrt(friend_count), data =df)
-
 grid.arrange(p1, p2, p3, ncol=1)
 
 ```
