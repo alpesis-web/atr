@@ -30,7 +30,8 @@ qplot( x = dob_day, data = pf) +
      facet_wrap(~dob_month, ncol = 3)
 
 ggplot(aes(x = friend_count), data = pf) +
-     geom_histogram()
+     geom_histogram() + 
+     scale_x_continuous(limits = c(0, 1000))
 ```
 facet\_wrap() and facet_grid()
 ```
