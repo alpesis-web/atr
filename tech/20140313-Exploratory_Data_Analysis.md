@@ -179,6 +179,17 @@ pf.fc_by_age <- summarise(age_groups,
           friend_count_median <- median(friend_count),
           n = n())
 pf.fc_by_age <- arrange(pf.fc_by_age, age)
+
+head(pf.fc_by_age)
+
+
+pf.fc_by_age <- pf %.%
+    group_by(age) %.%
+    summarise(friend_count_mean <- mean(friend_count),
+              friend_count_median <- median(friend_count),
+              n = n()) %.%
+    arrange(age)
+    
 head(pf.fc_by_age)
 ```
 ### 3. More Variables
