@@ -66,5 +66,14 @@ table(pf$gender)
 by(pf$friend_count, pf$gender, summary)
 ```
 
+transforming data
+```
+qplot(x=friend_count, data=df)
+
+summary(pf$friend_count)
+summary(log10( pf$friend_count + 1 ))
+summary(sqrt( pf$friend_count ))
+```
+
 ### 2. Two Variables
 ### 3. More Variables
