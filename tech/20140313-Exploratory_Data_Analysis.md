@@ -22,7 +22,13 @@ library(knitr)
 
 ### 1. One Variable
 
-Histogram: `qplot( x = dob_day, data = pf) + scale_x_discrete(breaks = 1:31)`
+Histogram: 
+```
+names(pf)
+qplot( x = dob_day, data = pf) + 
+     scale_x_discrete(breaks = 1:31) +
+     facet_wrap(~dob_month, ncol = 3)
+```
 
 ### 2. Two Variables
 ### 3. More Variables
