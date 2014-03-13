@@ -5,7 +5,7 @@ Table of Contents
 - Exploratory
     - one variable: histogram/ frequency polygons/ boxplot | summary/ transformation/ logical
     - two variables: scatterplot | correlation
-    - more variables: reshape
+    - more variables: ratio plot | reshape
 
 ## 1. Toolkit: R
 
@@ -251,4 +251,12 @@ pf.fc_by_age_gender.wide <- pf.fc_by_age_gender %.%
   arrange(age)
   
 head(pf.fc_by_age_gender.wide)
+```
+
+ratio plot
+```
+ggplot(aes(x=age, y=female/male), 
+       data = pf.fc_by_age_gender.wide) +
+       geom_line() +
+       geom_hline(yintercept=1, alpha=0.3, linetype=2)
 ```
