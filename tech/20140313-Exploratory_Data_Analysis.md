@@ -206,7 +206,11 @@ ggplot(aes(x = age, y = friend_count), data = pf) +
   geom_line(stat = 'summary', fun.y = quantitle, prob = .1, linetype = 2, color = 'blue') +
   geom_line(stat = 'summary', fun.y = quantitle, prob = .5, color = 'blue') +
   geom_line(stat = 'summary', fun.y = quantitle, prob = .9, linetype = 2, color = 'blue')
+```
 
+correlation
+```
+cor.test(pf$age, pf$friend_count, method='Pearson')
 ```
 
 ### 3. More Variables
