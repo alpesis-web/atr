@@ -10,3 +10,8 @@ library(ggplot2)
 install.packages('RColorBrewer', dependencies = TRUE)
 library(RColorBrewer)
 ```
+library knitr
+```r
+install.packages('knitr', dependencies = T) 
+library(knitr)
+```
