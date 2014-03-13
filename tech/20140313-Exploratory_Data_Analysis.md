@@ -25,7 +25,7 @@ library(knitr)
 Histogram: 
 ```
 names(pf)
-qplot( x = dob_day, data = pf, binwidth=25) + 
+qplot( x = dob_day, data = pf, binwidth=25, color=I('black'), fill=I('#099009')) + 
      scale_x_discrete(breaks = 1:31) +
      facet_wrap(~dob_month, ncol = 3)
 
