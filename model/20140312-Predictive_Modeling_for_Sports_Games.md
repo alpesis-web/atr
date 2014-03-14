@@ -16,3 +16,4 @@ WinPct(RatingDiff) = 1/(1+POWER(10,-RatingDiff/C))  \----- C is constant, basket
 ---
 ### Reference
 1. [Elo rating system](http://en.wikipedia.org/wiki/Elo_rating_system)
+2. [Logistic distribution](http://en.wikipedia.org/wiki/Logistic_distribution)
