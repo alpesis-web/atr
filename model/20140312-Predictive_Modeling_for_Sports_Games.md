@@ -15,10 +15,10 @@ WinPct(RatingDiff) = 1/(1+POWER(10,-RatingDiff/C))  \----- C is constant, basket
 
 ---
 ### Reference
-modeling
+modeling  
 1. [Elo rating system](http://en.wikipedia.org/wiki/Elo_rating_system)  
 2. [Sports rating system](http://en.wikipedia.org/wiki/Sports_rating_system)
 
-maths
+maths  
 1. [Logistic distribution](http://en.wikipedia.org/wiki/Logistic_distribution)  
 2. [Logistic function](http://en.wikipedia.org/wiki/Logistic_curve)
