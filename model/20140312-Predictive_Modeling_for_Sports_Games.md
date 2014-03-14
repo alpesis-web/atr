@@ -14,7 +14,7 @@ winProb = 0.5 + 0.03 * diffRanks
 WinPct(RatingDiff) = 1/(1+POWER(10,-RatingDiff/C))  \----- C is constant, basketball: 15
 
 ---
-### Reference
+### References
 modeling  
 1. [Elo rating system](http://en.wikipedia.org/wiki/Elo_rating_system)  
 2. [Sports rating system](http://en.wikipedia.org/wiki/Sports_rating_system)
