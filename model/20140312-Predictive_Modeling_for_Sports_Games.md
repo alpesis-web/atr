@@ -11,7 +11,7 @@ kickRate = ( total # of kicks + # of kicks of recent fives) / # of games
 
 winProb = 0.5 + 0.03 * diffRanks  
 
-Rating = 100 - 4*LN(rank+1) - rank/22
+Rating = 100 - 4*LN(rank+1) - rank/22  
 WinPct(RatingDiff) = 1/(1+POWER(10,-RatingDiff/C))  \----- C is constant, basketball: 15
 
 ---
