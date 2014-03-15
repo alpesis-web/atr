@@ -29,7 +29,7 @@ WinPct(RatingDiff) = 1/(1+POWER(10,-RatingDiff/15))  -- basketball: 15
 
 ## 2. Modeling
 
-- step1. calculating rating/ranking for each team
+- step1. calculating rating/ranking for each team  --> diffRating/diffRanking
 - step2. logistic regression to predict win probability
 - step3. predicting results for team-team pair
 
