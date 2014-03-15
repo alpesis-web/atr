@@ -1,6 +1,13 @@
 Mar 12 2014 | prediction, DM, sports | Kelly Chan
 # Predictive Modeling for Sports Games
 
+table of contents
+- 1. Games
+     - Football
+     - Basketball
+- 2. Modeling
+     - Rating - scores
+     - Ranking - seeds
 
 ## 1. Games
 
