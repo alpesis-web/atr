@@ -50,7 +50,7 @@ getting data by rows
 dataframe[0:3]
 dataframe['20130102':'20130104']
 ```
-reshaping dataframe: `dataframe.loc[:,['A','B']]`
+reshaping dataframe: `dataframe.loc[:,['A','B']]`  
 getting one record with T: `dataframe.iloc[3]`  
 getting rows and columns as defined: 
 ```python
