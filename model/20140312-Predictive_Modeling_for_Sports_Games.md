@@ -1,13 +1,16 @@
 Mar 12 2014 | prediction, DM, sports | Kelly Chan
 # Predictive Modeling for Sports Games
 
-### 1. Football
+
+## 1. Games
+
+### (1) Football
 
 prediction = historicalKicks + recentStatus
 
 kickRate = ( total # of kicks + # of kicks of recent fives) / # of games
 
-### 2. Basketball
+### (2) Basketball
 
 winProb = 0.5 + 0.03 * diffRanks  
 Win % = 0.50 + 0.03 * (weak seed minus strong seed) 
@@ -16,6 +19,15 @@ Rating = 100 - 4*LN(rank+1) - rank/22
 WinPct(RatingDiff) = 1/(1+POWER(10,-RatingDiff/C))  
 WinPct(RatingDiff) = 1/(1+POWER(10,-RatingDiff/15))  -- basketball: 15
 
+
+## 2. Modeling
+
+- step1. calculating rating/ranking for each team
+- step2. logistic regression to predict win probability
+- step3. predicting results for team-team pair
+
+### Rating - scores
+### Ranking - seeds
 
 ---
 ### References
