@@ -10,6 +10,7 @@ Mar 17 2014 | operation, warranty, time_series | Kelly Chan
 - binomial
 - logistic
 
+
 2. Degradation Models
 
 - linear: y=ax+b
