@@ -35,3 +35,4 @@ Table of Contents
 ---
 ### Reference
 - 1. [Warranty Data Analysis](http://reliawiki.org/index.php/Warranty_Data_Analysis)
+- 2. [Predicting Product Life Using Reliability Analysis Methods](http://www.slideshare.net/ASQwebinars/predicting-product-life-using-reliability-analysis-methods)
