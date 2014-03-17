@@ -1,7 +1,7 @@
 Mar 17 2014 | operation, warranty, time_series | Kelly Chan
 # Warranty Data Analysis
 
-1. Common distributions in reliability
+1. Common distributions in reliability  
 - weilbull
 - exponential
 - lognormal
