@@ -1,6 +1,15 @@
 Mar 17 2014 | operation, warranty, time_series | Kelly Chan
 # Warranty Data Analysis
 
+1. reliability data
+
+    - life data
+    - time-to-failure (TTF) data <- non-repairable
+    - time-between-failure (TBF) data <- repairable
+    - survival data
+    - event-time data
+    - degradation data
+
 1. Common distributions in reliability
     - weilbull
     - exponential
