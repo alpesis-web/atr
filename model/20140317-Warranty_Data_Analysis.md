@@ -1,6 +1,14 @@
 Mar 17 2014 | operation, warranty, time_series | Kelly Chan
 # Warranty Data Analysis
 
+1. Common distributions in reliability
+- weilbull
+- exponential
+- lognormal
+- gamma
+- binomial
+- logistic
+
 Table of Contents
 - 1. Nevada Chart Format
 - 2. Time-to-Failure Format
