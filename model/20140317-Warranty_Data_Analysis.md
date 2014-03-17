@@ -15,13 +15,17 @@ censored data
 - exact failure times are not known
 - types: right/left/interval censoring
 
-1. Common distributions in reliability
-    - weilbull
-    - exponential
-    - lognormal
-    - gamma
-    - binomial
-    - logistic
+2. Distribution
+
+hazard function (rate): h(t) = f(t) / (1-F(t)) = f(t)/R(t)
+
+distributions of reliability:
+- weilbull
+- exponential
+- lognormal
+- gamma
+- binomial
+- logistic
     
 2. Degradation Models
     - linear: y=ax+b
