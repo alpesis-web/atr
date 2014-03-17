@@ -10,6 +10,15 @@ Mar 17 2014 | operation, warranty, time_series | Kelly Chan
 - binomial
 - logistic
 
+2. Degradation Models
+
+- linear: y=ax+b
+- exponential: y=b*e^(ax)
+- power: y=b*x^a
+- logarithmic: y=a*ln(x)+b
+- gompertz: y=a*b^(cx)
+- lloyd-lipow: y=a-b/x
+
 Table of Contents
 - 1. Nevada Chart Format
 - 2. Time-to-Failure Format
