@@ -15,9 +15,10 @@ censored data
 - exact failure times are not known
 - types: right/left/interval censoring
 
-### 2. Distribution
+### 2. Distributions
 
-hazard function (rate): h(t) = f(t) / (1-F(t)) = f(t)/R(t)
+hazard function (rate):  
+h(t) = f(t) / (1-F(t)) = f(t)/R(t)
 
 distributions of reliability:
 - weibull
