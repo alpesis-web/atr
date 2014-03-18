@@ -128,6 +128,10 @@ perceptron training: finds weights that map inputs to outputs
 - perceptron rule <- threshold - guarantee, finite, linear
 - gradient descent/ delta rule <- unthreshold - calculus, robust, local, optimum
 
+different threshold
+- sigmoid: 1/1+e^(-a), interval [(-, +), (0, 1)]
+- 
+
 ## 4. Instance Based Learning
 ## 5. Ensemble B&B
 ## 6. Kernel Methods & SVMs
