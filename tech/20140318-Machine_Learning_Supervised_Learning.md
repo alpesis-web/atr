@@ -42,16 +42,27 @@ data:
 | ... | ... |
 | xn  | yn  |
 
-function:
+algorithms:
+- linear regression: f = ax + b
+- polynomial regression: f(x) = c0 + c1x + c2x^2 + ... + cnx^n
+
+
+### Linear Regression
+
+functions:
 - f = ax + b
 - loss error: sum(y_i - c)^2
+- best constant = mean (squared error)
 
-calculations:  
+approvement:  
 - step1. f(x) = c
 - step2. E(c) = sum(y_i - c)^2  
 - step3. d(E(c)) / dc = sum( 2 * (y_i - c) * (-1) )  
 - step4. \- sum( 2 * (y\_i -c) * (-1) ) = 0 --> n * c = sum(y\_i) --> c = sum(y\_i) / n = mean  
 - step5. sum(y_i) - sum(c) = 0  
+
+
+### Polynomical Regression
 
 order of polynomial:  
 - f(x) = c0 + c1x + c2x^2 + ... + cnx^n
