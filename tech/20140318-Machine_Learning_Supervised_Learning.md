@@ -61,7 +61,14 @@ order of polynomial:
     - k = 2: parabola
     - k = 3: cubic
     - k = 8: octic
-- dfd
+- example:
+    - c0 + c1x + c2x^2 + c3x^3 = y
+    - [1, x1, x1^2, x1^3] * [c0, c1, c2, c3].T ~ [y1]
+    - [1, x2, x2^2, x2^3] * [c0, c1, c2, c3].T ~ [y2]
+    - [1, x3, x3^2, x3^3] * [c0, c1, c2, c3].T ~ [y3]
+    - [1, ..., ..., ...]  * [c0, c1, c2, c3].T ~ [...]
+    - [1, xn, xn^2, xn^3] * [c0, c1, c2, c3].T ~ [yn]
+- dd
 
 
 ## 3. Neural Networks
