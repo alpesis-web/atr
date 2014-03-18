@@ -95,20 +95,21 @@ order of polynomial:
 
 ## 3. Neural Networks
 
+neural networks
 ```
+theta: perceptron unit --> threshold
+
 x1 - (w1) --|
 x2 - (w2) --| ---> (theta) -------------------------> y
 x3 - (w3) --| 
-
-theta: perceptron unit --> threshold
 ```
 
+theta = 0, return yes|y=1, no|y=0  
 |   | 1   |   2 |   3  |
 |---|-----|-----|------|
 | x | 1   |   0 | -1.5 |
 | w | 1/2 | 3/5 | 1    |
 
-theta = 0, return yes|y=1, no|y=0  
 solution: x1 \* w1 + x2 \* w2 + x3 \* w3 = 1\*1/2 + 0\*3/5 - 1.5\*1 = -1    ==> y=0  
 
 perceptron unit:
