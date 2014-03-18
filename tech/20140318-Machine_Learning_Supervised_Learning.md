@@ -79,7 +79,7 @@ order of polynomial:
     - malrciously - being given bad data
     - transcription error
     - unmodeled influences
-- dd
+- cross validation: split data by folds
 
 
 ## 3. Neural Networks
