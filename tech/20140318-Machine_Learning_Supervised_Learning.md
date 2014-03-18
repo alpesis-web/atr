@@ -104,6 +104,8 @@ x2 - (w2) --| ---> (theta) -------------------------> y
 x3 - (w3) --| 
 ```
 
+### Perceptron
+
 theta = 0, return yes|y=1, no|y=0  
 
 |   | 1   |   2 |   3  |
@@ -130,7 +132,14 @@ perceptron training: finds weights that map inputs to outputs
 
 differetiable threshold
 - sigmoid: 1/1+e^(-a), interval [(-, +), (0, 1)]
-- 
+
+### Weights
+
+optimizing weights  
+
+### Model Summary
+restriction/perference bias
+
 
 ## 4. Instance Based Learning
 ## 5. Ensemble B&B
