@@ -97,7 +97,7 @@ order of polynomial:
 
 neural networks
 ```
-theta: perceptron unit --> threshold
+theta: perceptron unit --> threshold -- sigmoid units - hidden layer
 
 x1 - (w1) --|
 x2 - (w2) --| ---> (theta) -------------------------> y
@@ -128,7 +128,7 @@ perceptron training: finds weights that map inputs to outputs
 - perceptron rule <- threshold - guarantee, finite, linear
 - gradient descent/ delta rule <- unthreshold - calculus, robust, local, optimum
 
-different threshold
+differetiable threshold
 - sigmoid: 1/1+e^(-a), interval [(-, +), (0, 1)]
 - 
 
