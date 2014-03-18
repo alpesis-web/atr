@@ -31,6 +31,29 @@ notes:
 
 
 ## 2. Regression & Classification
+
+function:
+- f = ax + b
+- loss error: sum(y_i - c)^2
+
+calculations:  
+- step1. f(x) = c
+- step2. E(c) = sum(y_i - c)^2  
+- step3. d(E(c)) / dc = sum( 2 * (y_i - c) * (-1) )  
+- step4. \- sum( 2 * (y\_i -c) * (-1) ) = 0 --> n * c = sum(y\_i) --> c = sum(y\_i) / n = mean  
+- step5. sum(y_i) - sum(c) = 0  
+
+order of polynomial:  
+- f(x) = c0 + c1x + c2x^2 + ... + cnx^n
+- degrees:
+    - k = 0: constant
+    - k = 1: line
+    - k = 2: parabola
+    - k = 3: cubic
+    - k = 8: octic
+- dfd
+
+
 ## 3. Neural Networks
 ## 4. Instance Based Learning
 ## 5. Ensemble B&B
