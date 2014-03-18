@@ -74,7 +74,12 @@ order of polynomial:
     - X^T * X * w = X^T * Y
     - (X^T * X)^(-1) * (X^T * X) * w = (X^T * X)^(-1) * X^T * Y
     - w = (X^T * X)^(-1) * X^T * Y
-- dfd
+- errors: f + error
+    - sensor error
+    - malrciously - being given bad data
+    - transcription error
+    - unmodeled influences
+- dd
 
 
 ## 3. Neural Networks
