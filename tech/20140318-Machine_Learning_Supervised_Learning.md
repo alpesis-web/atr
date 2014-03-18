@@ -63,13 +63,18 @@ order of polynomial:
     - k = 8: octic
 - example:
     - c0 + c1x + c2x^2 + c3x^3 = y
-    - X * W = Y
+    - X * w = Y
     - [1, x1, x1^2, x1^3] * [c0, c1, c2, c3].T ~ [y1]
     - [1, x2, x2^2, x2^3] * [c0, c1, c2, c3].T ~ [y2]
     - [1, x3, x3^2, x3^3] * [c0, c1, c2, c3].T ~ [y3]
     - [1, ..., ..., ...]  * [c0, c1, c2, c3].T ~ [...]
     - [1, xn, xn^2, xn^3] * [c0, c1, c2, c3].T ~ [yn]
-- dd
+- weights:
+    - X * w = Y
+    - X^T * X * w = X^T * Y
+    - (X^T * X)^(-1) * (X^T * X) * w = (X^T * X)^(-1) * X^T * Y
+    - w = (X^T * X)^(-1) * X^T * Y
+- dfd
 
 
 ## 3. Neural Networks
