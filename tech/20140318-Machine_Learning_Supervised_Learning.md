@@ -5,7 +5,7 @@ table of contents
 - 1. Decision Trees
 - 2. Regression & Classification
 - 3. Neural Networks
-- 4. Instance Based Learning
+- 4. Instance Based Learning - knn
 - 5. Ensemble B&B
 - 6. Kernel Methods & SVMs
 - 7. Comp Learning Theory
@@ -141,7 +141,20 @@ optimizing weights
 restriction/perference bias
 
 
-## 4. Instance Based Learning
+## 4. Instance Based Learning - knn
+
+k nearest neighbors /knn:
+- function: f(x) = lookup(x)
+- factors:
+    - d() - distances <- similarity
+        - euclidean
+        - manhanttan
+    - k
+    - average
+- returns:
+    - classification
+    - regression
+
 ## 5. Ensemble B&B
 ## 6. Kernel Methods & SVMs
 ## 7. Comp Learning Theory
