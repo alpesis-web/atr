@@ -32,6 +32,16 @@ notes:
 
 ## 2. Regression & Classification
 
+data:
+
+| x   | y   |
+|-----|-----|
+| x1  | y1  |
+| x2  | y2  |
+| x3  | y3  |
+| ... | ... |
+| xn  | yn  |
+
 function:
 - f = ax + b
 - loss error: sum(y_i - c)^2
