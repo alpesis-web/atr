@@ -75,3 +75,4 @@ Table of Contents
 - 1. [Warranty Data Analysis](http://reliawiki.org/index.php/Warranty_Data_Analysis)
 - 2. [Predicting Product Life Using Reliability Analysis Methods](http://www.slideshare.net/ASQwebinars/predicting-product-life-using-reliability-analysis-methods)
 - 3. [Using Microsoft Excel for Weibull Analysis](http://www.qualitydigest.com/magazine/1999/jan/article/using-microsoft-excel-weibull-analysis.html)
+- 4. [Time to Failure Distributions](http://infohost.nmt.edu/~olegm/484/Chap4-1.pdf)
