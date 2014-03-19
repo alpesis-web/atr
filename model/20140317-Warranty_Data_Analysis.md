@@ -79,3 +79,4 @@ Table of Contents
 - 5. [Reliability: Statistical Aspects](http://www.ptc.com/WCMS/files/129621/en/The_Weibull_Distribution_Function_in_Reliability_Studies.pdf)
 - 6. [An introduction to the Weibull Distribution](http://www.weibull.nl/index.php/about-reliability/weibull-statistics)
 - 7. [Failure rate (Updated and Adapted from Notes by Dr. A.K. Nema)](http://web.iitd.ac.in/~arunku/files/CEL899_Y13/Failure_rate.pdf)
+- 8. [ReliaSoft's Life Data Analysis Reference](http://reliawiki.org/index.php/Life_Data_Analysis_Reference_Book)
