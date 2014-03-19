@@ -77,3 +77,4 @@ Table of Contents
 - 3. [Using Microsoft Excel for Weibull Analysis](http://www.qualitydigest.com/magazine/1999/jan/article/using-microsoft-excel-weibull-analysis.html)
 - 4. [Time to Failure Distributions](http://infohost.nmt.edu/~olegm/484/Chap4-1.pdf)
 - 5. [Reliability: Statistical Aspects](http://www.ptc.com/WCMS/files/129621/en/The_Weibull_Distribution_Function_in_Reliability_Studies.pdf)
+- 6. [An introduction to the Weibull Distribution](http://www.weibull.nl/index.php/about-reliability/weibull-statistics)
