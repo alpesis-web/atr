@@ -1,5 +1,5 @@
 Mar 17 2014 | operation, warranty, time_series | Kelly Chan
-# Warranty Data Analysis
+# Warranty Analysis
 
 ### 1. Data Types
 
