@@ -70,6 +70,13 @@ Table of Contents
 ## 3. Dates of Failure Format
 ## 4. Usage Format
 
+return rate = # of return / # of sales  
+repair/sale -> to train return rate  
+
+# of return = # of sale * return rate  
+cal peroid    
+sum peroid  
+
 ---
 ### References
 - 1. [Warranty Data Analysis](http://reliawiki.org/index.php/Warranty_Data_Analysis)
