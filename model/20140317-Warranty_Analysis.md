@@ -73,7 +73,7 @@ Table of Contents
 return rate = # of return / # of sales  
 repair/sale -> to train return rate  
 
-# of return = # of sale * return rate  
+\# of return = \# of sale \* return rate  
 cal peroid    
 sum peroid  
 
