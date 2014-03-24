@@ -12,3 +12,12 @@ Mar 24 2014 | optimization | Kelly Chan
 - to find more rules and better ontology
 
 
+### 3. Algebraic Expression
+
+- to change the coeffieients (parameters, constants)
+- to apply heuristic techniques (Genetic Algorithm (GA, Tabu search) to fine tune the values of constants
+
+### 4. Black Box Models (such as Neural Networks)
+
+- to change the parameters of the model (learning rate, training algorithm etc)
+
