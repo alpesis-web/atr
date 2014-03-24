@@ -6,7 +6,7 @@ table of contents
 - 2. Regression & Classification
 - 3. Neural Networks
 - 4. Instance Based Learning - knn
-- 5. Ensemble B&B
+- 5. Ensemble B&B - Boosting
 - 6. Kernel Methods & SVMs
 - 7. Comp Learning Theory
 - 8. VC Dimensions
@@ -155,7 +155,9 @@ k nearest neighbors /knn:
     - classification
     - regression
 
-## 5. Ensemble B&B
+## 5. Ensemble B&B - Boosting
+
+
 ## 6. Kernel Methods & SVMs
 ## 7. Comp Learning Theory
 ## 8. VC Dimensions
