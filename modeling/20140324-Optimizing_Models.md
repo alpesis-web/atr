@@ -21,3 +21,9 @@ Mar 24 2014 | optimization | Kelly Chan
 
 - to change the parameters of the model (learning rate, training algorithm etc)
 
+
+### 5. Models for Imbalanced Data-set
+
+- over-sampling
+- ensemble methods (multiple learning methods)
+
