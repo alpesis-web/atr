@@ -160,9 +160,15 @@ k nearest neighbors /knn:
 
 ## 6. Kernel Methods & SVMs
 ## 7. Comp Learning Theory
+
+- time
+- space
+
 ## 8. VC Dimensions
 
 VC Dimensions
 - linear: dimensions + 1
-- polygons: 
+- polygons: infinite
+
+
 ## 9. Bayesian Learning/Inference
