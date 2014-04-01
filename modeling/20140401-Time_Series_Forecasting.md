@@ -23,3 +23,6 @@ Apr 1 2014 | Time_Series | Kelly Chan
 - (MAD) Mean Absolute Deviation: 1/n * sum(At-Ft)
 - (MSE) Mean Squared Error: 1/n * sum((At-Ft)^2)
 - (RMSE) Root Means Squared Error: sqrt(MSE)
+
+### 4. Bias
+- TS = RSFE / MAD = sum(At-Ft) / MAD
