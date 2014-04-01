@@ -9,6 +9,9 @@ Apr 1 2014 | Time_Series | Kelly Chan
 
 ### 2. Methods
 - Regressions
+    - formula: Y = aX + b
+    - b = (sum(xy) - n * xMean * yMean)  / (sum(x^2) - n * xMean^2)
+    - a = yMean - b * xMean
 - Time Series
     - Naive: recent value
     - (n/ weights) Moving Average: simple/ weighted
@@ -18,6 +21,7 @@ Apr 1 2014 | Time_Series | Kelly Chan
     - (alpha) Expoential Smoothing: level/ trend/ seasonality
         - level: Ft+1 = Ft + alpha * (At - Ft) <- alpha: how important of recent data
         - weighted: Ft+1 = alpha * At + (1-alpha) * At-1 + alpha * (1-alpha)^2 * At-2 + ...
+        - trend: FITt = Ft + Tt = [FITt-1 + alpha* (At-1 - Ft-1)] + [Tt-1 + eta * (Ft - FITt-1)]
 
 ### 3. Errors
 - (MAD) Mean Absolute Deviation: 1/n * sum(At-Ft)
