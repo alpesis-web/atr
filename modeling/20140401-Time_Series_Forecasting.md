@@ -18,3 +18,8 @@ Apr 1 2014 | Time_Series | Kelly Chan
     - (alpha) Expoential Smoothing: level/ trend/ seasonality
         - level: Ft+1 = Ft + alpha * (At - Ft) <- alpha: how important of recent data
         - weighted: Ft+1 = alpha * At + (1-alpha) * At-1 + alpha * (1-alpha)^2 * At-2 + ...
+
+### 3. Errors
+- (MAD) Mean Absolute Deviation: 1/n * sum(At-Ft)
+- (MSE) Mean Squared Error: 1/n * sum((At-Ft)^2)
+- (RMSE) Root Means Squared Error: sqrt(MSE)
