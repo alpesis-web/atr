@@ -9,9 +9,13 @@ Apr 1 2014 | Time_Series | Kelly Chan
 
 ### 2. Methods
 - Regressions
-    - formula: Y = aX + b
-    - b = (sum(xy) - n * xMean * yMean)  / (sum(x^2) - n * xMean^2)
-    - a = yMean - b * xMean
+    - linear regression
+        - formula: Y = aX + b
+        - b = (sum(xy) - n * xMean * yMean)  / (sum(x^2) - n * xMean^2)
+        - a = yMean - b * xMean
+    - survival regression
+        - lambda(t) = b0(t) * exp(b1x1 + b2x2 + ... + bnxn)
+        - lambda(t) = b0(t) + b1(t)x1 + b2(t)x2 + ... + bn(t)xT
 - Time Series
     - Naive: recent value
     - (n/ weights) Moving Average: simple/ weighted
