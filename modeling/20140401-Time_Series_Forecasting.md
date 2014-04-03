@@ -6,8 +6,13 @@ Apr 1 2014 | Time_Series | Kelly Chan
 - Level (long-term average): data fluctuates around a constant mean
     - Naive: Ft+1 = At (the last value)
     - Simple Mean: Ft+1 = sum(A1..t)/N
-    - Moving Average: Ft+1 = sum(An...t) / N
 - Trend: data exhibits an increasing or decreasing pattern
+    - Moving Average: Ft+1 = sum(An...t) / N
+    - Weighted Moving Average: Ft+1 = sum(WtAt)
+    - Exponential Smoothing: Ft+1 = alpha * At + (1-alpha) * Ft 
+        - At: last actual value
+        - Ft: last forecast value
+        - alpha: smoothing coefficient
 - Seasonality: any pattern that regularly repeats itself and is of a constant length
 - Cycle: patterns created by economic fluctuations 
 
