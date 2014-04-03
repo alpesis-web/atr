@@ -3,9 +3,11 @@ Apr 1 2014 | Time_Series | Kelly Chan
 
 ### 1. Data
 - random
-- trend
-- seasonal
-- composite
+- Level (long-term average): data fluctuates around a constant mean
+- Trend: data exhibits an increasing or decreasing pattern
+- Seasonality: any pattern that regularly repeats itself and is of a constant length
+- Cycle: patterns created by economic fluctuations 
+
 
 ### 2. Methods
 - Regressions
