@@ -13,6 +13,10 @@ Apr 1 2014 | Time_Series | Kelly Chan
         - At: last actual value
         - Ft: last forecast value
         - alpha: smoothing coefficient
+    - Forecast including trend = smooth the level of the series + smooth the trend
+        - FIT = St + Tt
+        - (level) St = alpha * At + (1-alpha) * (St-1 + Tt-1)
+        - (trend) Tt = beta * (St - St-1) + (1-beta) * Tt-1
 - Seasonality: any pattern that regularly repeats itself and is of a constant length
 - Cycle: patterns created by economic fluctuations 
 
