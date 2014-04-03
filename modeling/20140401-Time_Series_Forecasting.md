@@ -17,7 +17,11 @@ Apr 1 2014 | Time_Series | Kelly Chan
         - FIT = St + Tt
         - (level) St = alpha * At + (1-alpha) * (St-1 + Tt-1)
         - (trend) Tt = beta * (St - St-1) + (1-beta) * Tt-1
+    - linear regression: Y = aX + b
 - Seasonality: any pattern that regularly repeats itself and is of a constant length
+    - average demand per season
+    - seasonal index for each season of each year = actual demand / average demand
+    - average the indexes by season
 - Cycle: patterns created by economic fluctuations 
 
 
