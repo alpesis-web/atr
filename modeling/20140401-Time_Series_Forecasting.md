@@ -56,4 +56,5 @@ Apr 1 2014 | Time_Series | Kelly Chan
 
 ---
 ### References
-1. [Time Series Forecasting](http://myy.haaga-helia.fi/~taaak/q/forec.pdf)
+1. [Time Series Forecasting](http://myy.haaga-helia.fi/~taaak/q/forec.pdf)  
+2. [Using R for Time Series Analysis](http://a-little-book-of-r-for-time-series.readthedocs.org/en/latest/src/timeseries.html)
