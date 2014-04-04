@@ -52,3 +52,8 @@ Apr 1 2014 | Time_Series | Kelly Chan
 
 ### 4. Bias
 - TS = RSFE / MAD = sum(At-Ft) / MAD
+
+
+---
+### References
+1. [Time Series Forecasting](http://myy.haaga-helia.fi/~taaak/q/forec.pdf)
