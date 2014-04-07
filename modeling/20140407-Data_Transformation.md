@@ -5,6 +5,11 @@ Apr 7 2014 | Data_Transformation | Kelly Chan
 
 non-normal distribution -> normal distribution
 
+| 10-based | log-based |
+|:--------:|:---------:|
+|     |  |
+
+
 10-based:
 - 10 raised to the power of 1 = 10
 - 10 raised to the power of 2 = 100
