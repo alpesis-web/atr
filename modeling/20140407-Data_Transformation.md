@@ -3,6 +3,8 @@ Apr 7 2014 | Data_Transformation | Kelly Chan
 
 ### 1. Log Transformation
 
+newX = ln(X+1)
+
 non-normal distribution -> normal distribution
 
 | 10-based                           | log-based     |
