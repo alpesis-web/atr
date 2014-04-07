@@ -3,6 +3,10 @@ Apr 7 2014 | statistical_learning | Kelly Chan
 
 ### 1. Regression
 
-| Algorithm         | When | Who                | Paper                   | Application |
-|:------------------|:-----|:-------------------|:------------------------|:------------|
-| linear regression |      | Legendre and Gauss | Method of least squares | astronomy   |
+| Algorithm                | When  | Who                   | Paper                        | Data         | Application |
+|:-------------------------|:------|:----------------------|:-----------------------------|:-------------|:------------|
+| linear regression        |       | Legendre and Gauss    | Method of least squares      | quantitative | astronomy   |
+|                          | 1936  | Fisher                | linear discriminant analysis | qualitative  |             |
+| logistic regression      | 1940s | various authors       |                              | qualitative  |             |
+| generalized linear models| 1970s | Nelder and Wedderburn |                              |              |             |
+
