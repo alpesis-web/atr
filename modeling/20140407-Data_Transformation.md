@@ -3,7 +3,8 @@ Apr 7 2014 | Data_Transformation | Kelly Chan
 
 ### 1. Log Transformation
 
-newX = ln(X+1)
+newX = ln(X + 1)
+xhat = e^(newX) - 1
 
 non-normal distribution -> normal distribution
 
