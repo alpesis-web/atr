@@ -154,3 +154,6 @@ d.read_hdf('foo.h5','df')
 df.to_hdf('foo.h5','df')
 ```
 
+## 12. Statistics
+
+frequency count: `df['A'].value_counts()`
