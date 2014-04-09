@@ -77,6 +77,10 @@ df.loc[:,'D'] = np.array([5] * len(df))
 df2 = df.copy()
 df2[df2 > 0] = -df2
 ```
+
+rename columns: `df = df.rename(columns={'$a': 'a', '$b': 'b'}, inplace=True)`  
+
+
 ## 6. Missing Values
 
 dropping any rows that have missing values: `df1.dropna(how='any')`  
@@ -85,7 +89,8 @@ getting the boolean mask where values are nan: `pd.isnull(df1)`
 
 ## 7. Operations
 
-stats: `df.mean()`
+stats: `df.mean()`  
+frequency count: `df['A'].value_counts()`  
 string: `s.str.lower()`
 
 ## 8. Merge
@@ -154,6 +159,3 @@ d.read_hdf('foo.h5','df')
 df.to_hdf('foo.h5','df')
 ```
 
-## 12. Statistics
-
-frequency count: `df['A'].value_counts()`
