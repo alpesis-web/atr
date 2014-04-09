@@ -89,8 +89,10 @@ getting the boolean mask where values are nan: `pd.isnull(df1)`
 
 ## 7. Operations
 
-stats: `df.mean()`  
+mean: `df.mean()`  
 frequency count: `df['A'].value_counts()`  
+correlation: `df.corr()` 
+
 string: `s.str.lower()`
 
 ## 8. Merge
