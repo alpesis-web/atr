@@ -1,7 +1,7 @@
 Apr 7 2014 | Data_Transformation | Kelly Chan
 # Data Transformation
 
-### 1. Logarithmic transformation
+### 1. Logarithmic transformations
 
 non-normal distribution -> normal distribution
 - newX = ln(X + 1)
