@@ -36,8 +36,17 @@ Some type of non-linearity in the data that can be somehow "compensated". The lo
 If input has negative values we cannot use the square root transformation unless a constant is added making all of them non negatives.
 
 ### 3. Arcsine transformation
+
+used to normalize data in percentages or proportions whose distributions fits the binomial distribution.
+
 ### 4. Reciprocal transformation
+
+sed when standard deviation is proportional to the square of the mean.
+
 ### 5. Squared transformation
+
+used when standard deviation decreases as the mean increases.
+
 ### 6. Normalization
 
 Always normalization is important and necessary. Normalization consists on either moving your data into the interval [0,1], or by making the norm-2 of the data equal to 1. 
