@@ -25,6 +25,9 @@ When running linear regression models using GDP, as the data are often positivel
 So your data will look more normally distributed.
 
 ### 2. Square root transformation
+
+If input has negative values we cannot use the square root transformation unless a constant is added making all of them non negatives.
+
 ### 3. Arcsine transformation
 ### 4. Reciprocal transformation
 ### 5. Squared transformation
