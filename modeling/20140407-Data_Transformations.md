@@ -1,6 +1,11 @@
 Apr 7 2014 | Data_Transformation | Kelly Chan
 # Data Transformations
 
+Preprocessing
+- train faster
+- avoid saturation
+- reduce the chances of getting stuck in local optima
+
 ### 1. Logarithmic transformation
 
 non-normal distribution -> normal distribution
@@ -31,6 +36,10 @@ If input has negative values we cannot use the square root transformation unless
 ### 3. Arcsine transformation
 ### 4. Reciprocal transformation
 ### 5. Squared transformation
+### 6. Normalization
+
+- Z-score 
+- Min-Max normalization
 
 --- 
 ### References
