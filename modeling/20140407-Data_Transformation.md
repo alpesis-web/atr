@@ -1,7 +1,7 @@
 Apr 7 2014 | Data_Transformation | Kelly Chan
 # Data Transformation
 
-### 1. Log Transformation
+### 1. Logarithmic transformation
 
 non-normal distribution -> normal distribution
 - newX = ln(X + 1)
@@ -23,3 +23,12 @@ When running linear regression models using GDP, as the data are often positivel
 | GDP of Country C = 1000 | Log GDP of Country C = 3 |
 
 So your data will look more normally distributed.
+
+### 2. Square root transformation
+### 3. Arcsine transformation
+### 4. Reciprocal transformation
+### 5. Squared transformation
+
+--- 
+### Reference
+1. [Data Transformations](http://www.anselm.edu/homepage/jpitocch/transform/transforms.html)
