@@ -1,7 +1,7 @@
 Apr 7 2014 | Data_Transformation | Kelly Chan
-# Data Transformation
+# Data Transformations
 
-### 1. Logarithmic transformations
+### 1. Logarithmic transformation
 
 non-normal distribution -> normal distribution
 - newX = ln(X + 1)
@@ -30,5 +30,5 @@ So your data will look more normally distributed.
 ### 5. Squared transformation
 
 --- 
-### Reference
+### References
 1. [Data Transformations](http://www.anselm.edu/homepage/jpitocch/transform/transforms.html)
