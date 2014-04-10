@@ -31,6 +31,8 @@ So your data will look more normally distributed.
 
 ### 2. Square root transformation
 
+Some type of non-linearity in the data that can be somehow "compensated". The logarithmic and square root scaling are usually performed when the data is characterized by "bursts", i.e. the data is well grouped in low values, but some portion of it has relatively larger values. 
+
 If input has negative values we cannot use the square root transformation unless a constant is added making all of them non negatives.
 
 ### 3. Arcsine transformation
@@ -38,8 +40,14 @@ If input has negative values we cannot use the square root transformation unless
 ### 5. Squared transformation
 ### 6. Normalization
 
+Always normalization is important and necessary. Normalization consists on either moving your data into the interval [0,1], or by making the norm-2 of the data equal to 1. 
+
 - Z-score 
 - Min-Max normalization
+
+### Notes
+
+You can introduce even stronger non-linearities into your data that will be harder to compensate later by your model. So, just use them only when you know that it actually corresponds to some type of non-linearity in your data.
 
 --- 
 ### References
