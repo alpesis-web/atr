@@ -49,6 +49,8 @@ Always normalization is important and necessary. Normalization consists on eithe
 
 You can introduce even stronger non-linearities into your data that will be harder to compensate later by your model. So, just use them only when you know that it actually corresponds to some type of non-linearity in your data.
 
+We should be more cautious in using some terms such as transformation and normalization or data reduction and normalization. As an example transformation for one scientist may mean rotation, scaling, and moving. Normalization is to change a range of number from one representation to another. Sometime feature reduction is done if you have a large dimension of data.
+
 --- 
 ### References
 1. [Data Transformations](http://www.anselm.edu/homepage/jpitocch/transform/transforms.html)
