@@ -22,7 +22,7 @@ considering the needs of real people
 
 ## 2. Contextually Aware
 
-HERE - deep personalization - increasingly provide the right map at the moment you need it 
+HERE - deep personalization - location as a platform - increasingly provide the right map at the moment you need it 
 - back end: learn about behaviours and patterns - data crunching and predictive analytics
 - front end: seamless and simple
 
