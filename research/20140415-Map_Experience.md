@@ -37,6 +37,12 @@ Model - antural guidance
 
 Products
 - [HERE Maps](http://www.windowsphone.com/en-us/store/app/here-maps/efa4b4a7-7499-46ce-aa95-3e4ab3b39313): suggesting a new restaurant close by, presenting a contextually relevant map, and making it easy to coordinate with family and friends
+    - LiveSight: 1st person perspective
+        - using a fleet of camera, radar, sensor filled cars to build a 3D model of the world
+        - knowing precisely where individual buildings are
+        - knowing precisely how tall they are
+        - knowing precisely whether you can see places nearby
+        - knowing precisely whether other buildings hide them
 - [HERE Drive](http://www.windowsphone.com/en-us/store/app/here-drive/4da9332c-80dc-464b-b47f-664b1ffe5400)
 - [HERE Transit](http://www.windowsphone.com/en-us/store/app/here-transit/adfdad16-b54a-4ec3-b11e-66bd691be4e6): updating you on changing traffic conditions
 - HERE in the car
@@ -47,3 +53,4 @@ Products
 ---
 ### References
 1. [Minds behind maps](http://360.here.com/2013/11/25/minds-behind-maps-peter-skillman/)
+2. [Designing LiveSight](http://360.here.com/2013/06/17/designing-livesight/)
