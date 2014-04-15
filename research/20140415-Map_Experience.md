@@ -50,10 +50,11 @@ Products
             - traffic
             - normal map view
 - [HERE Drive](http://www.windowsphone.com/en-us/store/app/here-drive/4da9332c-80dc-464b-b47f-664b1ffe5400)
+    - learns driving preferences, uses information about the latest traffic conditions, to choose between the different rooutes you usually take to get to the places you travel most
+    - remembers when you usually leave, prodiving traffic udpates along your route, to know in advance whether there are delays or if you have time to stop by that new cafe on your way home
 - [HERE Transit](http://www.windowsphone.com/en-us/store/app/here-transit/adfdad16-b54a-4ec3-b11e-66bd691be4e6): updating you on changing traffic conditions
 - HERE in the car
 - [here.com](http://here.com) - a single unified brand experience
-
 
 
 
@@ -62,3 +63,4 @@ Products
 1. [Minds behind maps](http://360.here.com/2013/11/25/minds-behind-maps-peter-skillman/)
 2. [Designing LiveSight](http://360.here.com/2013/06/17/designing-livesight/)
 3. [HERE brings sight recognition to maps](http://360.here.com/2013/05/21/here-brings-sight-recognition-to-maps/)
+4. [A smoother drive on commute at a time](http://360.here.com/2012/07/20/a-smoother-drive-one-commute-at-a-time/)
