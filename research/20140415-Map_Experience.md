@@ -26,6 +26,15 @@ HERE - deep personalization - location as a platform - increasingly provide the 
 - back end: learn about behaviours and patterns - data crunching and predictive analytics
 - front end: seamless and simple
 
+Foresee - an actual model of the real world
+- location services - more personal and social
+- mapping technology - even more accessible
+
+Model - antural guidance
+- when you ask the question of where, you can see where you are accessing an accurate 3D representation of the world with fully clickable elements that can be explored more deeply
+- Navigate with what you see around you as opposed to just relying on street names
+
+
 Products
 - [HERE Maps](http://www.windowsphone.com/en-us/store/app/here-maps/efa4b4a7-7499-46ce-aa95-3e4ab3b39313): suggesting a new restaurant close by, presenting a contextually relevant map, and making it easy to coordinate with family and friends
 - [HERE Drive](http://www.windowsphone.com/en-us/store/app/here-drive/4da9332c-80dc-464b-b47f-664b1ffe5400)
