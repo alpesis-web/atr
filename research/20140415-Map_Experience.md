@@ -77,3 +77,4 @@ Location-based Apps
 7. [HERE makes big data relevant](http://360.here.com/2013/04/29/here-makes-big-data-relevant/)
 8. [Putting firmly drivers seat](http://360.here.com/2013/11/28/putting-firmly-drivers-seat/)
 9. [The intelligent cloud behind HERE auto](http://360.here.com/2013/08/30/the-intelligent-cloud-behind-here-auto/)
+10. [You have arrived your destination, now what](http://360.here.com/2014/04/07/arrived-destination-now/)
