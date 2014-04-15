@@ -58,6 +58,13 @@ Products
     - cartoDB
 
 
+Location-based Apps
+- Nokia Drive
+- Nokia Transport
+- Nokia Maps
+- Nokia Pulse
+- Nokia City Lens
+
 
 ---
 ### References
@@ -66,3 +73,4 @@ Products
 3. [HERE brings sight recognition to maps](http://360.here.com/2013/05/21/here-brings-sight-recognition-to-maps/)
 4. [A smoother drive on commute at a time](http://360.here.com/2012/07/20/a-smoother-drive-one-commute-at-a-time/)
 5. [Watch HERE Maps come to life](http://360.here.com/2013/07/02/watch-here-maps-come-to-life/)
+6. [HERE: the next generation of location services](http://360.here.com/2012/11/13/here-the-next-generation-of-location-services/)
