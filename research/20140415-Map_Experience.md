@@ -22,7 +22,9 @@ considering the needs of real people
 
 ## 2. Contextually Aware
 
-HERE - increasingly provide the right map at the moment you need it
+HERE - deep personalization - increasingly provide the right map at the moment you need it 
+- back end: learn about behaviours and patterns - data crunching and predictive analytics
+- front end: seamless and simple
 
 Products
 - [HERE Maps](http://www.windowsphone.com/en-us/store/app/here-maps/efa4b4a7-7499-46ce-aa95-3e4ab3b39313): suggesting a new restaurant close by, presenting a contextually relevant map, and making it easy to coordinate with family and friends
