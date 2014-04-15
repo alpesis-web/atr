@@ -75,3 +75,4 @@ Location-based Apps
 5. [Watch HERE Maps come to life](http://360.here.com/2013/07/02/watch-here-maps-come-to-life/)
 6. [HERE: the next generation of location services](http://360.here.com/2012/11/13/here-the-next-generation-of-location-services/)
 7. [HERE makes big data relevant](http://360.here.com/2013/04/29/here-makes-big-data-relevant/)
+8. [Putting firmly drivers seat](http://360.here.com/2013/11/28/putting-firmly-drivers-seat/)
