@@ -49,7 +49,6 @@ Products
             - public transit
             - traffic
             - normal map view
-            
 - [HERE Drive](http://www.windowsphone.com/en-us/store/app/here-drive/4da9332c-80dc-464b-b47f-664b1ffe5400)
 - [HERE Transit](http://www.windowsphone.com/en-us/store/app/here-transit/adfdad16-b54a-4ec3-b11e-66bd691be4e6): updating you on changing traffic conditions
 - HERE in the car
@@ -62,3 +61,4 @@ Products
 ### References
 1. [Minds behind maps](http://360.here.com/2013/11/25/minds-behind-maps-peter-skillman/)
 2. [Designing LiveSight](http://360.here.com/2013/06/17/designing-livesight/)
+3. [HERE brings sight recognition to maps](http://360.here.com/2013/05/21/here-brings-sight-recognition-to-maps/)
