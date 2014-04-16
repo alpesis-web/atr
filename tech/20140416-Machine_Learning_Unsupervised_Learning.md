@@ -96,9 +96,10 @@ algorithms
 why
 - information retrieval
 
-principle components analysis / PCA
+principle components analysis / PCA ~ correlation
 - maximizes variance
 - orthogonal
 
+independent components analysis / ICA ~ independent
 
 ## 5. Info Theory
