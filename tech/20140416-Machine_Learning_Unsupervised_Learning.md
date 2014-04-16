@@ -55,6 +55,11 @@ single linkage clustering
 - merge two cloest clusters
 - repeat n-k times to make n clusters
 
+k-means clustering
+- pick k centers (at random)
+- each center claims its cloest points
+- recompute the centers by averaging the clusted points
+- repect until convergence
 
 ## 3. Feature Selection
 ## 4. Feature Transformation
