@@ -31,6 +31,10 @@ Hard:
 - no derivative (or hard to find)
 - possibly many small optima
 
+Random restart hillclimbing
+- multple tries to find a good starting place
+- not much more expensive (constant factor)
+
 ## 2. Clustering
 ## 3. Feature Selection
 ## 4. Feature Transformation
