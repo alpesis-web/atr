@@ -115,5 +115,8 @@ random components analysis / RCA
 linear dscreminant analysis / LDA
 - find a perceptron
 
+analysis data - structure  
+probability vs linear algebra  
+
 
 ## 5. Info Theory
