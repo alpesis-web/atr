@@ -41,6 +41,9 @@ Annealing Algorithm
 - jump to new sample with probability given by an acceptable probability function P(x, xt, T)
 - decrease temperature T
 
+Genetic Algorithms  
+GA Skeleton
+
 
 ## 2. Clustering
 ## 3. Feature Selection
