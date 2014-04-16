@@ -102,4 +102,11 @@ principle components analysis / PCA ~ correlation
 
 independent components analysis / ICA ~ independent
 
+| PCA                 | ICA                        |
+|:--------------------|:---------------------------|
+| mutually orthogonal | mutually independt         |
+| maximal variance    | maximal mutual intervative |
+| order features      | bag of features            |
+
+
 ## 5. Info Theory
