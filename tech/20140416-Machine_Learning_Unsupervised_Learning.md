@@ -78,5 +78,17 @@ why
 - knowledge discovery (interpretability & insight)
 - curse of dimensionality
 
+algorithms
+- filtering
+    - information gain
+    - variance, entropy
+    - useful features
+    - independent, non-redundant
+- wrapping
+    - hill climbing
+    - randomized opt
+    - furward
+
+
 ## 4. Feature Transformation
 ## 5. Info Theory
