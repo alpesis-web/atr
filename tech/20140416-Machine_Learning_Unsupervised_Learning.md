@@ -87,7 +87,8 @@ algorithms
 - wrapping
     - hill climbing
     - randomized opt
-    - furward
+    - forward
+    - backward
 
 
 ## 4. Feature Transformation
