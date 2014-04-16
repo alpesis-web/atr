@@ -35,6 +35,13 @@ Random restart hillclimbing
 - multple tries to find a good starting place
 - not much more expensive (constant factor)
 
+Annealing Algorithm
+- find a finite set of iterations:
+- sample new point x in N(x)
+- jump to new sample with probability given by an acceptable probability function P(x, xt, T)
+- decrease temperature T
+
+
 ## 2. Clustering
 ## 3. Feature Selection
 ## 4. Feature Transformation
