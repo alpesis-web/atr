@@ -120,3 +120,6 @@ probability vs linear algebra
 
 
 ## 5. Info Theory
+
+- joint entropy
+- conditional entropy
