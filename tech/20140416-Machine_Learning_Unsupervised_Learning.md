@@ -123,3 +123,5 @@ probability vs linear algebra
 
 - joint entropy
 - conditional entropy
+
+mutual information
