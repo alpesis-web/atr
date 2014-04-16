@@ -48,6 +48,14 @@ MIMIC
 
 
 ## 2. Clustering
+
+single linkage clustering
+- consider each object a cluster (n objects)
+- define intercluster distance
+- merge two cloest clusters
+- repeat n-k times to make n clusters
+
+
 ## 3. Feature Selection
 ## 4. Feature Transformation
 ## 5. Info Theory
