@@ -42,7 +42,9 @@ Annealing Algorithm
 - decrease temperature T
 
 Genetic Algorithms  
-GA Skeleton
+GA Skeleton  
+MIMIC  
+
 
 
 ## 2. Clustering
