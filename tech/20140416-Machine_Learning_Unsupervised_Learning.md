@@ -92,4 +92,13 @@ algorithms
 
 
 ## 4. Feature Transformation
+
+why
+- information retrieval
+
+principle components analysis / PCA
+- maximizes variance
+- orthogonal
+
+
 ## 5. Info Theory
