@@ -73,5 +73,10 @@ soft clustering / EM
 - 3. repeat n times
 
 ## 3. Feature Selection
+
+why
+- knowledge discovery (interpretability & insight)
+- curse of dimensionality
+
 ## 4. Feature Transformation
 ## 5. Info Theory
