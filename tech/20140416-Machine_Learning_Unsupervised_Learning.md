@@ -112,5 +112,8 @@ independent components analysis / ICA ~ independent
 random components analysis / RCA
 - generates random directions
 
+linear dscreminant analysis / LDA
+- find a perceptron
+
 
 ## 5. Info Theory
