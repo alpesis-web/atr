@@ -55,11 +55,16 @@ single linkage clustering
 - merge two cloest clusters
 - repeat n-k times to make n clusters
 
-k-means clustering
+k-means clustering - hillclimbing
 - pick k centers (at random)
 - each center claims its cloest points
 - recompute the centers by averaging the clusted points
 - repect until convergence
+
+k-means clustering (optimization)
+- configurations: center, p
+- scores: error(p, center) = distance^2
+- neighbors: p, center = {p', center} or {p, center'}
 
 ## 3. Feature Selection
 ## 4. Feature Transformation
