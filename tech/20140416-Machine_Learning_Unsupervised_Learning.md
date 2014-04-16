@@ -109,4 +109,8 @@ independent components analysis / ICA ~ independent
 | order features      | bag of features            |
 
 
+random components analysis / RCA
+- generates random directions
+
+
 ## 5. Info Theory
