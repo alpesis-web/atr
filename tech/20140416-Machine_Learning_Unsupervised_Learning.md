@@ -7,3 +7,10 @@ Table of Contents
 - 3. Feature Selection
 - 4. Feature Transformation
 - 5. Info Theory
+
+
+## 1. Randomized Optimization
+## 2. Clustering
+## 3. Feature Selection
+## 4. Feature Transformation
+## 5. Info Theory
