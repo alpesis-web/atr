@@ -30,11 +30,12 @@ eulerian tour
 - nodes/vertices
 - edges/links
 
-|         | chain network | ring network | grid network   |
-|:--------|:--------------|:-------------|:---------------|
-| nodes/n | n             | n            | n              |
-| edges/m | n-1           | n            | 2n - 2*sqrt(n) |
-| cycles  |               |              | 2*edges        |
+|           | euler   | chain network | ring network | grid network   | planar graph |
+|:----------|:--------|:--------------|:-------------|:---------------|:-------------|
+| nodes/n   | n       | n             | n            | n              | n            |
+| edges/m   | n-1     | n-1           | n            | 2n - 2*sqrt(n) |              |
+| cycles    |         |               |              | 2*edges        |              |
+| regions/r | n-m+r=2 |               |              |                | n-m+r=2      |
 
 
 ## 3. Basic Graph Algorithms
