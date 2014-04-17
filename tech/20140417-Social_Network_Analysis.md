@@ -26,6 +26,16 @@ eulerian path
 eulerian tour  
 
 ## 2. Growth Rates in Social Networks
+
+- nodes/vertices
+- edges/links
+
+|         | chain network |
+|:--------|:--------------|
+| nodes/n | n             |
+| edges/m | n-1           |
+
+
 ## 3. Basic Graph Algorithms
 ## 4. It's Who You Know
 ## 5. Strong and Weak Bonds
