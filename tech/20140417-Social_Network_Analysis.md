@@ -30,13 +30,13 @@ eulerian tour
 - nodes/vertices
 - edges/links
 
-|           | euler   | chain network | ring network | grid network   | planar graph | complete graph | hyper cube |
-|:----------|:--------|:--------------|:-------------|:---------------|:-------------|:---------------|:-----------|
-| nodes/n   | n       | n             | n            | n              | n            | n              | n          |
-| edges/m   | n-1     | n-1           | n            | 2n - 2\*sqrt(n) |             | n\*(n-1)/2     | 1/2*nlogn  |
-| cycles    |         |               |              | 2*edges        |              |                |            |
-| regions/r | n-m+r=2 |               |              |                | n-m+r=2      |                |            |
-| degree    |         |               |              |                |              |                | logn       |
+|           | euler   | 
+|:----------|:--------|
+| nodes/n   | n       | 
+| edges/m   | n-1     | 
+| cycles    |         | 
+| regions/r | n-m+r=2 | 
+| degree    |         |  
 
 growth rate
 - n-m+r=2
@@ -44,6 +44,23 @@ growth rate
 - m + 2 = m + r <= n + 2/3m
 - 3m + 6 <= 3n + 2m
 - m <= 3n - 6
+
+|           | chain network | ring network | grid network   | planar graph | complete graph | hyper cube | tree graph |
+|:----------|:--------------|:-------------|:---------------|:-------------|:---------------|:-----------|:-----------|
+| nodes/n   | n             | n            | n              | n            | n              | n          | n          |
+| edges/m   | n-1           | n            | 2n - 2\*sqrt(n) |             | n\*(n-1)/2     | 1/2*nlogn  |
+| cycles    |               |              | 2*edges        |              |                |            |
+| regions/r |               |              |                | n-m+r=2      |                |            |
+| degree    |               |              |                |              |                | logn       |
+tree graph: no chain, no loops
+
+|           | randomly generated graph   | 
+|:----------|:---------------------------|
+| nodes/n   | n       | 
+| edges/m   | n-1     | 
+| cycles    |         | 
+| regions/r | n-m+r=2 | 
+| degree    |         |  
 
 
 ## 3. Basic Graph Algorithms
