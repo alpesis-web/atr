@@ -10,6 +10,18 @@ table of contents
 - 6. Hardness of Network Problems
 
 ## 1. A Social Network Magic Trick
+
+### eulerian path
+
+applications
+- seven bridges
+- one stroke
+
+even nodes must have an eulerian path
+- node:
+- path: 
+- degree: odd/even
+
 ## 2. Growth Rates in Social Networks
 ## 3. Basic Graph Algorithms
 ## 4. It's Who You Know
