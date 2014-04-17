@@ -22,6 +22,9 @@ even nodes must have an eulerian path
 - path: 
 - degree: odd/even
 
+eulerian path  
+eulerian tour  
+
 ## 2. Growth Rates in Social Networks
 ## 3. Basic Graph Algorithms
 ## 4. It's Who You Know
