@@ -30,12 +30,13 @@ eulerian tour
 - nodes/vertices
 - edges/links
 
-|           | euler   | chain network | ring network | grid network   | planar graph | complete graph |
-|:----------|:--------|:--------------|:-------------|:---------------|:-------------|:---------------|
-| nodes/n   | n       | n             | n            | n              | n            | n              |
-| edges/m   | n-1     | n-1           | n            | 2n - 2\*sqrt(n) |             | n\*(n-1)/2     |
-| cycles    |         |               |              | 2*edges        |              |                |
-| regions/r | n-m+r=2 |               |              |                | n-m+r=2      |                |
+|           | euler   | chain network | ring network | grid network   | planar graph | complete graph | hyper cube |
+|:----------|:--------|:--------------|:-------------|:---------------|:-------------|:---------------|:-----------|
+| nodes/n   | n       | n             | n            | n              | n            | n              | n          |
+| edges/m   | n-1     | n-1           | n            | 2n - 2\*sqrt(n) |             | n\*(n-1)/2     | 1/2*nlogn  |
+| cycles    |         |               |              | 2*edges        |              |                |            |
+| regions/r | n-m+r=2 |               |              |                | n-m+r=2      |                |            |
+| degree    |         |               |              |                |              |                | logn       |
 
 growth rate
 - n-m+r=2
