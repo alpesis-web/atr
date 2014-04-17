@@ -30,10 +30,11 @@ eulerian tour
 - nodes/vertices
 - edges/links
 
-|         | chain network |
-|:--------|:--------------|
-| nodes/n | n             |
-| edges/m | n-1           |
+|         | chain network | ring network | grid network                           |
+|:--------|:--------------|:-------------|:---------------------------------------|
+| nodes/n | n             | n            | n                                      |
+| edges/m | n-1           | n            | rowNodes\*(rows-1) + colNodes*(cols-1) |
+| cycles  |               |              | |
 
 
 ## 3. Basic Graph Algorithms
