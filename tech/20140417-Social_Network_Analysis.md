@@ -48,19 +48,13 @@ growth rate
 |           | chain network | ring network | grid network   | planar graph | complete graph | hyper cube | tree graph |
 |:----------|:--------------|:-------------|:---------------|:-------------|:---------------|:-----------|:-----------|
 | nodes/n   | n             | n            | n              | n            | n              | n          | n          |
-| edges/m   | n-1           | n            | 2n - 2\*sqrt(n) |             | n\*(n-1)/2     | 1/2*nlogn  |
-| cycles    |               |              | 2*edges        |              |                |            |
-| regions/r |               |              |                | n-m+r=2      |                |            |
-| degree    |               |              |                |              |                | logn       |
-tree graph: no chain, no loops
-
-|           | randomly generated graph   | 
-|:----------|:---------------------------|
-| nodes/n   | n       | 
-| edges/m   | n-1     | 
-| cycles    |         | 
-| regions/r | n-m+r=2 | 
-| degree    |         |  
+| edges/m   | n-1           | n            | 2n - 2\*sqrt(n) |             | n\*(n-1)/2     | 1/2*nlogn  |            |
+| cycles    |               |              | 2*edges        |              |                |            |            |
+| regions/r |               |              |                | n-m+r=2      |                |            |            |
+| degree    |               |              |                |              |                | logn       |            |
+- tree graph: connected but no cycles
+- randomly generated graphs: erdos-renyi model
+- recursive graphs: 
 
 
 ## 3. Basic Graph Algorithms
