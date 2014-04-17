@@ -52,9 +52,18 @@ growth rate
 | cycles    |               |              | 2*edges        |              |                |            |            |
 | regions/r |               |              |                | n-m+r=2      |                |            |            |
 | degree    |               |              |                |              |                | logn       |            |
+
+|           | star network | 
+|:----------|:-------------|
+| nodes/n   | n            | 
+| edges/m   | n-1          | 
+| cycles    |              |  
+| regions/r |              |    
+| degree    |              |  
+
 - tree graph: connected but no cycles
 - randomly generated graphs: erdos-renyi model
-- recursive graphs: 
+- recursive graphs
 - tangled hypercube
 
 
