@@ -9,11 +9,40 @@ table of contents
 - 5. flow
 
 ## 1. searching
+
+### BFS
+### DFS
+### A*
+
 ## 2. path
+
+### Dijkstra
+### Bellman-Ford
+### Floyd-Warshall
+
+
 ## 3. tree
-## 4. mapping
+
+### Prim
+### Kruskal 
+
+
+## 4. matching
+
+### Edmonds's matching
+
 ## 5. flow
+
+### Ford-Fulkerson
+### Edmonds-Karp
+### Dinic
+### Push-relabel
+### maximum flow
+### Kosaraju
+### Gabow
+### Tarjan
 
 ---
 ### Reference
 1. [Problem Solving with Algorithms and Data Structures](http://interactivepython.org/courselib/static/pythonds/index.html)
+2. [Top 10 Graph Algorithms](http://www.cnblogs.com/v-July-v/archive/2011/02/14/1983678.html)
