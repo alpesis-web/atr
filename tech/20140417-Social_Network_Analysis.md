@@ -37,6 +37,13 @@ eulerian tour
 | cycles    |         |               |              | 2*edges        |              |
 | regions/r | n-m+r=2 |               |              |                | n-m+r=2      |
 
+growth rate
+- n-m+r=2
+- 3r <= 2m, r <= 2/3m
+- m + 2 = m + r <= n + 2/3m
+- 3m + 6 <= 3n + 2m
+- m <= 3n - 6
+
 
 ## 3. Basic Graph Algorithms
 ## 4. It's Who You Know
