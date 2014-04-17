@@ -5,7 +5,7 @@ table of contents
 - 1. searching
 - 2. path
 - 3. tree
-- 4. mapping
+- 4. matching
 - 5. flow
 
 ## 1. searching
