@@ -55,6 +55,7 @@ growth rate
 - tree graph: connected but no cycles
 - randomly generated graphs: erdos-renyi model
 - recursive graphs: 
+- tangled hypercube
 
 
 ## 3. Basic Graph Algorithms
