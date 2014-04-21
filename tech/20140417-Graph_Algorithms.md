@@ -8,6 +8,23 @@ table of contents
 - 4. matching
 - 5. flow
 
+
+## Introduction
+
+G = (V, E)
+- G: graph
+- V: vertex/node
+- E: edge/link
+
+E = (v, w) - tuple
+- E: edge/link
+- v: 
+- w: weight
+
+V={V0,V1,V2,V3,V4,V5}  
+E={(v0,v1,5),(v1,v2,4),(v2,v3,9),(v3,v4,7),(v4,v0,1),(v0,v5,2),(v5,v4,8),(v3,v5,3),(v5,v2,1)}
+
+
 ## 1. searching
 
 ### BFS
