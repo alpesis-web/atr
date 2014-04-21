@@ -42,7 +42,6 @@ getVertices()
 
 Adjacency Matrix (dense) / List (sparse)
 
-list1
 ```python
 class Vertex:
     def __init__(self,key):
@@ -63,9 +62,8 @@ class Vertex:
 
     def getWeight(self,nbr):
         return self.connectedTo[nbr]
-```
-list2
-```python
+
+
 class Graph:
     def __init__(self):
         self.vertList = {}
