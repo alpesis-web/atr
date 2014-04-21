@@ -19,6 +19,39 @@ table of contents
 ### queue
 ### list
 ### tree
+
+- node
+- edge / path
+- root / parent / children
+- sibling
+- subtree/ leafnode
+- level / height
+
+```python
+BinaryTree()
+
+getLeftChild()
+getRightChild()
+
+setRootVal(val)
+getRootVal()
+
+insertLeft(val)
+insertRight(val)
+```
+
+example
+```python
+myTree = ['a',   #root
+         ['b',  #left subtree
+               ['d' [], []],
+               ['e' [], []] ],
+         ['c',  #right subtree
+               ['f' [], []],
+               [] ]
+         ]
+```
+
 ### graph
 
 ## 2. Algorithms
@@ -26,3 +59,7 @@ table of contents
 ### anlysis
 ### recursion
 ### sorting and searching
+
+---
+### Reference
+[Problem Solving with Algorithms and Data Structures](http://interactivepython.org/courselib/static/pythonds/index.html)
