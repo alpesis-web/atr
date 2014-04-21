@@ -24,6 +24,22 @@ E = (v, w) - tuple
 V={V0,V1,V2,V3,V4,V5}  
 E={(v0,v1,5),(v1,v2,4),(v2,v3,9),(v3,v4,7),(v4,v0,1),(v0,v5,2),(v5,v4,8),(v3,v5,3),(v5,v2,1)}
 
+- path: V3 -> V1 - (V3,V4,V0,V1) - {(v3,v4,7),(v4,v0,1),(v0,v1,5)}
+- cycle: (V5,V2,V3,V5)
+
+
+Abstract Data Type
+```python
+Graph() 
+
+addVertex(vert)
+addEdge(fromVert, toVert)
+addEdge(fromVert, toVert, weight)
+
+getVertex(vertKey)
+getVertices() 
+```
+
 
 ## 1. searching
 
