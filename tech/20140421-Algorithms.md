@@ -2,18 +2,18 @@ Apr 21 2014 | algorithms | Kelly Chan
 # Algorithms
 
 table of contents
-- Basic Data Structures
+- 1. Basic Data Structures
     - stack
     - queue
     - list
     - tree
     - graph
-- Algorithms
+- 2. Algorithms
     - analysis
     - recursion
     - sorting and searching
 
-## Basic Data Structures
+## 1. Basic Data Structures
 
 ### stack
 ### queue
@@ -21,7 +21,7 @@ table of contents
 ### tree
 ### graph
 
-## Algorithms
+## 2. Algorithms
 
 ### anlysis
 ### recursion
