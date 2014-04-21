@@ -3,10 +3,27 @@ Apr 17 2014 | algorithms, graph | Kelly Chan
 
 table of contents
 - 1. searching
+    - BFS
+    - DFS
+    - A*
 - 2. path
+    - Dijkstra
+    - Bellman-Ford
+    - Floyd-Warshall
 - 3. tree
+    - Prim
+    - Kruskal
 - 4. matching
+    - Edmonds's matching
 - 5. flow
+    - Ford-Fulkerson
+    - Edmonds-Karp
+    - Dinic
+    - Push-relabel
+    - maximum fow
+    - Kosaraju
+    - Gabow
+    - Tarjan
 
 
 ## Introduction
