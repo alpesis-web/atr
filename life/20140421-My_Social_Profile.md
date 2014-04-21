@@ -11,5 +11,6 @@ MOOC
 - [Udacity](https://www.udacity.com/)
 - [CodeSchool](https://www.codeschool.com)
 
-PPT
+PPT/Infographics
 - [SlideShare](http://www.slideshare.net/wailamchan)
+- [Pinterest](http://www.pinterest.com/wailamchan/)
