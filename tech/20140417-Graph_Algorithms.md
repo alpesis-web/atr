@@ -6,16 +6,15 @@ table of contents
     - BFS
     - DFS
     - A*
-- 2. path
+- 2. shortest path
     - Dijkstra
     - Bellman-Ford
     - Floyd-Warshall
-- 3. tree
-    - Prim
-    - Kruskal
-- 4. matching
+    - (tree) Prim
+    - (tree) Kruskal
+- 3. matching
     - Edmonds's matching
-- 5. flow
+- 4. flow
     - Ford-Fulkerson
     - Edmonds-Karp
     - Dinic
@@ -223,7 +222,7 @@ class DFSGraph(Graph):
 
 ### A*
 
-## 2. path
+## 2. shortest path
 
 ### Dijkstra
 
@@ -253,19 +252,15 @@ def dijkstra(aGraph, start):
 
 ### Bellman-Ford
 ### Floyd-Warshall
+### (tree) Prim
+### (tree) Kruskal 
 
 
-## 3. tree
-
-### Prim
-### Kruskal 
-
-
-## 4. matching
+## 3. matching
 
 ### Edmonds's matching
 
-## 5. flow
+## 4. flow
 
 ### Ford-Fulkerson
 ### Edmonds-Karp
