@@ -117,7 +117,15 @@ class Graph:
 
 ## 1. searching
 
+|                | BFS              | DFS                    |
+|:---------------|:-----------------|:-----------------------|
+| application    | word puzzle      | knight tour            |
+| search         | one level a time | a branch (deep) a time |
+| data structure | queue            | stack                  |    
+
 ### BFS
+
+to build a search tree one level in a time
 
 ```python
 
@@ -179,6 +187,11 @@ traverse(g.getVertex('sage'))
 ```
 
 ### DFS
+
+to create a search tree by exploring one branch of the tree as deeply as possible
+- nodes visited once
+- nodes visited more than once
+
 ### A*
 
 ## 2. path
