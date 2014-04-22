@@ -15,6 +15,8 @@ table of contents
 
 | algorithms            | data structure |
 |:----------------------|:---------------|
+| searching             | hash           |
+|                       | list           |
 | sorting and searching | stack          |
 |                       | queue          |
 |                       | list           |
