@@ -15,6 +15,10 @@ pipeline(anova_filter, svm)
 
 - compare y and yhat - classification
 
+### Precision Recall
+
+- to evaluate the quality of outputs of a classifier
+
 ---
 ### Reference
 [Scikit-learn Examples](http://scikit-learn.org/stable/auto_examples/index.html)
