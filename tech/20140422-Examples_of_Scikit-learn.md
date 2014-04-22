@@ -8,8 +8,8 @@ pipeline(anova_filter, svm)
 
 ### Feature Elimination
 
-- application: digits
-- method: feature_selection/RFE
+- feature_selection/RFE  - digits
+- feature_selection/RFECV - KFold - classification
 
 ---
 ### Reference
