@@ -13,6 +13,14 @@ table of contents
     - recursion
     - sorting and searching
 
+| algorithms            | data structure |
+|:----------------------|:---------------|
+| sorting and searching | stack          |
+|                       | queue          |
+|                       | list           |
+| recursion             | tree           |
+|                       | graph          |
+
 ## 1. Basic Data Structures
 
 ### stack
