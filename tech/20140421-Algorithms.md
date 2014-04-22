@@ -13,15 +13,12 @@ table of contents
     - recursion
     - sorting and searching
 
-| algorithms            | data structure |
-|:----------------------|:---------------|
-| searching             | hash           |
-|                       | list           |
-| sorting and searching | stack          |
-|                       | queue          |
-|                       | list           |
-| recursion             | tree           |
-|                       | graph          |
+| algorithms            | data structure | advance              |
+|:----------------------|:---------------|:---------------------|
+| searching and sorting | list           | stack / queue / hash |
+| recursion             | tree           | stack / queue        |
+|                       | graph          |                      |
+
 
 ## 1. Basic Data Structures
 
@@ -526,6 +523,50 @@ class AVLTree(BinarySearchTree):
 
 ### anlysis
 ### recursion
+
+list and recursion
+```python
+def listsum(numList):
+    theSum = 0
+    for i in numList:
+        theSum += i
+    return theSum
+
+def listsum(numList):
+    if len(numList) == 1:
+        return numList[0]
+    else:
+        return numList[0] + listsum(numList[1:])
+```
+
+list, recursion and stack
+```python
+def toStr(n, base):
+    convertString = "0123456789ABCDEF"
+    if n < base:
+        return convertString[n]
+    else:
+        return toStr(n//base, base) + convertString[n%base]
+        
+
+from pythonds.basic.stack import Stack
+
+rStack = Stack()
+
+def toStr(n,base):
+    convertString = "0123456789ABCDEF"
+    while n > 0:
+        if n < base:
+            rStack.push(convertString[n])
+        else:
+            rStack.push(convertString[n % base])
+        n = n // base
+    res = ""
+    while not rStack.isEmpty():
+        res = res + str(rStack.pop())
+    return res
+```
+
 ### sorting and searching
 
 searching
