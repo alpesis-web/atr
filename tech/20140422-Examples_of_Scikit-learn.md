@@ -1,6 +1,16 @@
 Apr 22 2014 | sklearn, ML | Kelly Chan
 # Examples of Scikit-learn
 
+
+### ANOVA SVM
+
+pipeline(anova_filter, svm)
+
+### Feature Elimination
+
+- application: digits
+- method: feature_selection/RFE
+
 ---
 ### Reference
 [Scikit-learn Examples](http://scikit-learn.org/stable/auto_examples/index.html)
