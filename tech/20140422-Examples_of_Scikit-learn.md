@@ -2,22 +2,19 @@ Apr 22 2014 | sklearn, ML | Kelly Chan
 # Examples of Scikit-learn
 
 
-### ANOVA SVM
+## Features
 
-pipeline(anova_filter, svm)
-
-### Feature Elimination
-
+### feature elimination
+- anova svm - pipeline(anova_filter, svm)
 - feature_selection/RFE  - digits
 - feature_selection/RFECV - KFold - classification
 
-### Confusion Matrix
+## Evaluations
 
-- compare y and yhat - classification
+- precision recall - classification
+- ROC curve - classification
+- confusion matrix - classification
 
-### Precision Recall
-
-- to evaluate the quality of outputs of a classifier
 
 ---
 ### Reference
