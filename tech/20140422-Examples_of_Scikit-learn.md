@@ -31,6 +31,7 @@ Apr 22 2014 | sklearn, ML | Kelly Chan
 ### Statistics
 
 - score, permutation score, p-value - classification
+- train errors, test errors, coef
 
 
 ---
