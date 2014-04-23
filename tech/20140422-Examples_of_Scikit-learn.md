@@ -20,7 +20,7 @@ Apr 22 2014 | sklearn, ML | Kelly Chan
 ## Evaluations
 
 - precision recall - classification
-- ROC curve - classification
+- ROC curve (cross validation?) - classification
 - confusion matrix - classification
 
 
