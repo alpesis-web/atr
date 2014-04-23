@@ -1,17 +1,18 @@
 Apr 22 2014 | sklearn, ML | Kelly Chan
 # Examples of Scikit-learn
 
-## Sampling
+## 1. Sampling
+
 - Hiden Markov Model (HMM) - mean, covariance
 
-## Features
+## 2. Features
 
 ### feature elimination
 - anova svm - pipeline(anova_filter, svm)
 - feature_selection/RFE  - digits
 - feature_selection/RFECV - KFold - classification
 
-## Algorithms
+## 3. Algorithms
 
 ### classification
 - svm - digit recognizer
@@ -20,7 +21,7 @@ Apr 22 2014 | sklearn, ML | Kelly Chan
 ### cross validation
 - K folds
 
-## Evaluations
+## 4. Evaluations
 
 - precision recall - classification
 - ROC curve (cross validation?) - classification
