@@ -18,6 +18,7 @@ Apr 22 2014 | sklearn, ML | Kelly Chan
 ### classification
 - svm - digit recognizer
 - pca + logistic regression - digit recongizer
+- logistic regression - multiclassification
 
 ### cross validation
 - K folds
