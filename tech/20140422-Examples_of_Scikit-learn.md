@@ -23,6 +23,7 @@ Apr 22 2014 | sklearn, ML | Kelly Chan
 - pca + logistic regression - digit recongizer
 - logistic regression - multiclassification
 - multilabel classification - OneVsRestClassifier
+- multi-output classification - knn, extra-tree,  linear regression, ridge - face completion
 
 ### cross validation
 - K folds
