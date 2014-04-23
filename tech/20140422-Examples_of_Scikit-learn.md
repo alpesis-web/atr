@@ -17,6 +17,9 @@ Apr 22 2014 | sklearn, ML | Kelly Chan
 - svm - digit recognizer
 - pca + logistic regression - digit recongizer
 
+### cross validation
+- K folds
+
 ## Evaluations
 
 - precision recall - classification
