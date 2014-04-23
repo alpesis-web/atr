@@ -24,6 +24,11 @@ Apr 22 2014 | sklearn, ML | Kelly Chan
 - confusion matrix - classification
 
 
+### Statistics
+
+- score, permutation score, p-value - classification
+
+
 ---
 ### Reference
 [Scikit-learn Examples](http://scikit-learn.org/stable/auto_examples/index.html)
