@@ -1,6 +1,8 @@
 Apr 22 2014 | sklearn, ML | Kelly Chan
 # Examples of Scikit-learn
 
+## Sampling
+- Hiden Markov Model (HMM) - mean, covariance
 
 ## Features
 
@@ -8,6 +10,11 @@ Apr 22 2014 | sklearn, ML | Kelly Chan
 - anova svm - pipeline(anova_filter, svm)
 - feature_selection/RFE  - digits
 - feature_selection/RFECV - KFold - classification
+
+### Algorithms
+
+### classification
+- svm - digit recognizer
 
 ## Evaluations
 
