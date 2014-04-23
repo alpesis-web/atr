@@ -8,6 +8,7 @@ Apr 22 2014 | sklearn, ML | Kelly Chan
 ## 2. Features
 
 ### feature elimination
+- univariate - F-test with significant features
 - anova svm - pipeline(anova_filter, svm)
 - feature_selection/RFE  - digits
 - feature_selection/RFECV - KFold - classification
