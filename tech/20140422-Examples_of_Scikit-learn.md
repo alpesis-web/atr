@@ -13,6 +13,9 @@ Apr 22 2014 | sklearn, ML | Kelly Chan
 - feature_selection/RFE  - digits
 - feature_selection/RFECV - KFold - classification
 
+### parameter estimation
+- random search, grid search, random forest
+
 ## 3. Algorithms
 
 ### classification
