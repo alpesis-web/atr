@@ -11,7 +11,7 @@ Apr 22 2014 | sklearn, ML | Kelly Chan
 - feature_selection/RFE  - digits
 - feature_selection/RFECV - KFold - classification
 
-### Algorithms
+## Algorithms
 
 ### classification
 - svm - digit recognizer
