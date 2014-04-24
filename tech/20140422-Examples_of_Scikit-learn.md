@@ -41,7 +41,7 @@ Apr 22 2014 | sklearn, ML | Kelly Chan
 - train errors, test errors, coef
 
 
-## TOPICS: Text Mining
+## TOPIC: Text Mining
 
 ### 1. Feature Extraction
 
