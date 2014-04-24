@@ -45,9 +45,16 @@ Apr 22 2014 | sklearn, ML | Kelly Chan
 
 ### 1. Feature 
 
-### feature extraction
+#### feature extraction
 - grid search
 - DictVectorizer, FeatureHasher - frequency dict / raw tokens
+- TfidfVectorize
+
+### 2. Algorithms
+
+#### classification
+- SGDClassifier
+- MultinomialNB
 
 ---
 ### Reference
