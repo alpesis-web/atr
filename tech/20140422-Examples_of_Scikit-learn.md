@@ -24,6 +24,14 @@ Apr 22 2014 | sklearn, ML | Kelly Chan
 - logistic regression - multiclassification
 - multilabel classification - OneVsRestClassifier
 - multi-output classification - knn, extra-tree,  linear regression, ridge - face completion
+- KNeighborsClassifier
+- DecisionTreeClassifier
+- RandoForestClassifier
+- AdaBoostClassifier
+- GaussianNB
+- LDA
+- QDA
+
 
 ### cross validation
 - K folds
