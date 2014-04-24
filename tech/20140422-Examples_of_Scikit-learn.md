@@ -43,8 +43,9 @@ Apr 22 2014 | sklearn, ML | Kelly Chan
 
 ## TOPIC: Text Mining
 
-### 1. Feature Extraction
+### 1. Feature 
 
+### feature extraction
 - grid search
 - DictVectorizer, FeatureHasher
 
