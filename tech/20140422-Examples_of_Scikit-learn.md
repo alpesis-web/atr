@@ -47,7 +47,7 @@ Apr 22 2014 | sklearn, ML | Kelly Chan
 
 ### feature extraction
 - grid search
-- DictVectorizer, FeatureHasher
+- DictVectorizer, FeatureHasher - frequency dict / raw tokens
 
 ---
 ### Reference
