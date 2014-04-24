@@ -46,6 +46,7 @@ Apr 22 2014 | sklearn, ML | Kelly Chan
 ### 1. Feature Extraction
 
 - grid search
+- DictVectorizer, FeatureHasher
 
 ---
 ### Reference
