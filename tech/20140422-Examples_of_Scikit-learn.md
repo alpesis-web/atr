@@ -1,11 +1,15 @@
 Apr 22 2014 | sklearn, ML | Kelly Chan
 # Examples of Scikit-learn
 
-## 1. Sampling
+## 1. Sampling / rows
 
+### sampling 
 - Hiden Markov Model (HMM) - mean, covariance
 
-## 2. Features
+### parameter estimation
+- random search, grid search, random forest
+
+## 2. Features / columns
 
 ### feature elimination
 - univariate - F-test with significant features
@@ -13,8 +17,10 @@ Apr 22 2014 | sklearn, ML | Kelly Chan
 - feature_selection/RFE  - digits
 - feature_selection/RFECV - KFold - classification
 
-### parameter estimation
-- random search, grid search, random forest
+### standarization
+- StandardScaler
+
+
 
 ## 3. Algorithms
 
