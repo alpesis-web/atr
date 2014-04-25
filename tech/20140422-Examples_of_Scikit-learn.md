@@ -72,6 +72,7 @@ Apr 22 2014 | sklearn, ML | Kelly Chan
 #### classification
 - SGDClassifier
 - MultinomialNB
+- k-means
 
 ---
 ### Reference
