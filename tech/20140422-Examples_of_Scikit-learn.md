@@ -41,6 +41,8 @@ Apr 22 2014 | sklearn, ML | Kelly Chan
 
 ### cross validation
 - K folds
+- grid search
+- random search
 
 ## 4. Evaluations
 
