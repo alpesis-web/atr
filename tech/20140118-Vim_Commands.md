@@ -34,6 +34,9 @@ Jan 18 2014 | Vim | Kelly Chan
     - (find) former/next: `,` for former, `;` to next
     - to replace: `:%s/(word to be replaced)/(word replaced)/g`, g for global
 
+5. coding </>
+    - `:line,line<` or `:line,line>`
+
 ### Command Mode 
 - to write/save: `:w file_path`  
 - to open file: `:e file_path`
