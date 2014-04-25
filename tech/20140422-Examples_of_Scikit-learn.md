@@ -66,6 +66,7 @@ Apr 22 2014 | sklearn, ML | Kelly Chan
 - grid search
 - DictVectorizer, FeatureHasher - frequency dict / raw tokens
 - TfidfVectorize
+- HashingVectorizer
 
 ### 2. Algorithms
 
