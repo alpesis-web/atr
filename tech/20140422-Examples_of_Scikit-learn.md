@@ -26,7 +26,7 @@ Apr 22 2014 | sklearn, ML | Kelly Chan
 
 ### classification
 - svm - digit recognizer
-- pca + logistic regression - digit recongizer
+- pca + logistic regression - digit recognizer
 - logistic regression - multiclassification
 - multilabel classification - OneVsRestClassifier
 - multi-output classification - knn, extra-tree,  linear regression, ridge - face completion
@@ -37,6 +37,7 @@ Apr 22 2014 | sklearn, ML | Kelly Chan
 - GaussianNB
 - LDA
 - QDA
+- BernoulliRBM, logistic regression - digit recognizer
 
 
 ### cross validation
