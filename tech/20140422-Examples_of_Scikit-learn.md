@@ -35,8 +35,8 @@ Apr 22 2014 | sklearn, ML | Kelly Chan
 - RandoForestClassifier
 - AdaBoostClassifier
 - GaussianNB
-- LDA
-- QDA
+- LDA/ Linear Discriminant Analysis
+- QDA/ Quadratic Discriminant Analysis
 - BernoulliRBM, logistic regression - digit recognizer
 
 
