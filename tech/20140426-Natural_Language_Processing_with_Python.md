@@ -10,6 +10,10 @@ table of contents
 - 6. Analyzing the Meaning of Sentences
 - 7. Managing Linguistic Data
 
+## Introduction
+
+
+
 ## 1. Categorizing and Tagging Words
 ## 2. Learning to Classify Text
 ## 3. Extracting Information from Text
