@@ -20,8 +20,11 @@ applications
 - Spoken Dialog Systems
 - Textual Entailment
 
-text corpora  
-word net
+elements
+- text corpora  
+- word net
+- stemmer
+- lemmatization
 
 ## 1. Categorizing and Tagging Words
 ## 2. Learning to Classify Text
