@@ -15,6 +15,10 @@ table of contents
 - lexical_diversity = len(text) / len(set(text))
 - % = 100 * count / total
 
+applications
+- Machine Translation
+- Spoken Dialog Systems
+- Textual Entailment
 
 ## 1. Categorizing and Tagging Words
 ## 2. Learning to Classify Text
