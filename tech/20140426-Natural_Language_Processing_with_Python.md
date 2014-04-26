@@ -12,7 +12,8 @@ table of contents
 
 ## Introduction
 
-lexical_diversity = len(text) / len(set(text))
+- lexical_diversity = len(text) / len(set(text))
+- % = 100 * count / total
 
 
 ## 1. Categorizing and Tagging Words
