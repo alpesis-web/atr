@@ -18,6 +18,14 @@ table of contents
 
 
 ## Functions
+
+take a break
+```
+import webbrowser
+
+webbrowser.open(url)
+```
+
 ## Draw Turtles
 ## Send Text
 ## Profanity Editor
