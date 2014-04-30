@@ -21,8 +21,10 @@ table of contents
 
 take a break
 ```
+import time
 import webbrowser
 
+time.sleep(10)
 webbrowser.open(url)
 ```
 
