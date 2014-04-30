@@ -174,7 +174,7 @@ print(toy_story.storyline)
 
 `__doc__`: show the document of a module  
 
-inheritance
+inheritance / method overriding
 ```python
 class Parent():
     def __init__(self, last_name, eye_color):
@@ -182,14 +182,24 @@ class Parent():
         self.last_name = last_name
         self.eye_color = eye_color
 
+    def show_info(self):
+        print("Last name - " + self.last_name)
+        print("Eye color - " + self.eye_color)
+        
 class Child(Parent):
     def __init__(self, last_name, eye_color, number_of_toys):
         print("Child Construcutor Called")
         Parent.__init__(self.last_name, eye_color)
         self.number_of_toys = number_of_toys
 
+    def show_info(self):
+        print("Last name - " + self.last_name)
+        print("Eye color - " + self.eye_color)
+        print("Number of toys - " + self.number_of_toys)   
+
 billy_cyrus = Parent("Cyrus", "blue")
 billy_cyrus = Child("Cyrus", "blue", 5)
+billy_cyrus.show_info()
 print(billy_cyrus.last_name)
 print(billy_cyrus.number_of_toys)
 ```
