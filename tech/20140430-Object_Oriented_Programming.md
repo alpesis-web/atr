@@ -4,11 +4,12 @@ Apr 30 2014 | programming, python | Kelly Chan
 table of contents
 - Introduction
 - Functions
-- Draw Turtles
-- Send Text
-- Profanity Editor
-- Movie Website
-- Advance Topics
+- Classes
+    - Draw Turtles
+    - Send Text
+    - Profanity Editor
+    - Movie Website
+    - Advance Topics
 
 ## Introduction
 
@@ -74,7 +75,9 @@ def rename_files():
     os.chdir(saved_path)
 ```
 
-## Draw Turtles
+## Classes
+
+### Draw Turtles
 
 draw square
 ```python
@@ -93,10 +96,10 @@ def draw_square():
     brad.right(90)
 ```
 
-## Send Text
-## Profanity Editor
-## Movie Website
-## Advance Topics
+### Send Text
+### Profanity Editor
+### Movie Website
+### Advance Topics
 
 ---
 ### References
