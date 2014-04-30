@@ -34,6 +34,17 @@ while (break_count < total_break):
     break_count += 1
 ```
 
+python standard libraries
+```python
+
+webbrowser
+    def open
+
+time
+    def sleep
+    def ctime
+```
+
 ## Draw Turtles
 ## Send Text
 ## Profanity Editor
