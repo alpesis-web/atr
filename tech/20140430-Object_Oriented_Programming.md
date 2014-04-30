@@ -45,6 +45,24 @@ time
     def ctime
 ```
 
+rename files
+```python
+import os
+
+def rename_files():
+    
+    file_list = os.listdir(r"C:\oop\prank")
+    print(file_list)
+    saved_path = os.getcwd()
+    print("Current working directory is " + saved_path)
+    os.chdir(r"C:\oop\prank")
+    for file_name inn file_list:
+        print("Old name is " + file_name)
+        print("new name is " + file_name.translate(None, "0123456789"))
+        os.rename(file_name, file_name.translate(None, "0123456789")
+    os.chdir(saved_path)
+```
+
 ## Draw Turtles
 ## Send Text
 ## Profanity Editor
