@@ -134,15 +134,48 @@ def check_profanity(text_to_check):
     print(output)
     connection.close()
 
+    if "true" in output:
+        alert()
+        print("Profanity Alert!")
+    elif "false" in output:
+        print("This document has no curse words!")
+    else:
+        print("Could not scan the document properly.")
+        
 read_text()
 ```
 
 ### Movie Website
+
+```python
+class Movie():
+
+    def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
+        self.title = movie_title
+        self.storyline = movie_storyline
+        self.poster_image = url_poster_image
+        self.trailer_youtube_url = trailer_youtube
+
+
+    def show_trailer(self):
+        webbrowser.open(self.trailer_youtube_url)
+        
+
+import media
+
+toy_story = media.Movie("Toy Story", 
+                        "",
+                        "", 
+                        "")
+print(toy_story.storyline)
+```
+
 ### Advance Topics
 
 ---
 ### References
 1. [The Python Standard Library](https://docs.python.org/2.7/library/)
 2. [Python Built-in Functions](https://docs.python.org/2/library/functions.html)
-3. [Twilio](http://www.twilio.com/)
-4. [Twilio Github Project](https://github.com/twilio/twilio-python)
+3. [Google Python Style Guide](http://google-styleguide.googlecode.com/svn/trunk/pyguide.html)
+4. [Twilio](http://www.twilio.com/)
+5. [Twilio Github Project](https://github.com/twilio/twilio-python)
