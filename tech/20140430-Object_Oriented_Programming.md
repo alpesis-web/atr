@@ -50,3 +50,7 @@ time
 ## Profanity Editor
 ## Movie Website
 ## Advance Topics
+
+---
+### References
+1. [The Python Standard Library](https://docs.python.org/2.7/library/)
