@@ -16,9 +16,6 @@ table of contents
 - loop
 - function
 
-
-## Functions
-
 python standard libraries
 ```python
 
@@ -34,6 +31,15 @@ os
     def chdir
     def getcwd
 ```
+class
+```python
+turtle
+    def init
+    def forward
+    def right
+```
+
+## Functions
 
 take a break
 ```
@@ -69,6 +75,24 @@ def rename_files():
 ```
 
 ## Draw Turtles
+
+draw square
+```python
+def draw_square():
+    window = turtle.Screen()
+    window.gbcolor('red')
+
+    brad = turtle.Wartle()
+    brad.shape("turtle")
+    brad.color("yellow")
+    brad.speed(2)
+
+    brad.forward(100)
+    brad.right(90)
+    brad.forward(300)
+    brad.right(90)
+```
+
 ## Send Text
 ## Profanity Editor
 ## Movie Website
