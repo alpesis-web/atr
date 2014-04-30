@@ -39,6 +39,10 @@ turtle
     def forward
     def right
 ```
+external Python Library
+```python
+twilio
+```
 
 ## Functions
 
@@ -97,6 +101,21 @@ def draw_square():
 ```
 
 ### Send Text
+```python
+from twilio.rest import TwilioRestClient
+
+acccount_sid = ""
+auth_token = ""
+client = TwilioRestClient(account_sid, auth_token)
+
+message = client.sms.messages.create(
+    body = ""
+    to="" # phone number
+    from_="" # twilio number
+)
+print message.sid
+```
+
 ### Profanity Editor
 ### Movie Website
 ### Advance Topics
@@ -104,3 +123,4 @@ def draw_square():
 ---
 ### References
 1. [The Python Standard Library](https://docs.python.org/2.7/library/)
+2. [Twilio](http://www.twilio.com/)
