@@ -17,6 +17,7 @@ table of contents
 - loop
 - function
 
+python built-in functions  
 python standard libraries
 ```python
 
@@ -35,7 +36,7 @@ os
 class
 ```python
 turtle
-    def init
+    def __init__
     def forward
     def right
 ```
@@ -117,10 +118,31 @@ print message.sid
 ```
 
 ### Profanity Editor
+
+```python
+import urllib
+
+def read_text():
+    quotes = open("C:\movie_quotes.txt")
+    contents_of_file = quotes.read()
+    print(contents_of_file)
+    check_profanity(contents_of_file)
+
+def check_profanity(text_to_check):
+    connection = urllib.urlopen("http://www.wdyl.com/profanity?q="+text_to_check)
+    output = connection.read()
+    print(output)
+    connection.close()
+
+read_text()
+```
+
 ### Movie Website
 ### Advance Topics
 
 ---
 ### References
 1. [The Python Standard Library](https://docs.python.org/2.7/library/)
-2. [Twilio](http://www.twilio.com/)
+2. [Python Built-in Functions](https://docs.python.org/2/library/functions.html)
+3. [Twilio](http://www.twilio.com/)
+4. [Twilio Github Project](https://github.com/twilio/twilio-python)
