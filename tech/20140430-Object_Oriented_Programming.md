@@ -204,6 +204,11 @@ print(billy_cyrus.last_name)
 print(billy_cyrus.number_of_toys)
 ```
 
+## Final Project
+- idea / statement
+- solution design
+- program
+
 ---
 ### References
 1. [The Python Standard Library](https://docs.python.org/2.7/library/)
