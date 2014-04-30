@@ -19,6 +19,22 @@ table of contents
 
 ## Functions
 
+python standard libraries
+```python
+
+webbrowser
+    def open
+
+time
+    def sleep
+    def ctime
+
+os
+    def rename
+    def chdir
+    def getcwd
+```
+
 take a break
 ```
 import time
@@ -32,17 +48,6 @@ while (break_count < total_break):
     time.sleep(10)
     webbrowser.open(url)
     break_count += 1
-```
-
-python standard libraries
-```python
-
-webbrowser
-    def open
-
-time
-    def sleep
-    def ctime
 ```
 
 rename files
