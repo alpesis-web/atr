@@ -61,7 +61,7 @@ Table of Contents
 
 - IDE:
     - Vim: [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140118-Vim_Commands.md) | [Codes](https://github.com/KellyChan/vim)
-    - Emacs:
+    - Emacs: [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140307-Emacs_Commands.md) | [Codes](https://github.com/KellyChan/emacs) 
 - Git
     - CodeSchool: [Try Git](https://www.codeschool.com/courses/try-git) | [Git Real 2](https://www.codeschool.com/courses/git-real-2) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140112-Git_Commands.md)
 
