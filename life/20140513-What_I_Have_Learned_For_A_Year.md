@@ -23,7 +23,11 @@ Table of Contents
 - [Walmart Recruiting - Store Sales Forecasting](http://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting) | [source code](https://github.com/KellyChan/sales-prediction) | regression
 - [March Machine Learning Mania](http://www.kaggle.com/c/march-machine-learning-mania) | [source code](https://github.com/KellyChan/game-predictor) | logistic regression, elo system, ranking/rating
 
-<b>(2) Machine Learning</b>  
+<b>(2) Sample Codes</b>
+
+- Dell DVD Store: [Codes](https://github.com/KellyChan/Dell-DVD-Store) | SQL
+
+<b>(3) Machine Learning</b>  
 
 - Machine Learning Algorithms:
     - Natural Language Processing with NLTK: [Codes](https://github.com/KellyChan/Python/tree/master/examples/nltk)
@@ -51,9 +55,6 @@ Table of Contents
     - Udacity: [Software Debugging](https://www.udacity.com/course/cs259) | [Notes](http://www.slideshare.net/wailamchan/software-debugging) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Software%20Debugging)
 
 
-<b>(3) Sample Codes</b>
-
-- Dell DVD Store: [Codes](https://github.com/KellyChan/Dell-DVD-Store) | SQL
 
 ### 2. Web Development
 
