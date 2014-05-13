@@ -60,9 +60,10 @@ Table of Contents
 
 <b>(2) Web Courses</b>  
 
-- Codecademy: [Profile](http://www.codecademy.com/kellychan) | HTML/CSS, Javascript/jQuery, PHP/Ruby/Python
 - Udacity: [Mobile Web Development](https://www.udacity.com/course/cs256) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140122-Mobile_Web_Development.md)
 - Udacity: [Web Development](https://www.udacity.com/course/cs253)
+- Codecademy: [Profile](http://www.codecademy.com/kellychan) | HTML/CSS, Javascript/jQuery, PHP/Ruby/Python
+
 
 ### 3. IDE / Version Control
 
