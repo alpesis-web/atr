@@ -6,5 +6,15 @@ May 13 2014 | ML | Kelly Chan
 3. [Machine Learning: Reinforcement Learning](https://github.com/KellyChan/notebook/blob/master/tech/20140513-Machine_Learning_Reinforcement_Learning.md)
 
 ## 1. Markov Decision Processes
+
+- state: S
+- model: T(s, a, s') ~ Pr(s' | s, a)
+- actions: A(s), A
+- reward: R(s), R(s, a), R(s, a, s')
+- poucy: TT(a) -> s
+
 ## 2. Reinforcement Learning
 ## 3. Game Theory
+
+### References
+1. [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/)
