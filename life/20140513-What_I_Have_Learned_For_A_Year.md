@@ -47,12 +47,13 @@ Table of Contents
         - [Intro to Statistics](https://www.udacity.com/course/st101) | [Note1-Statistics](http://www.slideshare.net/wailamchan/statistics-28446692) | [Note2-Z-Test-T-Test](http://www.slideshare.net/wailamchan/ztest-and-ttest) | [Note3-Bayes](http://www.slideshare.net/wailamchan/bayes-rules) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Statistics) | Z-test, T-test, F-test, X-test
 - Programming: 
     - Data Structure & Algorithms: [Codes](https://github.com/KellyChan/Python/tree/master/examples/Data_Structures_and_Algorithms)
-    - Udacity: [Algorithms](https://www.udacity.com/course/cs215) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Social%20Network%20Analysis)
-    - Udacity: [Intro to Object Oriented Programming](https://www.udacity.com/course/ud036) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140430-Object_Oriented_Programming.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/python_turtle)
-    - Udacity: [Programming Languages](https://www.udacity.com/course/cs262) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Web%20Browser)
-    - Udacity: [Intro to Programming in Java](https://www.udacity.com/course/cs046) | [Codes](https://github.com/KellyChan/Java/tree/master/examples/Programming%20in%20Java)
-    - Udacity: [Software Testing](https://www.udacity.com/course/cs258) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Software%20Testing)
-    - Udacity: [Software Debugging](https://www.udacity.com/course/cs259) | [Notes](http://www.slideshare.net/wailamchan/software-debugging) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Software%20Debugging)
+    - Udacity: 
+        - [Algorithms](https://www.udacity.com/course/cs215) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Social%20Network%20Analysis)
+        - [Intro to Object Oriented Programming](https://www.udacity.com/course/ud036) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140430-Object_Oriented_Programming.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/python_turtle)
+        - [Programming Languages](https://www.udacity.com/course/cs262) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Web%20Browser)
+        - [Intro to Programming in Java](https://www.udacity.com/course/cs046) | [Codes](https://github.com/KellyChan/Java/tree/master/examples/Programming%20in%20Java)
+        - [Software Testing](https://www.udacity.com/course/cs258) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Software%20Testing)
+        - [Software Debugging](https://www.udacity.com/course/cs259) | [Notes](http://www.slideshare.net/wailamchan/software-debugging) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Software%20Debugging)
 
 
 
