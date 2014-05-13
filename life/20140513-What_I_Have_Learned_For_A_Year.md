@@ -26,6 +26,7 @@ Table of Contents
 <b>(2) Machine Learning</b>  
 
 - Machine Learning Algorithms:
+    - Machine Learning In Action: [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140115-ML1_Classification.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Machine%20Learning%20In%20Action)
     - Udacity: [Machine Learning - Supervised Learning](https://www.udacity.com/course/ud675) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140318-Machine_Learning_Supervised_Learning.md)
     - Udacity: [Machine Learning - Unpervised Learning](https://www.udacity.com/course/ud741) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140416-Machine_Learning_Unsupervised_Learning.md)
     - Udacity: [Machine Learning - Reinforcement Learning](https://www.udacity.com/course/ud820) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140513-Machine_Learning_Reinforcement_Learning.md)
