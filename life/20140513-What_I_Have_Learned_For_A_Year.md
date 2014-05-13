@@ -65,8 +65,8 @@ Table of Contents
 
 <b>(2) Web Courses</b>  
 
-- Udacity: [Mobile Web Development](https://www.udacity.com/course/cs256) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140122-Mobile_Web_Development.md)
 - Udacity: [Web Development](https://www.udacity.com/course/cs253)
+- Udacity: [Mobile Web Development](https://www.udacity.com/course/cs256) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140122-Mobile_Web_Development.md)
 - Codecademy: [Profile](http://www.codecademy.com/kellychan) | HTML/CSS, Javascript/jQuery, PHP/Ruby/Python
 
 
