@@ -1,6 +1,10 @@
 Apr 16 2014 | Machine_Learning | Kelly Chan
 # Machine Learning: Unsupervised Learning
 
+1. [Machine Learning: Supervised Learning](https://github.com/KellyChan/notebook/blob/master/tech/20140318-Machine_Learning_Supervised_Learning.md)
+2. [Machine Learning: Unsupervised Learning](https://github.com/KellyChan/notebook/blob/master/tech/20140416-Machine_Learning_Unsupervised_Learning.md)
+3. [Machine Learning: Reinforcement Learning](https://github.com/KellyChan/notebook/blob/master/tech/20140513-Machine_Learning_Reinforcement_Learning.md)
+
 Table of Contents
 - 1. Randomized Optimization
 - 2. Clustering
