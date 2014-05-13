@@ -24,12 +24,23 @@ Table of Contents
 - [March Machine Learning Mania](http://www.kaggle.com/c/march-machine-learning-mania) | [source code](https://github.com/KellyChan/game-predictor) | logistic regression, elo system, ranking/rating
 
 <b>(2) Machine Learning</b>  
+
+- Machine Learning Algorithms:
+    - Udacity: [Machine Learning - Supervised Learning]() | [Machine Learning - Unpervised Learning]() | [Machine Learning - Reinforcement Learning]()
+- Data Science:
+    - Udacity: [Introduce to Data Science](https://www.udacity.com/course/ud359) | [Intro to Hadoop and MapReduce](https://www.udacity.com/course/ud617)
+- Python Programming: 
+    - Udacity: [Intro to Object Oriented Programming](https://www.udacity.com/course/ud036) | 
+
 <b>(3) Data Analysis</b>  
 <b>(4) Statistics</b>  
 <b>(5) Database<b>  
 
 
 ### 2. Web Development
+
+- Udacity: [Web Development](https://www.udacity.com/course/cs253)
+
 ### 3. IDE / Version Control
 
 ## Part 2. Leisure
