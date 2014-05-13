@@ -17,8 +17,9 @@ Table of Contents
 <b>(1) [Kaggle Projects](http://www.kaggle.com/users/112202/kelly-chan)</b>  
 
 - [Digit Recognizer](http://www.kaggle.com/c/digit-recognizer)
-    [source code](https://github.com/KellyChan/digit-recognizer)
+    - [source code](https://github.com/KellyChan/digit-recognizer): classification - knn
 - [Titanic: Machine Learning from Disaster](http://www.kaggle.com/c/titanic-gettingStarted)
+    - [source code](https://github.com/KellyChan/titanic-survivors-prediction): feature engineering, random forest
 - [Data Science London + Scikit-learn](http://www.kaggle.com/c/data-science-london-scikit-learn)
 - [PAKDD 2014 - ASUS Malfunctional Components Prediction](http://www.kaggle.com/c/pakdd-cup-2014)
 - [Walmart Recruiting - Store Sales Forecasting](http://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting)
