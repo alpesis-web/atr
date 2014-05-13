@@ -67,8 +67,8 @@ Table of Contents
 
 - Codecademy: [Profile](http://www.codecademy.com/kellychan) | HTML/CSS, Javascript/jQuery, PHP/Ruby/Python
 - Udacity: 
-    - [Web Development](https://www.udacity.com/course/cs253) | [Codes](https://github.com/KellyChan/Web/tree/master/examples/GoogleAppEngine) | google app engine, python, html/css
     - [Mobile Web Development](https://www.udacity.com/course/cs256) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140122-Mobile_Web_Development.md) | html/css
+    - [Web Development](https://www.udacity.com/course/cs253) | [Codes](https://github.com/KellyChan/Web/tree/master/examples/GoogleAppEngine) | google app engine, python, html/css
 
 
 ### 3. IDE / Version Control
