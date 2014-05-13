@@ -35,7 +35,7 @@ Table of Contents
     - Udacity: [Intro to Hadoop and MapReduce](https://www.udacity.com/course/ud617) | [Note1-Hadoop](http://www.slideshare.net/wailamchan/hdfs-and-map-reduce) | [Note2-MapReduce](https://github.com/KellyChan/notebook/blob/master/tech/20140222-MapReduce_Design_Patterns.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/MapReduce)
     - Udacity: [Exploratory Data Analysis](https://www.udacity.com/course/ud651) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140313-Exploratory_Data_Analysis.md)
     - Udacity: [Data Wrangling with MongoDB](https://www.udacity.com/course/ud032) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140227-Data_Wrangling_with_MongoDB.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Data%20Wrangling%20with%20MongoDB)
-    - Udacity: [Intro to Statistics](https://www.udacity.com/course/st101) | [Note1-Statistics](http://www.slideshare.net/wailamchan/statistics-28446692) | [Note-Z-Test-T-Test](http://www.slideshare.net/wailamchan/ztest-and-ttest)
+    - Udacity: [Intro to Statistics](https://www.udacity.com/course/st101) | [Note1-Statistics](http://www.slideshare.net/wailamchan/statistics-28446692) | [Note2-Z-Test-T-Test](http://www.slideshare.net/wailamchan/ztest-and-ttest) | [Note3-Bayes](http://www.slideshare.net/wailamchan/bayes-rules)
 - Programming: 
     - Udacity: [Intro to Object Oriented Programming](https://www.udacity.com/course/ud036) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140430-Object_Oriented_Programming.md)
     - Udacity: [Algorithms](https://www.udacity.com/course/cs215) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Social%20Network%20Analysis)
