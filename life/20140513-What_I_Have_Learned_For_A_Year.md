@@ -42,7 +42,7 @@ Table of Contents
     - Udacity: 
         - [Introduce to Data Science](https://www.udacity.com/course/ud359) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140226-Data_Analysis.md) |[Codes](https://github.com/KellyChan/Python/tree/master/examples/DataScience) | data wrangling, analysis, visualization, map reduce
         - [Intro to Hadoop and MapReduce](https://www.udacity.com/course/ud617) | [Note1-Hadoop](http://www.slideshare.net/wailamchan/hdfs-and-map-reduce) | [Note2-MapReduce](https://github.com/KellyChan/notebook/blob/master/tech/20140222-MapReduce_Design_Patterns.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/MapReduce) | hadoop, map reduce
-        - [Exploratory Data Analysis](https://www.udacity.com/course/ud651) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140313-Exploratory_Data_Analysis.md)
+        - [Exploratory Data Analysis](https://www.udacity.com/course/ud651) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140313-Exploratory_Data_Analysis.md) | R, ggplot2
         - [Data Wrangling with MongoDB](https://www.udacity.com/course/ud032) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140227-Data_Wrangling_with_MongoDB.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Data%20Wrangling%20with%20MongoDB)
         - [Intro to Statistics](https://www.udacity.com/course/st101) | [Note1-Statistics](http://www.slideshare.net/wailamchan/statistics-28446692) | [Note2-Z-Test-T-Test](http://www.slideshare.net/wailamchan/ztest-and-ttest) | [Note3-Bayes](http://www.slideshare.net/wailamchan/bayes-rules) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Statistics)
 - Programming: 
