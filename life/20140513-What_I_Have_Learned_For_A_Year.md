@@ -26,12 +26,13 @@ Table of Contents
 <b>(2) Machine Learning</b>  
 
 - Machine Learning Algorithms:
-    - Udacity: [Machine Learning - Supervised Learning]() | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140318-Machine_Learning_Supervised_Learning.md)
+    - Udacity: [Machine Learning - Supervised Learning](https://www.udacity.com/course/ud675) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140318-Machine_Learning_Supervised_Learning.md)
     - Udacity: [Machine Learning - Unpervised Learning]() | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140416-Machine_Learning_Unsupervised_Learning.md)
     - Udacity: [Machine Learning - Reinforcement Learning]() | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140513-Machine_Learning_Reinforcement_Learning.md)
 - Data Science:
     - Udacity: [Introduce to Data Science](https://www.udacity.com/course/ud359) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/DataScience)
-    - Udacity: [Intro to Hadoop and MapReduce](https://www.udacity.com/course/ud617) | [Note-Hadoop](http://www.slideshare.net/wailamchan/hdfs-and-map-reduce) | [Note2-MapReduce](https://github.com/KellyChan/notebook/blob/master/tech/20140222-MapReduce_Design_Patterns.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/MapReduce)
+    - Udacity: [Intro to Hadoop and MapReduce](https://www.udacity.com/course/ud617) | [Note1-Hadoop](http://www.slideshare.net/wailamchan/hdfs-and-map-reduce) | [Note2-MapReduce](https://github.com/KellyChan/notebook/blob/master/tech/20140222-MapReduce_Design_Patterns.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/MapReduce)
+    - Udacity: [Exploratory Data Analysis](https://www.udacity.com/course/ud651) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140313-Exploratory_Data_Analysis.md)
 - Python Programming: 
     - Udacity: [Intro to Object Oriented Programming](https://www.udacity.com/course/ud036) | 
 
