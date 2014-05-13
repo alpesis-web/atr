@@ -35,7 +35,7 @@ Table of Contents
     - Udacity: 
         - [Machine Learning - Supervised Learning](https://www.udacity.com/course/ud675) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140318-Machine_Learning_Supervised_Learning.md) | decision trees, regression, neural networks, knn, boosting, svm
         - [Machine Learning - Unpervised Learning](https://www.udacity.com/course/ud741) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140416-Machine_Learning_Unsupervised_Learning.md) | randomization, clustering, feature selection/transformation, entropy
-        - [Machine Learning - Reinforcement Learning](https://www.udacity.com/course/ud820) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140513-Machine_Learning_Reinforcement_Learning.md)
+        - [Machine Learning - Reinforcement Learning](https://www.udacity.com/course/ud820) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140513-Machine_Learning_Reinforcement_Learning.md) | Markov, reinforcement, game theory
         - [Artificial Intelligence for Robotics](https://www.udacity.com/course/cs373) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/AI%20for%20Robotics)
 - Data Science:
     - Toolkit: [Scikit-Learn](https://github.com/KellyChan/Python/tree/master/examples/scikit-learn/examples/general) | [Pandas](https://github.com/KellyChan/notebook/blob/master/tech/20140305-Ten_Minutes_to_Pandas.md) | [ggplot](https://github.com/KellyChan/notebook/blob/master/tech/20140310-Plotting_Time_Series_with_ggplot.md) | [matplotlib](https://github.com/KellyChan/notebook/blob/master/tech/20140306-2D_Plot_with_Matplotlib.md)
