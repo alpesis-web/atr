@@ -38,8 +38,9 @@ Table of Contents
     - Udacity: [Data Wrangling with MongoDB](https://www.udacity.com/course/ud032) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140227-Data_Wrangling_with_MongoDB.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Data%20Wrangling%20with%20MongoDB)
     - Udacity: [Intro to Statistics](https://www.udacity.com/course/st101) | [Note1-Statistics](http://www.slideshare.net/wailamchan/statistics-28446692) | [Note2-Z-Test-T-Test](http://www.slideshare.net/wailamchan/ztest-and-ttest) | [Note3-Bayes](http://www.slideshare.net/wailamchan/bayes-rules)
 - Programming: 
-    - Udacity: [Intro to Object Oriented Programming](https://www.udacity.com/course/ud036) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140430-Object_Oriented_Programming.md)
+    - Data Structure & Algorithms: [Codes](https://github.com/KellyChan/Python/tree/master/examples/Data_Structures_and_Algorithms)
     - Udacity: [Algorithms](https://www.udacity.com/course/cs215) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Social%20Network%20Analysis)
+    - Udacity: [Intro to Object Oriented Programming](https://www.udacity.com/course/ud036) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140430-Object_Oriented_Programming.md)
     - Udacity: [Programming Languages](https://www.udacity.com/course/cs262) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Web%20Browser)
     - Udacity: [Intro to Programming in Java](https://www.udacity.com/course/cs046) | [Codes](https://github.com/KellyChan/Java/tree/master/examples/Programming%20in%20Java)
     - Udacity: [Software Testing](https://www.udacity.com/course/cs258) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Software%20Testing)
