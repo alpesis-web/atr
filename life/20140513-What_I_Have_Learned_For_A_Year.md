@@ -26,9 +26,13 @@ Table of Contents
 <b>(2) Machine Learning</b>  
 
 - Machine Learning Algorithms:
-    - Udacity: [Machine Learning - Supervised Learning]() | [Machine Learning - Unpervised Learning]() | [Machine Learning - Reinforcement Learning]()
+    - Udacity: 
+        - [Machine Learning - Supervised Learning]()
+        - [Machine Learning - Unpervised Learning]() 
+        - [Machine Learning - Reinforcement Learning]()
 - Data Science:
-    - Udacity: [Introduce to Data Science](https://www.udacity.com/course/ud359) | [Intro to Hadoop and MapReduce](https://www.udacity.com/course/ud617)
+    - Udacity: [Introduce to Data Science](https://www.udacity.com/course/ud359)
+    - [Intro to Hadoop and MapReduce](https://www.udacity.com/course/ud617)
 - Python Programming: 
     - Udacity: [Intro to Object Oriented Programming](https://www.udacity.com/course/ud036) | 
 
