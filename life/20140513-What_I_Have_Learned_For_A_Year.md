@@ -51,6 +51,9 @@ Table of Contents
     - Udacity: [Software Debugging](https://www.udacity.com/course/cs259) | [Notes](http://www.slideshare.net/wailamchan/software-debugging) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Software%20Debugging)
 
 
+<b>(3) Sample Codes</b>
+
+- Dell DVD Store: [Codes](https://github.com/KellyChan/Dell-DVD-Store) | SQL
 
 ### 2. Web Development
 
