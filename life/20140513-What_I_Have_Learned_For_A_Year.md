@@ -7,8 +7,8 @@ Table of Contents
     - 2. Web Development
     - 3. IDE / Version Control
 - Part 2. Leisure
-    - Drawing & Painting
-    - Yi
+    - 1. Drawing & Painting
+    - 2. Yi
 
 ## Part 1. Computer Science
 
