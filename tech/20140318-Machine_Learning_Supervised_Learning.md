@@ -1,6 +1,10 @@
 Mar 18 2014 | ML, supervised_learning | Kelly Chan
 # Machine Learning (Supervised Learning)
 
+1. [Machine Learning: Supervised Learning]()
+2. [Machine Learning: Unsupervised Learning](https://github.com/KellyChan/notebook/blob/master/tech/20140416-Machine_Learning_Unsupervised_Learning.md)
+3. [Machine Learning: Reinforcement Learning](https://github.com/KellyChan/notebook/blob/master/tech/20140513-Machine_Learning_Reinforcement_Learning.md)
+
 table of contents
 - 1. Decision Trees
 - 2. Regression & Classification
