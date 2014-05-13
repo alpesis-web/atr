@@ -58,6 +58,12 @@ Table of Contents
 
 ### 3. IDE / Version Control
 
+- IDE:
+    - Vim:
+    - Emacs:
+- Git
+    - CodeSchool: [Try Git](https://www.codeschool.com/courses/try-git) | [Git Real 2](https://www.codeschool.com/courses/git-real-2) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140112-Git_Commands.md)
+
 ## Part 2. Leisure
 
 ### 1. Drawing & Painting
