@@ -26,13 +26,12 @@ Table of Contents
 <b>(2) Machine Learning</b>  
 
 - Machine Learning Algorithms:
-    - Udacity: 
-        - [Machine Learning - Supervised Learning]()
-        - [Machine Learning - Unpervised Learning]() 
-        - [Machine Learning - Reinforcement Learning]()
+    - Udacity: [Machine Learning - Supervised Learning]() | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140318-Machine_Learning_Supervised_Learning.md)
+    - Udacity: [Machine Learning - Unpervised Learning]() | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140416-Machine_Learning_Unsupervised_Learning.md)
+    - Udacity: [Machine Learning - Reinforcement Learning]() | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140513-Machine_Learning_Reinforcement_Learning.md)
 - Data Science:
-    - Udacity: [Introduce to Data Science](https://www.udacity.com/course/ud359)
-    - [Intro to Hadoop and MapReduce](https://www.udacity.com/course/ud617)
+    - Udacity: [Introduce to Data Science](https://www.udacity.com/course/ud359) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/DataScience)
+    - Udacity: [Intro to Hadoop and MapReduce](https://www.udacity.com/course/ud617) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140222-MapReduce_Design_Patterns.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/MapReduce)
 - Python Programming: 
     - Udacity: [Intro to Object Oriented Programming](https://www.udacity.com/course/ud036) | 
 
