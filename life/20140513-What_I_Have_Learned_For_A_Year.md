@@ -25,7 +25,8 @@ Table of Contents
 
 <b>(2) Sample Codes</b>
 
-- Dell DVD Store: [Codes](https://github.com/KellyChan/Dell-DVD-Store) | SQL
+- Dell DVD Store: [Codes](https://github.com/KellyChan/Dell-DVD-Store) | sql
+- Data Science Sample Codes: [Codes](https://github.com/KellyChan/data-science-sample-code) | python, sql, bash scripting, stat, machine learning, sem
 
 <b>(3) Machine Learning</b>  
 
