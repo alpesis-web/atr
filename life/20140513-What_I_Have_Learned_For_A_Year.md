@@ -53,7 +53,7 @@ Table of Contents
         - [Programming Languages](https://www.udacity.com/course/cs262) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Web%20Browser) | regular expression, parsing
         - [Intro to Programming in Java](https://www.udacity.com/course/cs046) | [Codes](https://github.com/KellyChan/Java/tree/master/examples/Programming%20in%20Java)
         - [Software Testing](https://www.udacity.com/course/cs258) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Software%20Testing) | black box, white box, random test, unit test
-        - [Software Debugging](https://www.udacity.com/course/cs259) | [Notes](http://www.slideshare.net/wailamchan/software-debugging) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Software%20Debugging) | delta debugging, assertion, stepping
+        - [Software Debugging](https://www.udacity.com/course/cs259) | [Notes](http://www.slideshare.net/wailamchan/software-debugging) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Software%20Debugging) | delta debugging, assertion, stepping, break point, print
 
 
 
