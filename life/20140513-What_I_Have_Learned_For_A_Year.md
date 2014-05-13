@@ -31,7 +31,7 @@ Table of Contents
     - Udacity: [Machine Learning - Reinforcement Learning]() | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140513-Machine_Learning_Reinforcement_Learning.md)
 - Data Science:
     - Udacity: [Introduce to Data Science](https://www.udacity.com/course/ud359) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/DataScience)
-    - Udacity: [Intro to Hadoop and MapReduce](https://www.udacity.com/course/ud617) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140222-MapReduce_Design_Patterns.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/MapReduce)
+    - Udacity: [Intro to Hadoop and MapReduce](https://www.udacity.com/course/ud617) | [Note-Hadoop](http://www.slideshare.net/wailamchan/hdfs-and-map-reduce) | [Note2-MapReduce](https://github.com/KellyChan/notebook/blob/master/tech/20140222-MapReduce_Design_Patterns.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/MapReduce)
 - Python Programming: 
     - Udacity: [Intro to Object Oriented Programming](https://www.udacity.com/course/ud036) | 
 
