@@ -83,4 +83,4 @@ Table of Contents
 ## Part 2. Leisure
 
 - Drawing & Painting: 
-- Yi: [Yi Jing & Dao](https://www.youtube.com/playlist?list=PLeyZNYYijw86EoQkPFkoBdgwicCCTt4k2): Chinese philosophy
+- Yi: [Yi Jing & Dao](https://www.youtube.com/playlist?list=PLeyZNYYijw86EoQkPFkoBdgwicCCTt4k2) | Chinese philosophy
