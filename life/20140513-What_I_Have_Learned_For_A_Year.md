@@ -7,8 +7,8 @@ Table of Contents
     - 2. Web Development
     - 3. IDE / Version Control
 - Part 2. Leisure
-    - 1. Drawing & Painting
-    - 2. Yi
+    - Drawing & Painting
+    - Yi
 
 ## Part 1. Computer Science
 
@@ -82,6 +82,5 @@ Table of Contents
 
 ## Part 2. Leisure
 
-### 1. Drawing & Painting
-### 2. Yi
-- [Yi Jing & Dao](https://www.youtube.com/playlist?list=PLeyZNYYijw86EoQkPFkoBdgwicCCTt4k2): Chinese philosophy
+- Drawing & Painting: 
+- Yi: [Yi Jing & Dao](https://www.youtube.com/playlist?list=PLeyZNYYijw86EoQkPFkoBdgwicCCTt4k2): Chinese philosophy
