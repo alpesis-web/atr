@@ -48,8 +48,8 @@ Table of Contents
 - Programming: 
     - Data Structure & Algorithms: [Codes](https://github.com/KellyChan/Python/tree/master/examples/Data_Structures_and_Algorithms) | graph, tree, list, queue, stack, sort, search
     - Udacity: 
-        - [Algorithms](https://www.udacity.com/course/cs215) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Social%20Network%20Analysis)
-        - [Intro to Object Oriented Programming](https://www.udacity.com/course/ud036) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140430-Object_Oriented_Programming.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/python_turtle)
+        - [Algorithms](https://www.udacity.com/course/cs215) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Social%20Network%20Analysis) | graph algorithms for social network analysis
+        - [Intro to Object Oriented Programming](https://www.udacity.com/course/ud036) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140430-Object_Oriented_Programming.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/python_turtle) | python turtle, twilio, function, class
         - [Programming Languages](https://www.udacity.com/course/cs262) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Web%20Browser)
         - [Intro to Programming in Java](https://www.udacity.com/course/cs046) | [Codes](https://github.com/KellyChan/Java/tree/master/examples/Programming%20in%20Java)
         - [Software Testing](https://www.udacity.com/course/cs258) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Software%20Testing)
