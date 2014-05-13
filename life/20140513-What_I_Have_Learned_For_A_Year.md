@@ -30,11 +30,7 @@ Table of Contents
 <b>(3) Machine Learning</b>  
 
 - Machine Learning Algorithms:
-    - Natural Language Processing with NLTK: [Codes](https://github.com/KellyChan/Python/tree/master/examples/nltk) 
-        - tokenization, tagging, classification, feature selection
-    - Recommendation System: [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140112-Recommendation_Algorithms.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/RecommendationSystem)
-        - collaborative filtering (user-based/item-based)
-        - classifition (knn/bayes)
+    - Recommendation System: [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140112-Recommendation_Algorithms.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/RecommendationSystem) | collaborative filtering (usered-based, item-based), classification (knn, bayes)
     - Machine Learning In Action: [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140115-ML1_Classification.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Machine%20Learning%20In%20Action)
         - classification (knn, decision tree, bayes, logistic regression, svm, ada-boost)
         - regression (linear, tree-based)
