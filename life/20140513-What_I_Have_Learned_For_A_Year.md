@@ -40,6 +40,7 @@ Table of Contents
     - Udacity: [Exploratory Data Analysis](https://www.udacity.com/course/ud651) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140313-Exploratory_Data_Analysis.md)
     - Udacity: [Data Wrangling with MongoDB](https://www.udacity.com/course/ud032) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140227-Data_Wrangling_with_MongoDB.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Data%20Wrangling%20with%20MongoDB)
     - Udacity: [Intro to Statistics](https://www.udacity.com/course/st101) | [Note1-Statistics](http://www.slideshare.net/wailamchan/statistics-28446692) | [Note2-Z-Test-T-Test](http://www.slideshare.net/wailamchan/ztest-and-ttest) | [Note3-Bayes](http://www.slideshare.net/wailamchan/bayes-rules) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Statistics)
+    - MangoDB University: [MongoDB for Developers](https://university.mongodb.com/courses/10gen/M101P/2014_February/about) | [Notes-Node.js](https://github.com/KellyChan/notebook/blob/master/tech/20140203-MongoDB_for_Nodejs_Developers_1.md) | [Notes-Python](https://github.com/KellyChan/notebook/blob/master/tech/20140204-MongoDB_for_Developers_Week1.md)
 - Programming: 
     - Data Structure & Algorithms: [Codes](https://github.com/KellyChan/Python/tree/master/examples/Data_Structures_and_Algorithms)
     - Udacity: [Algorithms](https://www.udacity.com/course/cs215) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Social%20Network%20Analysis)
@@ -59,7 +60,7 @@ Table of Contents
 ### 3. IDE / Version Control
 
 - IDE:
-    - Vim:
+    - Vim: [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140118-Vim_Commands.md) | [Codes](https://github.com/KellyChan/vim)
     - Emacs:
 - Git
     - CodeSchool: [Try Git](https://www.codeschool.com/courses/try-git) | [Git Real 2](https://www.codeschool.com/courses/git-real-2) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140112-Git_Commands.md)
