@@ -5,7 +5,7 @@ Table of Contents
 - Part 1. Computer Science
     - 1. Machine Learning
     - 2. Web Development
-    - 3. Others
+    - 3. IDE / Version Control
 - Part 2. Leisure
     - Drawing & Painting
     - Yi
@@ -30,7 +30,7 @@ Table of Contents
 
 
 ### 2. Web Development
-### 3. Others
+### 3. IDE / Version Control
 
 ## Part 2. Leisure
 
