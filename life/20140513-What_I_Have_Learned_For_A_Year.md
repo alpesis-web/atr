@@ -26,6 +26,7 @@ Table of Contents
 <b>(2) Machine Learning</b>  
 
 - Machine Learning Algorithms:
+    - Natural Language Processing with NLTK: [Codes](https://github.com/KellyChan/Python/tree/master/examples/nltk)
     - Recommendation System: [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140112-Recommendation_Algorithms.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/RecommendationSystem)
     - Machine Learning In Action: [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140115-ML1_Classification.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Machine%20Learning%20In%20Action)
     - Udacity: [Machine Learning - Supervised Learning](https://www.udacity.com/course/ud675) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140318-Machine_Learning_Supervised_Learning.md)
@@ -33,6 +34,7 @@ Table of Contents
     - Udacity: [Machine Learning - Reinforcement Learning](https://www.udacity.com/course/ud820) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140513-Machine_Learning_Reinforcement_Learning.md)
     - Udacity: [Artificial Intelligence for Robotics](https://www.udacity.com/course/cs373) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/AI%20for%20Robotics)
 - Data Science:
+    - Toolkit: [Scikit-Learn](https://github.com/KellyChan/Python/tree/master/examples/scikit-learn/examples/general) | [Pandas](https://github.com/KellyChan/notebook/blob/master/tech/20140305-Ten_Minutes_to_Pandas.md) | [ggplot](https://github.com/KellyChan/notebook/blob/master/tech/20140310-Plotting_Time_Series_with_ggplot.md) | [matplotlib](https://github.com/KellyChan/notebook/blob/master/tech/20140306-2D_Plot_with_Matplotlib.md)
     - Udacity: [Introduce to Data Science](https://www.udacity.com/course/ud359) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/DataScience)
     - Udacity: [Intro to Hadoop and MapReduce](https://www.udacity.com/course/ud617) | [Note1-Hadoop](http://www.slideshare.net/wailamchan/hdfs-and-map-reduce) | [Note2-MapReduce](https://github.com/KellyChan/notebook/blob/master/tech/20140222-MapReduce_Design_Patterns.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/MapReduce)
     - Udacity: [Exploratory Data Analysis](https://www.udacity.com/course/ud651) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140313-Exploratory_Data_Analysis.md)
