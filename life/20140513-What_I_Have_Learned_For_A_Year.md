@@ -26,6 +26,7 @@ Table of Contents
 <b>(2) Machine Learning</b>  
 
 - Machine Learning Algorithms:
+    - Recommendation System: [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140112-Recommendation_Algorithms.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/RecommendationSystem)
     - Machine Learning In Action: [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140115-ML1_Classification.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Machine%20Learning%20In%20Action)
     - Udacity: [Machine Learning - Supervised Learning](https://www.udacity.com/course/ud675) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140318-Machine_Learning_Supervised_Learning.md)
     - Udacity: [Machine Learning - Unpervised Learning](https://www.udacity.com/course/ud741) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140416-Machine_Learning_Unsupervised_Learning.md)
@@ -40,7 +41,7 @@ Table of Contents
 - Programming: 
     - Data Structure & Algorithms: [Codes](https://github.com/KellyChan/Python/tree/master/examples/Data_Structures_and_Algorithms)
     - Udacity: [Algorithms](https://www.udacity.com/course/cs215) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Social%20Network%20Analysis)
-    - Udacity: [Intro to Object Oriented Programming](https://www.udacity.com/course/ud036) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140430-Object_Oriented_Programming.md)
+    - Udacity: [Intro to Object Oriented Programming](https://www.udacity.com/course/ud036) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140430-Object_Oriented_Programming.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/python_turtle)
     - Udacity: [Programming Languages](https://www.udacity.com/course/cs262) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Web%20Browser)
     - Udacity: [Intro to Programming in Java](https://www.udacity.com/course/cs046) | [Codes](https://github.com/KellyChan/Java/tree/master/examples/Programming%20in%20Java)
     - Udacity: [Software Testing](https://www.udacity.com/course/cs258) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Software%20Testing)
