@@ -32,13 +32,8 @@ Table of Contents
 - Machine Learning Algorithms:
     - Recommendation System: [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140112-Recommendation_Algorithms.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/RecommendationSystem) | collaborative filtering (usered-based, item-based), classification (knn, bayes)
     - Machine Learning In Action: [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140115-ML1_Classification.md) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/Machine%20Learning%20In%20Action) | classification, regression, clustering, PCA/SVD, map reduce
-        - classification (knn, decision tree, bayes, logistic regression, svm, ada-boost)
-        - regression (linear, tree-based)
-        - unsupervised learning (kmeans, apriori, fp-growth)
-        - dimensionality reduction (PCA, SVD)
-        - map reduce
     - Udacity: 
-        - [Machine Learning - Supervised Learning](https://www.udacity.com/course/ud675) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140318-Machine_Learning_Supervised_Learning.md) | decision trees, regression and classification, neural networks, knn, boosting, svm, bayes, vc dimensions
+        - [Machine Learning - Supervised Learning](https://www.udacity.com/course/ud675) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140318-Machine_Learning_Supervised_Learning.md) | decision trees, regression, neural networks, knn, boosting, svm, bayes
         - [Machine Learning - Unpervised Learning](https://www.udacity.com/course/ud741) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140416-Machine_Learning_Unsupervised_Learning.md) | randomized optimization, clustering, feature selection, feature transformation, info theory
         - [Machine Learning - Reinforcement Learning](https://www.udacity.com/course/ud820) | [Notes](https://github.com/KellyChan/notebook/blob/master/tech/20140513-Machine_Learning_Reinforcement_Learning.md)
         - [Artificial Intelligence for Robotics](https://www.udacity.com/course/cs373) | [Codes](https://github.com/KellyChan/Python/tree/master/examples/AI%20for%20Robotics)
