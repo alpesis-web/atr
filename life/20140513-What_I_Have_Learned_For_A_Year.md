@@ -84,3 +84,4 @@ Table of Contents
 
 ### 1. Drawing & Painting
 ### 2. Yi
+- [Yi Jing](https://www.youtube.com/playlist?list=PLeyZNYYijw86EoQkPFkoBdgwicCCTt4k2): Chinese philosophy
