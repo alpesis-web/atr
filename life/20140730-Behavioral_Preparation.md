@@ -9,6 +9,9 @@
 | Conflicts with Teammates  |                  |                  |                  |                  |
 
 
+
+### S.A.R. (Situation, Action, Result)
+
 - What are your weaknesses?
 - What was the most challenging part of that project?
 - What questions should you ask the interviewer?
