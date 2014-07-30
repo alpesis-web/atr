@@ -30,3 +30,11 @@ For each of the topics above, make sure you understand how to use and implement 
 
 
 Using this table, you could easily compute, for example, that a hash table mapping every 32-bit integer to a boolean value could fit in memory on a single machine.
+
+
+### Step 1: Ask Questions
+
+- What are the data types? 
+- How much data is there?
+- What assumptions do you need to solve the problem? 
+- Who is the user?
