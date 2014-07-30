@@ -29,4 +29,4 @@ For each of the topics above, make sure you understand how to use and implement 
 | 40          | 1,099,511,627,776  | 1 trillion     | 1 TB                        |
 
 
-
+Using this table, you could easily compute, for example, that a hash table mapping every 32-bit integer to a boolean value could fit in memory on a single machine.
