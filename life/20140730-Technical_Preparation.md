@@ -57,3 +57,8 @@ Using this table, you could easily compute, for example, that a hash table mappi
 - Don't Crowd Your Coding
 
 ### Step 5: Test
+
+- Extreme cases: 0, negative, null, maximums, minimums.
+- User error: What happens if the user passes in null or a negative value?
+- General cases: Test the normal case.
+
