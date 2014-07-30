@@ -47,3 +47,13 @@ Using this table, you could easily compute, for example, that a hash table mappi
 - Does your design cause other issues? For example, if you're creating a modified version of a binary search tree, did your design impact the time for insert, find, or delete?
 - If there are other issues or limitations, did you make the right trade-offs? For which scenarios might the trade-off be less optimal?
 - If they gave you specific data (e.g., mentioned that the data is ages, or in sorted order), have you leveraged that information? Usually there's a reason that an interviewer gave you specific information.
+
+
+### Step 3: Pseudocode
+
+### Step 4: Code
+
+- Use Data Structures Generously
+- Don't Crowd Your Coding
+
+### Step 5: Test
