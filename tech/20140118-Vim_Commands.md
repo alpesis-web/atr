@@ -50,6 +50,7 @@ Plugins:
 
 
 ### MiniBufExplorer
+to list all buffers: `:ls`  
 to open the nth buffer file: `:b<n>`  
 to close the buffer file: `:bd`  
 
