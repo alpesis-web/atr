@@ -166,6 +166,8 @@ to open QuickFix: `:cope`
 to open nerdtree: `F2`  
 to open taglist: `wm`  
 
+auto-compelete: `ctrl+x ctrl+o`
+
 ---
 ##References
 1. [Win::gVim配置Python编译环境(轻量级)](http://blog.csdn.net/chain2012/article/details/7445061)
