@@ -53,3 +53,11 @@ Nov 03 2014 | linux | Kelly Chan
     apt-get install mysql-server
     
     
+### passwd
+
+    sudo passwd root
+    
+    # enter the root
+    su
+    
+    
