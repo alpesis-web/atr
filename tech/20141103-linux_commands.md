@@ -31,3 +31,8 @@ Nov 03 2014 | linux | Kelly Chan
     - x: execute
     
     ex. chmod g+rw a.txt
+
+
+### apt-get
+
+install packages: `sudo apt-get install xxx`
