@@ -35,4 +35,5 @@ Nov 03 2014 | linux | Kelly Chan
 
 ### apt-get
 
-install packages: `sudo apt-get install xxx`
+- install packages: `sudo apt-get install xxx`
+- install python packages: `sudo aptitude install python-package-name`
