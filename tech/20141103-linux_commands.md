@@ -37,3 +37,19 @@ Nov 03 2014 | linux | Kelly Chan
 
 - install packages: `sudo apt-get install xxx`
 - install python packages: `sudo aptitude install python-package-name`
+
+
+### pip
+
+    Install Easy Install
+    $ sudo apt-get install python-setuptools python-dev build-essential 
+    Install pip
+    $ sudo easy_install pip 
+    Install virtualenv
+    $ sudo pip install --upgrade virtualenv 
+    
+    sudo pip install mysql-python
+    
+    apt-get install mysql-server
+    
+    
