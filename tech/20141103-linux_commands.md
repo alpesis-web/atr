@@ -61,3 +61,9 @@ Nov 03 2014 | linux | Kelly Chan
     su
     
     
+### managing files
+
+- `sudo rm -rf folder_name`: delete the folder with all files
+- `sudo rm file_name`: delete a file
+- `sudo rmdir folder_name`: delete an empty folder
+- `sudo mkdir folder_name`: create a new folder
