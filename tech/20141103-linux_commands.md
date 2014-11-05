@@ -67,3 +67,10 @@ Nov 03 2014 | linux | Kelly Chan
 - `sudo rm file_name`: delete a file
 - `sudo rmdir folder_name`: delete an empty folder
 - `sudo mkdir folder_name`: create a new folder
+
+
+### packages
+
+- `sudo apt-get install package_name`: install a package
+- `sudo apt-get autoremove package_name`: remove a package
+
