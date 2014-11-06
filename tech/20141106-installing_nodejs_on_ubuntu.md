@@ -33,7 +33,11 @@ solution:
     npm install -g bower
     
     which bower
-    
+
+### installing python packages
+
+    sudo apt-get install python-setuptools
+    sudo apt-get install python-pip
 
 
 ### References
