@@ -21,6 +21,20 @@ Nov 06 2014 | linux, ubuntu | Kelly Chan
 
 - `net user administrator /active:yes`
 
+### installing bower
+
+error:
+
+    bower command not found
+    
+solution:
+
+    npm config set prefix /usr/local
+    npm install -g bower
+    
+    which bower
+    
+
 
 ### References
 
