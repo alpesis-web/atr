@@ -7,6 +7,7 @@ Nov 06 2014 | linux, ubuntu | Kelly Chan
     sudo apt-get install g++ curl libssl-dev apache2-utils
     sudo apt-get install git-core
 
+
 2. running the commands
 
 
