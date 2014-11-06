@@ -17,6 +17,10 @@ Nov 06 2014 | linux, ubuntu | Kelly Chan
 - `make`
 - `sudo make install`
 
+### open admin auth on win7
+
+- `net user administrator /active:yes`
+
 
 ### References
 
