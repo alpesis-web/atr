@@ -1,7 +1,7 @@
 Nov 06 2014 | linux, ubuntu | Kelly Chan
 # Installing Node.js on Ubuntu
 
-1. installing dependencies
+### 1. installing dependencies
 
 installing g++, curl, libssl-dev apache2-utils, git-core
 
@@ -9,14 +9,16 @@ installing g++, curl, libssl-dev apache2-utils, git-core
     sudo apt-get install git-core
     
 
-2. running the commands
+### 2. running the commands
 
+running command on ubuntu
 
-- `git clone git://github.com/ry/node.git`
-- `cd node`
-- `./configure`
-- `make`
-- `sudo make install`
+    git clone git://github.com/ry/node.git
+    cd node
+    ./configure
+    make
+    sudo make install
+    
 
 ### open admin auth on win7
 
