@@ -25,3 +25,4 @@ Nov 06 2014 | linux, ubuntu | Kelly Chan
 ### References
 
 1. [How to Install Node.js](http://howtonode.org/how-to-install-nodejs)
+2. [操作权限不够?教你开启Win7管理员帐户](http://soft.zol.com.cn/271/2718681.html)
