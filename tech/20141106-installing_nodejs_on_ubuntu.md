@@ -13,13 +13,9 @@ Nov 06 2014 | linux, ubuntu | Kelly Chan
 
 
     git clone git://github.com/ry/node.git
-    
     cd node
-    
     ./configure
-    
     make
-    
     sudo make install
 
 
