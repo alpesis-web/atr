@@ -13,5 +13,12 @@ Nov 16 2014 | virtualenv, python | Kelly Chan
     source ./bin/activate
     
     deactivate
+    
+    pip install package_name
+    
+    # ~/.bashrc
+    export PIP_REQUIRE_VIRTUALENV=true
+    export PIP_RESPECT_VIRTUALENV=true
+
 
 ### Virtualenvwrapper
