@@ -22,3 +22,23 @@ Nov 16 2014 | virtualenv, python | Kelly Chan
 
 
 ### Virtualenvwrapper
+
+    sudo easy_install virtualenvwrapper  
+    mkdir $HOME/.virtualenvs
+    
+    # ~/.bashrc
+    export WORKON_HOME=$HOME/.virtualenvs
+    source /usr/local/bin/virtualenvwrapper.sh
+    
+    source ~/.bashrc
+    
+    workon
+    lsvirtualenv
+    
+    mkvirtualenv env_name
+    workon env_name
+    rmvirtualenv env_name
+    
+    deactivate
+    
+    
