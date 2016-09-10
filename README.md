@@ -22,3 +22,4 @@ Projects
 
 - [atr-books](./atr-books)
 - [elf](./elf)
+- [ghost](./ghost)
