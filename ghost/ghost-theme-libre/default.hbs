@@ -1,0 +1,76 @@
+<!DOCTYPE html lang="ko">
+<html>
+<head>
+	{{! Document Settings }}
+	<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="description" content="{{@blog.description}}" />
+
+	{{! Page Meta }}
+	<title>{{@blog.title}} {{#is "post"}} - {{meta_title}}{{/is}}</title>
+
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+
+    {{! Styles'n'Scripts }}
+	<link rel="stylesheet" href="{{asset "libraries/bootstrap/css/bootstrap.min.css"}}" charset="utf8" />
+	<link rel="stylesheet" href="{{asset "libraries/prism/prism.css"}}" charset="utf8" />
+	<link rel="stylesheet" href="{{asset "libraries/bootstrap-social/css/bootstrap-social.css"}}" charset="utf8" />
+	<link rel="stylesheet" href="{{asset "libraries/bootstrap-social/css/font-awesome.css"}}" charset="utf8" />
+    <link rel="stylesheet/less" href="{{asset "css/style.less"}}" charset="utf8" />
+
+	<script src="{{asset "libraries/less/less.min.js"}}"></script>
+        
+
+	{{! Ghost outputs important style and meta data with this tag }}
+    {{ghost_head}}
+</head>
+<body class="{{body_class}}">
+
+    <nav class="navbar navbar-default" {{#if @blog.cover}}style="background-image: url('{{@blog.cover}}');"{{/if}}>
+        <div class="container limit-width">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                </button>
+
+                {{#if @blog.logo}}
+                    <a class="navbar-brand img" href="{{@blog.url}}">
+                        <img alt="{{@blog.title}}" src="{{@blog.logo}}">
+                    </a>
+                {{^}}
+                    <a class="navbar-brand" href="{{@blog.url}}">{{@blog.title}}</a>
+                {{/if}}
+
+            </div>
+
+            {{{navigation}}}
+
+        </div>
+    </nav>
+
+	{{! Everything else gets inserted here }}
+    {{{body}}}
+
+	{{! SNS widgets here. If you don't want to use, you can remove it }}
+	{{> addons/widgets}}
+
+    {{> footer}}
+
+    {{! Ghost outputs important scripts and data with this tag }}
+    {{ghost_foot}}
+	<script type="text/javascript">
+		if (typeof jQuery == 'undefined') {
+			document.write('<script type="text/javascript" src="{{asset "libraries/jquery/jquery-1.11.3.min.js"}}"></'+'script>');
+	  	}
+	</script>
+    <script src="{{asset "libraries/bootstrap/js/bootstrap.min.js"}}"></script>
+    <script src="{{asset "libraries/imagesloaded/imagesloaded.pkgd.min.js"}}"></script>
+    <script src="{{asset "libraries/masonry/masonry.pkgd.min.js"}}"></script>
+    <script src="{{asset "libraries/prism/prism.js"}}" data-manual></script> 
+    <script src="{{asset "js/index.js"}}"></script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+{{!< default}}
+{{#post}}
+<article class="{{post_class}}">
+
+    <div class="container limit-width">
+        <div class="page-header">
+            <h1>{{title}}</h1>
+            <time>{{date format="MMMM Mo, YYYY"}}</time>
+        </div>
+
+		{{content}}
+
+		<div class="post-bottom-info">
+			<div class="tags">
+				{{#foreach tags}}
+				<a href="{{url}}" class="label label-info">{{name}}</a>
+				{{/foreach}}
+			</div>
+
+			<!-- Share post -->
+			{{> addons/share}}
+		</div>
+    </div>
+</article>
+
+{{> prev_next_post}}
+
+<!-- Comments -->
+<section class="comment">
+    <div class="container limit-width">
+	   {{> addons/comment}}
+    </div>
+</section>
+
+{{/post}}

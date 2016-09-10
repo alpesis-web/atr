@@ -1,0 +1,42 @@
+<!-- Next pots -->
+<section class="prev-next-post">
+    <div class="container limit-width">
+		<div class="row">
+
+			<div class="col-sm-12 col-md-6 prev-post">
+			{{#prev_post}}
+				<a href="{{url}}" style="background-image: url('{{image}}');">
+					<div class="post-meta-info">
+						<h4>PREV POST</h4>
+						<h3>{{title}}</h3>
+					</div>
+				</a>
+			{{else}}
+				<a href="#">
+					<div class="post-meta-info">
+						<h4>NO MORE POSTS!</h4>
+					</div>
+				</a>
+			{{/prev_post}}
+			</div>
+
+			<div class="col-sm-12 col-md-6 prev-post">
+			{{#next_post}}
+				<a href="{{url}}" style="background-image: url('{{image}}');">
+					<div class="post-meta-info">
+						<h4>NEXT POST</h4>
+						<h3>{{title}}</h3>
+					</div>
+				</a>
+			{{else}}
+				<a href="#">
+					<div class="post-meta-info">
+						<h4>NO MORE POSTS!</h4>
+					</div>
+				</a>
+			{{/next_post}}
+			</div>
+
+		</div>
+    </div>
+</section>
