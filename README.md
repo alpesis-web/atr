@@ -4,6 +4,7 @@ ATR
 Web
 -------------------
 
+- [k](./k)
 - [arttechresearch](./arttechresearch)
 - [blog](./blog)
 - [forexviz](./forexviz)
