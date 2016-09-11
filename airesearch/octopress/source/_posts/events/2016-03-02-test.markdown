@@ -1,0 +1,9 @@
+---
+layout: post_events
+title: "test"
+date: 2016-03-02 15:58:26 +0800
+comments: true
+categories: [events]
+tags: []
+toc: false
+---

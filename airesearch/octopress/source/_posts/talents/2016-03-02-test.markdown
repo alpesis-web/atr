@@ -1,0 +1,9 @@
+---
+layout: post_talents
+title: "test"
+date: 2016-03-02 15:58:53 +0800
+comments: true
+categories: [talents]
+tags: []
+toc: false
+---
