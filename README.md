@@ -23,3 +23,4 @@ Projects
 - [atr-books](./atr-books)
 - [elf](./elf)
 - [ghost](./ghost)
+- [k-theme-libre](./k-theme-libre)
