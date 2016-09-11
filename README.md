@@ -20,6 +20,7 @@ Notes
 Projects
 -------------------
 
+- [willbot](./willbot)
 - [atr-books](./atr-books)
 - [elf](./elf)
 - [ghost](./ghost)
